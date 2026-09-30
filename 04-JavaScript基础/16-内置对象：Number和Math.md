@@ -245,13 +245,3 @@ URI (Uniform ResourceIdentifiers,通用资源标识符)进行编码，以便发�
 打印结果：
 
 ![](../assets/images/2b1bef7c37ea6c6e.png)
-
-
-## 赞赏作者
-
-创作不易，你的赞赏和认可，是我更新的最大动力：
-
-![](../assets/images/a497ac24d1a431d4.jpg)
-
-
-

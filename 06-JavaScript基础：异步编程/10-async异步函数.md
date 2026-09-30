@@ -408,10 +408,3 @@ err1: 任务1失败
 - [js async await 终极异步解决方案](https://www.cnblogs.com/CandyManPing/p/9384104.html)
 
 - [理解 JavaScript 的 async/await](https://segmentfault.com/a/1190000007535316)
-
-## 赞赏作者
-
-创作不易，你的赞赏和认可，是我更新的最大动力：
-
-![](../assets/images/a497ac24d1a431d4.jpg)
-

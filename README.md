@@ -1,51 +1,30 @@
 
-## 前言
+# Web 前端知识库
 
-千古前端图文教程，超详细的 Web 前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师。持续更新中...
+这是一个基于 Markdown 和 VitePress 构建的 Web 前端学习文档站点，收录从入门到进阶的前端知识、示例和实践总结。
 
-通俗易懂，不懂技术也能学。此前端教程不玩猫腻，不会设置任何套路，因为我**相信启蒙的重要性**。
+## 内容范围
 
+- HTML、CSS、JavaScript 和 ES6
+- DOM、浏览器原理与性能优化
+- Vue、React、Node.js 和前端工程化
+- MySQL、移动 Web、综合实践与资源推荐
 
-## 项目介绍
+文章按主题目录组织，适合系统学习，也可以作为日常开发中的检索手册。图片资源已下载到仓库的 `assets/images` 目录，文档可以离线构建和预览。
 
-### 项目地址
+## 本地运行
 
-- 官网地址：<https://web.qianguyihao.com>
+```bash
+pnpm install
+pnpm dev
+```
 
-如果官网打开异常，请先尝试强制刷新页面，或者清除浏览器缓存，或者提交 GitHub issues 反馈问题。
+构建静态站点：
 
-- GitHub地址：<https://github.com/qianguyihao/Web>
+```bash
+pnpm build
+```
 
-如果你发现本项目有内容上的错误，欢迎在 GitHub 提交 issues 或者 pull requests 进行指正，方便归档。
+## GitHub Pages
 
-### 项目作用
-
-- 网上的大部分入门教程，都不太适合初学者，本项目争取照顾到每一位前端入门者的同理心。即使你完全不懂前端，甚至不懂编程，通过这个教程，也能让小白入门。
-
-- 帮助前端同学提供一个精品学习资源和路线，提高学习效率，少走很多弯路。
-
-- 可以当做前端字典，随时翻阅，查漏补缺。
-
-### 相关链接
-
-- 维护这个项目的初衷，可以看这篇文章：[《裸辞两个月，海投一个月，从Android转战Web前端的求职之路》](https://www.cnblogs.com/qianguyihao/p/8732781.html)
-
-- 前端入门路线和推荐学习资源，可以看这篇文章：[《2025年Web前端开发流程和学习路线（详尽版）》](https://www.cnblogs.com/qianguyihao/p/16370961.html)
-
-
-## 学习交流
-
-在公众号「千古壹号」里回复“**前端学习**”，拉你进微信交流群：
-
-- 进群暗号：前端学习
-
-- 进群要求：少提问、少闲聊、多分享（不适合长期潜水）。
-
-![](assets/images/2926634c0cf751a3.png)
-
-
-## LICENSE
-
-![](assets/images/c66f1ea419682962.png)
-
-本作品采用[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)进行许可。
+项目通过 GitHub Actions 自动构建并部署到 GitHub Pages。向 `master` 分支推送后，工作流会自动执行构建和发布。

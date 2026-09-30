@@ -369,11 +369,3 @@ res3 qianguyihao fulfilled 3
 ```
 
 上方代码中，我们单独处理了 promise2 失败的情况。不管promise2 成功还是失败，我们都想让后续的 promise3 正常执行。
-
-
-
-## 赞赏作者
-
-创作不易，你的赞赏和认可，是我更新的最大动力：
-
-![](../assets/images/a497ac24d1a431d4.jpg)
