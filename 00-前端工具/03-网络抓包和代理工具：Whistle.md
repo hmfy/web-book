@@ -101,9 +101,3 @@ http://xxx.com htmlAppend://{eruda.html}
 
 
 然后就OK了。
-
-## 赞赏作者
-
-创作不易，你的赞赏和认可，是我更新的最大动力：
-
-![](../assets/images/a497ac24d1a431d4.jpg)

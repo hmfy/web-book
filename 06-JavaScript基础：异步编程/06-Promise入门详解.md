@@ -689,10 +689,3 @@ qianguyihao then
 - [手写一个 Promise/A+,完美通过官方 872 个测试用例](https://www.cnblogs.com/dennisj/p/12660388.html)
 
 -   [从 Promises/A+ 看异步流控制 - Liu Bowen](https://set.sh/post/200215-how-promise-works)
-
-## 赞赏作者
-
-创作不易，你的赞赏和认可，是我更新的最大动力：
-
-![](../assets/images/a497ac24d1a431d4.jpg)
-
