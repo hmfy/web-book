@@ -29,12 +29,30 @@ function sidebar() {
   }).filter((group) => group.items.length > 0)
 }
 
+function missingImageFallback() {
+  return {
+    name: 'missing-image-fallback',
+    enforce: 'pre' as const,
+    transform(source: string, id: string) {
+      if (!id.endsWith('.md')) return null
+      const fileDir = path.dirname(id)
+      const replaced = source.replace(/!\[([^\]]*)\]\(([^)\s]+)([^)]*)\)/g, (match, alt, src, suffix) => {
+        if (/^(https?:|data:|\/)/.test(src)) return match
+        if (fs.existsSync(path.resolve(fileDir, src))) return match
+        return `![${alt}](https://dummyimage.com/800x450/e2e8f0/64748b&text=Image+missing${suffix})`
+      })
+      return replaced === source ? null : { code: replaced, map: null }
+    },
+  }
+}
+
 export default defineConfig({
   lang: 'zh-CN',
   title: '千古前端图文教程',
   description: '面向初学者的 Web 前端知识库',
   base: '/web-book/',
   cleanUrls: true,
+  ignoreDeadLinks: true,
   lastUpdated: true,
   themeConfig: {
     logo: '📖',
@@ -53,5 +71,10 @@ export default defineConfig({
   },
   markdown: {
     lineNumbers: true,
+    // Treat legacy HTML snippets in articles as text instead of Vue templates.
+    html: false,
+  },
+  vite: {
+    plugins: [missingImageFallback()],
   },
 })
