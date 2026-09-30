@@ -48,7 +48,7 @@ function missingImageFallback() {
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: '千古前端图文教程',
+  title: '前端图文教程',
   description: '面向初学者的 Web 前端知识库',
   base: '/web-book/',
   cleanUrls: true,
@@ -63,10 +63,6 @@ export default defineConfig({
     sidebar: sidebar(),
     search: { provider: 'local' },
     outline: { level: [2, 3] },
-    footer: {
-      message: '内容以 Markdown 维护，欢迎指正与贡献。',
-      copyright: 'CC BY-NC-SA 4.0',
-    },
     socialLinks: [{ icon: 'github', link: 'https://github.com/hmfy/web-book' }],
   },
   markdown: {

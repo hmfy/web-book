@@ -1,0 +1,49 @@
+.home-hero .main {
+  max-width: 760px;
+}
+
+.home-hero .name,
+.home-hero .text,
+.home-hero .tagline {
+  white-space: nowrap;
+}
+
+.home-hero .name {
+  font-size: clamp(36px, 5vw, 64px);
+}
+
+
+.VPHome .VPFeatures {
+  max-width: 1120px;
+  margin: 48px auto 0;
+}
+
+.VPHome .VPFeatures .items {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 16px;
+}
+
+.VPHome .VPFeatures .item,
+.VPHome .VPFeatures .VPFeature {
+  width: auto !important;
+  min-width: 0;
+}
+
+.VPHome .VPFeature {
+  border: 0;
+  background: var(--vp-c-bg-soft);
+  box-shadow: none;
+  transition: background .2s, transform .2s;
+}
+
+.VPHome .VPFeature:hover {
+  background: var(--vp-c-bg-mute);
+  transform: translateY(-2px);
+}
+
+.home-hero .name,
+.home-hero .text,
+.home-hero .tagline {
+  white-space: nowrap;
+}
