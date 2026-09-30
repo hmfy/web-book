@@ -3,7 +3,6 @@ title: 12-Vue组件之间的传值
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -88,11 +87,11 @@ publish: true
 
 效果如下：
 
-![](http://img.smyhvae.com/20180618_2350.png)
+![](../assets/images/52a529aaaec8d20e.png)
 
 代码截图如下：
 
-![](http://img.smyhvae.com/20180618_2355.png)
+![](../assets/images/86085d88e695bac3.png)
 
 
 **父组件给子组件传值的步骤**：
@@ -190,7 +189,7 @@ publish: true
 
 效果如下：（点击子组件，触发了父组件的方法）
 
-![](http://img.smyhvae.com/20180701_1800.png)
+![](../assets/images/25c7468857cf66fd.png)
 
 根据上面的代码，我们可以总结出，父组件将方法传递给子组件，分为三步，具体可以看上方代码的注释。
 
@@ -269,7 +268,7 @@ publish: true
 
 运行结果：（点击`<h2>`之后）
 
-![](http://img.smyhvae.com/20180623_1640.png)
+![](../assets/images/481cc58e16de4fdd.png)
 
 **代码举例2**：（将子组件中的data数据传递给父组件，存放到父组件的data中）
 
@@ -348,7 +347,7 @@ publish: true
 运行结果：（点击`<h2>`之后）
 
 
-![](http://img.smyhvae.com/20180623_1655.png)
+![](../assets/images/3b2578725dc9e082.png)
 
 
 ## 案例：发表评论功能的实现
@@ -578,7 +577,7 @@ console.log(this.$refs.myTitle.innerText)
 
 运行上方代码，然后我们在控制台输入`vm`，就可以看到：
 
-![](http://img.smyhvae.com/20180701_1640.png)
+![](../assets/images/e7ab4d1fdb5663d4.png)
 
 
 ### 使用 ref 属性获取整个子组件（父组件调用子组件的方法）
@@ -653,9 +652,9 @@ console.log(this.$refs.myTitle.innerText)
 
 运行代码，点击按钮后，效果如下：
 
-![](http://img.smyhvae.com/20180701_1735.png)
+![](../assets/images/011e0a1d699f192b.png)
 
 我们直接在控制台输入`vm`，可以看到：
 
-![](http://img.smyhvae.com/20180701_1740.png)
+![](../assets/images/600d9ad8edcee002.png)
 

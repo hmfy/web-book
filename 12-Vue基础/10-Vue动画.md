@@ -3,7 +3,6 @@ title: 10-Vue动画
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -22,7 +21,7 @@ publish: true
 
 过渡类名如下：
 
-![](http://img.smyhvae.com/20180616_1555.png)
+![](../assets/images/33b83b8eb4a8b180.png)
 
 动画进入：
 
@@ -159,7 +158,7 @@ PS：第一、第二个是时间点；第三个是时间段。
 
 运行效果如下：
 
-![](http://img.smyhvae.com/20180615_2200.gif)
+![](../assets/images/1c0dbbd958ddb602.gif)
 
 
 **3、再加一个 transform 属性进行位移**：
@@ -230,7 +229,7 @@ PS：第一、第二个是时间点；第三个是时间段。
 
 效果如下：
 
-![](http://img.smyhvae.com/20180615_2205.gif)
+![](../assets/images/e9aa8930cb698c90.gif)
 
 ### 修改过渡类名的前缀
 
@@ -351,7 +350,7 @@ PS：第一、第二个是时间点；第三个是时间段。
 
 运行效果如下：
 
-![](http://img.smyhvae.com/20180616_1513.gif)
+![](../assets/images/3d987a8896f88887.gif)
 
 ## 使用第三方animate.css类库实现动画
 
@@ -422,7 +421,7 @@ animate.css网址：
 
 运行效果如下：
 
-![](http://img.smyhvae.com/20180616_1538.gif)
+![](../assets/images/ee28c1e7fc078a90.gif)
 
 **改进1**：（统一设置入场、出场动画的持续时间）
 
@@ -558,7 +557,7 @@ animate.css网址：
 
 运行效果如下：（我们可以用这种动画效果，做类似于“加入购物车”的动画效果）
 
-![](http://img.smyhvae.com/20180616_1618.gif)
+![](../assets/images/6a26f7fa92e630ba.gif)
 
 上面的代码中，有两个地方要注意：
 
@@ -567,7 +566,7 @@ animate.css网址：
 
 `el.offsetWidth`这行代码不能少。虽然这行代码没有实际的意义，但是少了之后，动画效果出不来：
 
-![](http://img.smyhvae.com/20180616_1620.gif)
+![](../assets/images/1df4970c697389b0.gif)
 
 当然，我们也可以把这行代码换成`el.offsetHeight`、`el.offsetLeft`、`el.offsetTop`之类的，只要包含了offset就行。
 
@@ -576,7 +575,7 @@ animate.css网址：
 
 `enter()`函数里，函数的第二个参数要加上`done`，函数体的最后一行要写`done()`，表示**立即执行**后面的`afterEnter()`函数；如果没有这个`done`，则会**延迟执行**后面的`afterEnter()`函数：
 
-![](http://img.smyhvae.com/20180616_2145.gif)
+![](../assets/images/e3661835b7ae2031.gif)
 
 Vue官方文档的解释是这样：
 
@@ -692,7 +691,7 @@ Vue官方文档的解释是这样：
 
 运行效果如下：
 
-![](http://img.smyhvae.com/20180616_2240.gif)
+![](../assets/images/2633e2aff1e2f905.gif)
 
 
 **改进1**：添加删除item的功能
@@ -801,7 +800,7 @@ Vue官方文档的解释是这样：
 
 运行效果如下：
 
-![](http://img.smyhvae.com/20180617_1555.gif)
+![](../assets/images/a4176c87af0c0e84.gif)
 
 **改进2:**：
 
@@ -916,7 +915,7 @@ Vue官方文档的解释是这样：
 
 运行效果如下：
 
-![](http://img.smyhvae.com/20180617_1556.gif)
+![](../assets/images/cdd4d27293c91d7a.gif)
 
 ### transition-group中appear和tag属性的作用
 
@@ -1031,13 +1030,13 @@ Vue官方文档的解释是这样：
 </html>
 ```
 
-![](http://img.smyhvae.com/20180617_1600.gif)
+![](../assets/images/7ae6b2832f26bb3f.gif)
 
 **改进**：`transition-group`的`tag`属性
 
 上面的代码中，我们审查一下代码元素会发现，用`transition-group`包裹的元素，会被默认套上一层`<span>`：
 
-![](http://img.smyhvae.com/20180617_1620.png)
+![](../assets/images/aa372426474c7f6d.png)
 
 这个`<span>`虽然没有太大副作用，但是不符合代码规范。为了解决这个问题，我们可以通过`tag`属性给`transition-group`包谷的元素套上一层`<ul>`，然后把现有的`<ul>`注释掉，就可以了。最终代码如下：
 
@@ -1154,5 +1153,5 @@ Vue官方文档的解释是这样：
 
 这样的话，审查元素的效果如下：
 
-![](http://img.smyhvae.com/20180617_1621.png)
+![](../assets/images/f1ecb458fc4ecf29.png)
 

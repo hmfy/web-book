@@ -2,7 +2,6 @@
 title: 25-this指向
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 ## 执行期上下文
@@ -302,4 +301,4 @@ bind() 方法**不会调用函数**，但是可以改变函数内部的 this 指
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)

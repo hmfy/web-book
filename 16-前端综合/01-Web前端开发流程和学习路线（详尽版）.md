@@ -3,7 +3,6 @@
 title: 01-Web前端开发流程和学习路线（详尽版）
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 > 本文的最新内容，会在[GitHub](https://github.com/qianguyihao/Web/blob/master/17-%E5%89%8D%E7%AB%AF%E7%BB%BC%E5%90%88/01-2022%E5%B9%B4Web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B%E5%92%8C%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%EF%BC%88%E8%AF%A6%E5%B0%BD%E7%89%88%EF%BC%89.md)上同步更新，欢迎 star。大家完全不用担心这篇文章会过时，因为随着前端领域的技术更新，本文也会随之更新。
@@ -315,9 +314,9 @@ review顺序：
 
 1、前端代码仓库 git 分支规范：
 
-![](https://img.smyhvae.com/image-20220510164257833.png)
+![](../assets/images/d0ecdeeefba0cd87.png)
 
-![](https://img.smyhvae.com/image-20220510164323243.png)
+![](../assets/images/6e02079f5b3157a0.png)
 
 2、Commit Message 的格式，只允许使用以下10种标识，最常见的是 feat和 fix ：
 
@@ -363,7 +362,7 @@ review顺序：
 
 ### 小程序工程化
 
-![图片](https://img.smyhvae.com/640.jpeg)
+![图片](../assets/images/dc839380ea2f5bbf.jpeg)
 
 - [小程序工程化探索](https://mp.weixin.qq.com/s/_NSJTQ-4-8gTnwTVK-tn0A)
 - [京喜小程序最佳实践：我是如何写超大型小程序代码的](https://mp.weixin.qq.com/s/tJN3Yz6usSt9LG37_pN7dw)
@@ -914,7 +913,7 @@ Electron 非常流行，也被大量公司使用，也有很多成功软件，�
 
 > [点击查看大图](https://img.smyhvae.com/20220613_1330-2.jpg)。
 
-![](https://img.smyhvae.com/20220613_1330-2.jpg)
+![](../assets/images/cc4a120f804082e0.jpg)
 
 从上面的流程图中可以看出，产品经理的交付物是什么？是prd吗？显然不是。
 

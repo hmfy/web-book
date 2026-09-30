@@ -2,7 +2,6 @@
 title: 02-Web前端入门自学路线（精简版）
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 > 本文的最新内容，会随着前端技术的更新，本文也会随之更新。
@@ -164,4 +163,4 @@ JS基础、ES6语法、Vue源码、React源码、前端性能优化等等，这�
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/2016040102.jpg)
+![](../assets/images/6620de36b1f16782.jpg)

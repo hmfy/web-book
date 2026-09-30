@@ -3,7 +3,6 @@ title: 37-通过style对象获取和设置行内样式
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -50,7 +49,7 @@ publish: true
 
 打印结果：
 
-![](http://img.smyhvae.com/20180129_1407.png)
+![](../assets/images/0470dbd1f91b5ae8.png)
 
 上图显示，因为border属性不是行内样式，所以无法通过style对象获取。
 
@@ -125,7 +124,7 @@ style属性需要注意以下几点：
 
 打印结果：
 
-![](http://img.smyhvae.com/20180129_1410.png)
+![](../assets/images/fd0c82e42c9465ff.png)
 
 ### style的常用属性
 
@@ -393,7 +392,7 @@ style的常用属性包括：
 
 实现的效果如下：
 
-![](http://img.smyhvae.com/20180129_1520.gif)
+![](../assets/images/9611835bb15bad2f.gif)
 
 代码解释：
 
@@ -430,7 +429,7 @@ style的常用属性包括：
 
 这种错误的代码，实现的效果却是：（未达到效果）
 
-![](http://img.smyhvae.com/20180129_1525.gif)
+![](../assets/images/c33a548f3cd021de.gif)
 
 ## 通过 js 获取元素当前显示的样式
 
@@ -510,7 +509,7 @@ style的常用属性包括：
 
 打印结果：
 
-![](http://img.smyhvae.com/20180204_1425.png)
+![](../assets/images/45280fb60c99cda5.png)
 
 
 
@@ -521,6 +520,6 @@ style的常用属性包括：
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/20190101.png)
+![](../assets/images/8f05eb9f725cfeeb.png)
 
 

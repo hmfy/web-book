@@ -2,7 +2,6 @@
 title: 15-内置对象 String：字符串的常见方法
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -80,7 +79,7 @@ console.log(str.lastIndexOf('a'));
 
 打印结果：
 
-![](http://img.smyhvae.com/20180202_1420.png)
+![](../assets/images/e2e2b344f2211807.png)
 
 举例 2：（查找字符串）
 
@@ -279,7 +278,7 @@ for (var i = 0; i < str.length; i++) {
 
 打印结果：
 
-![](http://img.smyhvae.com/20180202_1401.png)
+![](../assets/images/b3ae75e7fdc995d7.png)
 
 上面这个例子一般不用。一般打印数组和 json 的时候用索引，打印 String 不建议用索引。
 
@@ -492,7 +491,7 @@ console.log(str3.split('许')); // 同上
 
 打印结果：（都是数组）
 
-![](http://img.smyhvae.com/20200611_2050.png)
+![](../assets/images/55468dab7534c470.png)
 
 
 
@@ -572,7 +571,7 @@ console.log(str.trim().length);
 
 打印结果：
 
-![](http://img.smyhvae.com/20200607_2132.png)
+![](../assets/images/69fca3eff8f2c0d9.png)
 
 ## 大小写转换
 
@@ -617,7 +616,7 @@ console.log(str.link('http://www.baidu.com'));
 console.log(str.bold());
 ```
 
-![](http://img.smyhvae.com/20180202_1536.png)
+![](../assets/images/150eff2287642c22.png)
 
 ## 字符串练习
 
@@ -677,10 +676,10 @@ for (var i = 0; i < str2.length; i++) {
 
 打印结果：
 
-![](http://img.smyhvae.com/20180202_1540.png)
+![](../assets/images/a5dfd89ad07749e1.png)
 
 ## 赞赏作者
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)

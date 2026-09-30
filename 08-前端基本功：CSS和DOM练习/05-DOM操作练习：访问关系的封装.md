@@ -3,7 +3,6 @@ title: 05-DOM操作练习：访问关系的封装
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 

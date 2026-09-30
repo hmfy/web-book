@@ -2,7 +2,6 @@
 title: 01-VS Code的使用
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -16,7 +15,7 @@ VS Code 软件实在是太酷、太好用了，越来越多的新生代互联网
 
 前端男神**尤雨溪**大大这样评价 VS Code：
 
-![](http://img.smyhvae.com/20200619_0133.png)
+![](../assets/images/d3f3b2a4e1c45ced.png)
 
 有一点你可能会感到惊讶：VS Code 这款软件本身，是用 JavaScript 语言编写的（具体请自行查阅基于 JS 的 PC 客户端开发框架 `Electron`）。Jeff Atwood 在 2007 年提出了著名的 Atwood 定律：
 
@@ -96,17 +95,17 @@ IDE 和编辑器是有区别的：
 
 VS Code 的安装很简单，直接去官网下载安装包，然后双击安装即可。
 
-![](http://img.smyhvae.com/20190313_1750_3.png)
+![](../assets/images/065aec85af31f5f1.png)
 
 上图中，直接点击 download，一键下载安装即可。
 
 VS Code支持以下平台：
 
-![](https://img.smyhvae.com/20210930_1930.png)
+![](../assets/images/872b5d7a97afd51e.png)
 
 安装完成后的界面如下：
 
-![](https://img.smyhvae.com/20211011_1703.png)
+![](../assets/images/223df54b18b428ea.png)
 
 VS  Code被分为以下五个区域：
 
@@ -248,7 +247,7 @@ VS Code 用得熟不熟，首先就看你是否会用快捷键。以下列出的
 
 当然，你也可以选择菜单栏「偏好设置 --> 键盘快捷方式」，进入快捷键的设置：
 
-![](http://img.smyhvae.com/20190329_2120.png)
+![](../assets/images/6b56b683fcc85b40.png)
 
 此外，如果你输入这个快捷键后没起作用，那有可能是与其他软件（比如 PicGo 软件）的快捷键冲突了，请检查一下。
 
@@ -256,11 +255,11 @@ VS Code 用得熟不熟，首先就看你是否会用快捷键。以下列出的
 
 你可以点击 VS Code 左下角的齿轮按钮，效果如下：
 
-![](http://img.smyhvae.com/20190418_1738.png)
+![](../assets/images/1854f9867870802d.png)
 
 上图中，在展开的菜单中选择「键盘快捷方式」，就可以查看和修改所有的快捷键列表了：
 
-![](http://img.smyhvae.com/20190418_1739_2.png)
+![](../assets/images/9bc33da64d4c2d46.png)
 
 ### 快捷键参考表（官方）
 
@@ -279,7 +278,7 @@ VS Code官网提供了 PDF版本的键盘快捷键参考表，转需：
 
 Mac 用户按住快捷键 `Cmd+Shift+P` （Windows 用户按住快捷键`Ctrl+Shift+P`），可以打开快速命令面板。效果如下：
 
-![](http://img.smyhvae.com/20190329_1750_2.png)
+![](../assets/images/7246632e6757651e.png)
 
 命令面板的作用是**希望解放开发者的鼠标，让一些操作和配置可以直接通过键盘进行**。如果让开发者记住所有的配置项在菜单的哪个位置是不现实的，而且有些命令并不在菜单中。
 
@@ -299,7 +298,7 @@ Mac 用户按住快捷键 `Cmd+Shift+P` （Windows 用户按住快捷键`Ctrl+Sh
 
 在命令面板输入“字体”，可以进行字体的设置，效果如下：
 
-![](http://img.smyhvae.com/20190329_2110.png)
+![](../assets/images/6c186179b803d81c.png)
 
 当然，你也可以在菜单栏，选择「首选项-设置-常用设置」，在这个设置项里修改字体大小。
 
@@ -311,13 +310,13 @@ Mac 用户按住快捷键 `Cmd+Shift+P` （Windows 用户按住快捷键`Ctrl+Sh
 
 选中文本后，在命令面板中输入`transfrom`，就可以修改文本的大小写了。
 
-![](http://img.smyhvae.com/20190414_1751.png)
+![](../assets/images/a661be27fee52ebb.png)
 
 ### 5、使用命令行启动 VS Code
 
 （1）输入快捷键「Cmd + Shift + P 」，选择`install code command`：
 
-![](http://img.smyhvae.com/20191103_1327.png)
+![](../assets/images/46fd896e61b19b98.png)
 
 （2）使用命令行：
 
@@ -332,7 +331,7 @@ Mac 用户按住快捷键 `Cmd+Shift+P` （Windows 用户按住快捷键`Ctrl+Sh
 
 输入快捷键「Cmd + Shift + P 」打开命令面板，然后输入并执行 `Configure Language Specific Settings`即可。
 
-![](https://img.smyhvae.com/20211012_1039.png)
+![](../assets/images/a50c97bb55e0c9c2.png)
 
 
 
@@ -344,13 +343,13 @@ Mac 用户按住快捷键 `Cmd+Shift+P` （Windows 用户按住快捷键`Ctrl+Sh
 
 **方式1**：Mac用户选择菜单栏「Code--> 首选项-->设置」，即可打开配置项：
 
-![](http://img.smyhvae.com/20210930_2009.png)
+![](../assets/images/0d66cd623aa2aa89.png)
 
 **方式2**：点击软件右下角的设置图标：
 
-![](http://img.smyhvae.com/20210930_2016.png)
+![](../assets/images/fc50374ed71e45c2.png)
 
-![](https://img.smyhvae.com/20211012_1017.png)
+![](../assets/images/b54372233136953c.png)
 
 如上图所示，VS Code提供两种不同范围的设置：
 
@@ -371,11 +370,11 @@ Mac 用户按住快捷键 `Cmd+Shift+P` （Windows 用户按住快捷键`Ctrl+Sh
 
 选择菜单栏「Code --> 首选项 --> 颜色主题」：
 
-![](http://img.smyhvae.com/20210930_2017.png)
+![](../assets/images/879936b2e269fe6e.png)
 
 在弹出的对话框中，挑选你一个你喜欢的的颜色主题吧，或者安装其他颜色的主题：
 
-![20211013_1018](http://img.smyhvae.com/20211013_1018.png)
+![20211013_1018](../assets/images/65f66764fa83d93b.png)
 
 或者在设置项里搜索`Workbench: Color Theme`，进行修改。
 
@@ -383,11 +382,11 @@ Mac 用户按住快捷键 `Cmd+Shift+P` （Windows 用户按住快捷键`Ctrl+Sh
 
 选择菜单栏「Code --> 首选项 --> 文件图标主题」：
 
-![20211013_1015](http://img.smyhvae.com/20211013_1015.png)
+![20211013_1015](../assets/images/2f83f25819ed44ed.png)
 
 在弹出的对话框中，挑选你一个你喜欢的的主题吧，或者安装其他的主题：
 
-![20211013_1019](http://img.smyhvae.com/20211013_1019.png)
+![20211013_1019](../assets/images/cfd87debb31cbc03.png)
 
 
 
@@ -397,13 +396,13 @@ Mac 用户按住快捷键 `Cmd+Shift+P` （Windows 用户按住快捷键`Ctrl+Sh
 
 打开 VS Code 的设置项，选择「用户设置 -> 工作台 -> 导航路径」，如下图所示：
 
-![](http://img.smyhvae.com/20191108_1550.png)
+![](../assets/images/04e64d43197de7d2.png)
 
 上图中，将红框部分打钩即可。
 
 设置成功后，我们就可以查看到当前文件的「层级结构」，非常方便。如下图所示：
 
-![](http://img.smyhvae.com/20190415_2009.png)
+![](../assets/images/9200d82b1cdf3ff6.png)
 
 有了这个面包屑导航，我们可以点击它，在任意目录、任意文件之间随意跳转。使用频繁非常高。
 
@@ -413,7 +412,7 @@ Mac 用户按住快捷键 `Cmd+Shift+P` （Windows 用户按住快捷键`Ctrl+Sh
 
 VS Code 默认显示代码的行号。你可以在设置项里搜索 `editor.lineNumbers`修改设置，配置项如下：
 
-![](http://img.smyhvae.com/20190417_2140.png)
+![](../assets/images/dae6cf1f1933855d.png)
 
 我建议保留这个设置项，无需修改。
 
@@ -423,7 +422,7 @@ VS Code 默认显示代码的行号。你可以在设置项里搜索 `editor.lin
 
 VS Code 会在代码的右侧，默认显示缩略图。你可以在设置项里搜索 `editor.minimap` 进行设置，配置项如下：
 
-![](http://img.smyhvae.com/20211012_1507.png)
+![](../assets/images/b05e5604a04bfc95.png)
 
 上面这张图，你仔细琢磨下会发现，中文翻译十分精准。
 
@@ -450,7 +449,7 @@ VS Code 会在代码的右侧，默认显示缩略图。你可以在设置项里
 
 改完代码后，默认不会自动保存。你可以在设置项里搜索`files.autoSave`，修改参数值为`afterDelay`  ，即可自动保存。如下：
 
-![](https://img.smyhvae.com/20211012_2000.png)
+![](../assets/images/edd93839f526cefd.png)
 
 files.autoSave的参数值有以下几种：
 
@@ -467,14 +466,14 @@ files.autoSave的参数值有以下几种：
 
 当VS Code退出后，它可以记住未保存的文件。如果你希望达到这种效果，那么，你需要先将设置项`files.hotExit`的值改为 `onExitAndWindowClose`。这个配置项要不要改，看你个人需要。比如我自己平时设置的值是`onExit`。
 
-![20211012_2014](http://img.smyhvae.com/20211012_2014.png)
+![20211012_2014](../assets/images/b315c459a1b28ec0.png)
 
 
 ### 8、保存代码后，是否立即格式化
 
 保存代码后，默认**不会立即**进行代码的格式化。你可以在设置项里搜索`editor.formatOnSave`查看该配置项：
 
-![](http://img.smyhvae.com/20190417_2213.png)
+![](../assets/images/1e16e5034edddbd8.png)
 
 我觉得这个配置项保持默认就好，不用打钩。
 
@@ -482,13 +481,13 @@ files.autoSave的参数值有以下几种：
 
 在设置项里搜索 `editor.formatOnPaste`，将设置项改为`true`：
 
-![20211012_1049](https://img.smyhvae.com/20211012_1049.png)
+![20211012_1049](../assets/images/918afcfe15b67e8c.png)
 
 ### 10、设置字体大小
 
 在设置项里搜索`fontSize`，然后根据需要设置各种模块的字体大小：
 
-![20211012_1053](http://img.smyhvae.com/20211012_1053.png)
+![20211012_1053](../assets/images/7d44500766320058.png)
 
 
 
@@ -500,33 +499,33 @@ VS Code 会根据你所打开的文件来决定该使用空格还是制表。也
 
 - **editor.detectIndentation**：自动检测（默认开启）。建议把这个配置项修改为 false，截图如下：
 
-![20211012_1139](https://img.smyhvae.com/20211012_1139.png)
+![20211012_1139](../assets/images/1dab6d665f82232d.png)
 
 这样做，是为了取消系统的自动缩进，建议自己手动格式化比较好。 参考链接：https://www.yisu.com/zixun/327399.html
 
 - **editor.insertSpaces**：按 Tab 键时插入空格（默认值为true）。截图如下：
 
-![](http://img.smyhvae.com/20190417_2207.png)
+![](../assets/images/1e555e34463efc82.png)
 
 - **editor.tabSize**：一个制表符默认等于四个空格。截图如下：
 
-![](http://img.smyhvae.com/20190417_2209.png)
+![](../assets/images/c2abd4834a1bfe5a.png)
 
 
 
 （2）状态栏也会显示当前的缩进值。点击状态栏，可以直接修改 tabSize 缩进值：
 
-![](http://img.smyhvae.com/20211009_1610.png)
+![](../assets/images/ed9357dd36573443.png)
 
 
 
 （3）另外，我们还可以安装 prettier 插件，设置代码在格式化时默认缩进值。prettier 是做代码格式化的最常见工具。
 
-![](https://img.smyhvae.com/20211009_1637.png)
+![](../assets/images/a8417aafc2a8b96c.png)
 
 （4）去掉每一行末尾的空格。在设置项里搜索`空格`或者`"files.trimTrailingWhitespace"`，将值设置为 true：
 
-![20211012_1231](http://img.smyhvae.com/20211012_1231.png)
+![20211012_1231](../assets/images/ace0130443a254b7.png)
 
 一般来说，每一行代码末尾的空格是多余的，所以建议去掉。
 
@@ -536,11 +535,11 @@ VS Code 会根据你所打开的文件来决定该使用空格还是制表。也
 
 在配置项里搜索`editor.renderWhitespace`，修改为`all`：
 
-![20211012_1150](http://img.smyhvae.com/20211012_1150.png)
+![20211012_1150](../assets/images/e3400d36e977ce30.png)
 
 修改之后，代码里的空格、缩进的展示效果如下：
 
-![20211012_1258](http://img.smyhvae.com/20211012_1258.png)
+![20211012_1258](../assets/images/4a784a52d0cef094.png)
 
 看到了没？哪里有空格、哪里是缩进，全都一目了然。
 
@@ -550,7 +549,7 @@ VS Code 会根据你所打开的文件来决定该使用空格还是制表。也
 
 如果你想修改默认的文件类型，可以在设置项里搜索`files.defaultLanguage`，设置项如下：
 
-![](http://img.smyhvae.com/20190417_2221.png)
+![](../assets/images/15980f05f187266f.png)
 
 上图中的红框部分，填入你期望的默认文件类型。我填的是`html`类型，你也可以填写成 `javascript` 或者 `markdown`，或者其他的语言类型。
 
@@ -558,7 +557,7 @@ VS Code 会根据你所打开的文件来决定该使用空格还是制表。也
 
 当我们在 VS Code 中删除文件时，默认会弹出确认框。如果你想修改设置，可以在设置项里搜索`xplorer.confirmDelete`。截图如下：
 
-![](http://img.smyhvae.com/20190418_1758.png)
+![](../assets/images/4e53e91c3002b50d.png)
 
 我建议这个设置项保持默认的打钩就好，不用修改。删除文件前的弹窗提示，也是为了安全考虑，万一手贱不小心删了呢？
 
@@ -566,7 +565,7 @@ VS Code 会根据你所打开的文件来决定该使用空格还是制表。也
 
 通过 `window.openFoldersInNewWindow`（默认值为off）和`window.openFilesInNewWindow`（默认值为default），可以配置在打开文件夹、打开文件时，是否开启一个新的窗口。我个人建议，把这两个配置项都设置为 on，避免旧的窗口被覆盖：
 
-![](http://img.smyhvae.com/20211012_1700.png)
+![](../assets/images/0f825fdbf7531369.png)
 
 补充知识—— `window.restoreWindows`可以用来配置 如何恢复之前的会话窗口。涉及到的场景是：你把 VS Code 关闭了，然后又打开了，是否要展示之前打开过的文件、文件夹？参数值有以下几种：
 
@@ -575,7 +574,7 @@ VS Code 会根据你所打开的文件来决定该使用空格还是制表。也
 - all（建议配置）：恢复上一次会话中的所有窗口。
 - folders：恢复上一次会话中包含文件夹的窗口。
 
-![20211012_1704](http://img.smyhvae.com/20211012_1704.png)
+![20211012_1704](../assets/images/f96fd42816af61d5.png)
 
 ### 16、自动删除行尾的空格
 
@@ -614,7 +613,7 @@ VS Code 会根据你所打开的文件来决定该使用空格还是制表。也
 
 **方式1**：输入`!`，然后按下`enter`键，即可生成html骨架。如下图：
 
-![](https://img.smyhvae.com/20210623-2115.gif)
+![](../assets/images/c1676df8176db45f.gif)
 
 
 
@@ -645,7 +644,7 @@ VS Code 会根据你所打开的文件来决定该使用空格还是制表。也
 
 Mac 用户按住快捷键 `Cmd + \`， Windows 用户按住快捷键`Ctrl + \`，即可同时打开多个编辑器窗口，进行并排编辑。效果如下：
 
-![](http://img.smyhvae.com/20200619_0030.gif)
+![](../assets/images/305b436680bf56c3.gif)
 
 按快捷键「Cmd + 1 」切换到左边的窗口，按快捷键「Cmd + 2 」切换到右边的窗口，以此类推。随时随地，想切就切。
 
@@ -663,13 +662,13 @@ Mac 用户按住快捷键 `Cmd + \`， Windows 用户按住快捷键`Ctrl + \`�
 - 点击编辑器右上角的 `Split Editor`按钮。
 - 选择菜单栏「查看--> 编辑器布局」，然后选择你具体想要的布局，如下图所示：
 
-![20211012_1451](http://img.smyhvae.com/20211012_1451.png)
+![20211012_1451](../assets/images/04b5fd700bddcc2c.png)
 
 - 通过拖拽，把当前文件移动到任意一侧。
 
 补充知识：通过配置项`worbench.editor.OpenSideBySideDirection`可以控制编辑器在并排打开时出现的默认位置（默认值为right，你也可以根据需要改为 down）。如下图所示：
 
-![20211012_1455](http://img.smyhvae.com/20211012_1455.png)
+![20211012_1455](../assets/images/8d7f9079a7c094ad.png)
 
 ### 3、从终端 code 命令启动 VS Code（Mac电脑）
 
@@ -713,7 +712,7 @@ source ~/.bash_profile
 
 当然，还可以通过命令面板，一键设置环境变量。具体做法是：输入快捷键「Cmd + shift + P」打开命令面板，然后选择 `shell 命令：从 PATH 中卸载 “code”命令`：
 
-![](https://img.smyhvae.com/202310201605408.png)
+![](../assets/images/1eca9e6a56cd2473.png)
 
 
 完成后就可以在终端输入命令+文件路径来启动 VS Code 了。
@@ -751,13 +750,13 @@ source ~/.bash_profile
 
 另外，你可能会注意到，搜索框里有很多按钮，每个按钮都对应着不同的功能，如下图所示：
 
-![](http://img.smyhvae.com/20190415_2052.png)
+![](../assets/images/2d98b824631e7d0e.png)
 
 上图中，你可以通过「Tab」键和「Shift + Tab」键在输入框和替换框之间进行切换。
 
 「在选定内容中查找」这个功能还是比较实用的。你也可以在设置项里搜索 `editor.find.autoFindInSelection`，勾选该设置项后，那么，当你选中指定内容后，然后按住「Cmd + F」，就可以**自动**只在这些内容里进行查找。该设置项如下图所示：
 
-![](http://img.smyhvae.com/20191108_1655.png)
+![](../assets/images/7827334407a9f22a.png)
 
 ### 5、全局搜索
 
@@ -765,13 +764,13 @@ source ~/.bash_profile
 
 - Cmd + Shift + F（Win 用户是 Ctrl + Shift +F）：在全局的文件夹中进行搜索。效果如下：
 
-![20211012_1548](http://img.smyhvae.com/20211012_1548.png)
+![20211012_1548](../assets/images/679abb87b556b675.png)
 
 上图中，你可以点击**红框**部分，展开更多的配置项。然后点击**红圈**部分，进行过滤搜索。注意，第二个红圈那里会经常用到，它可以在搜索时过滤掉  `.git`、`.node_modules`等忽略文件。
 
 上图中，我们还可以点击“在编辑器中打开”，在一个单独的文件中聚合展示搜索结果：
 
-![](https://img.smyhvae.com/20211012_1609.png)
+![](../assets/images/421e734168eb747b.png)
 
 ### 6、文件名/文件夹的搜索
 
@@ -783,7 +782,7 @@ source ~/.bash_profile
 >
 > 另外，右上角会看到一个过滤器，点击下图中的红圈部分，则只显示匹配的文件和文件夹。
 
-![20211012_1616](http://img.smyhvae.com/20211012_1616.png)
+![20211012_1616](../assets/images/c2a37954928cba6d.png)
 
 当然，这招也有一点不足：不能搜中文。
 
@@ -791,19 +790,19 @@ source ~/.bash_profile
 
 如下图所示，大纲视图可以展示当前代码的方法结构、文件的目录结构：
 
-![20211012_1628](http://img.smyhvae.com/20211012_1628.png)
+![20211012_1628](../assets/images/de433a8d5e05a6a9.png)
 
-![20211012_1636](http://img.smyhvae.com/20211012_1636.png)
+![20211012_1636](../assets/images/1bdd207b2a8c43a4.png)
 
 ### 8、文件对比
 
 VS Code 默认支持**对比两个文件的内容**。选中两个文件，然后右键选择「将已选项进行比较」即可，效果如下：
 
-![](http://img.smyhvae.com/20190329_1756.png)
+![](../assets/images/b3ecea06bf5de23f.png)
 
 VS Code 自带的对比功能并不够强大，我们可以安装插件`compareit`，进行更丰富的对比。比如说，安装完插件`compareit`之后，我们可以将「当前文件」与「剪切板」里的内容进行对比：
 
-![](http://img.smyhvae.com/20190329_1757.png)
+![](../assets/images/edd0ac219169f263.png)
 
 如果你安装了 GitLens 插件，还可以将两个git分支的代码进行比对，非常完美。
 
@@ -854,7 +853,7 @@ VS Code软件自带了终端，但我个人认为不是很好用，而且VS Code
 
 VS Code 自带了 Git 版本管理的功能，如下图所示：
 
-![](http://img.smyhvae.com/20190418_1850.png)
+![](../assets/images/5f6ca968e9e0d2f5.png)
 
 上图中，我们可以在这里进行常见的 git 命令操作。如果你还不熟悉 **Git 版本管理**，可以先去补补课。
 
@@ -862,15 +861,15 @@ VS Code 自带了 Git 版本管理的功能，如下图所示：
 
 我们先来看看 diff 代码的效果：
 
-![20211013_1411](https://img.smyhvae.com/20211013_1411.png)
+![20211013_1411](../assets/images/aa6a3ff0959a8edc.png)
 
 上图中，点击右上角的`...`，然后点击`内联视图`，则可以换一种视图 diff 代码：
 
-![](https://img.smyhvae.com/20211013_1415.png)
+![](../assets/images/5c26bcfc223a3164.png)
 
 **Git状态栏**：
 
-![20211013_1421](http://img.smyhvae.com/20211013_1421.png)
+![20211013_1421](../assets/images/50765a244410e0c3.png)
 
 在VS Code的左下角会显示Git状态栏。如果当前代码仓库配置了远程仓库，那么“同步更改”会显示以下信息：
 
@@ -909,11 +908,11 @@ f### 11、创建多层子文件夹
 
 我们可以在新建文件夹的时候，如果直接输入`aa/bb/cc`，比如：
 
-![](http://img.smyhvae.com/20190418_2022.png)
+![](../assets/images/83a8dc8868ad4175.png)
 
 那么，就可以创建多层子文件夹，效果如下：
 
-![](http://img.smyhvae.com/20190418_2023.png)
+![](../assets/images/b4b6bd6933525fa4.png)
 
 ### 15、`.vscode` 文件夹的作用
 
@@ -935,7 +934,7 @@ VS Code 自带 markdown 语法高亮。也就是说，如果你是用 markdown �
 
 写完 md 文件之后，你可以点击右上角的按钮进行预览，如下图所示：
 
-![](http://img.smyhvae.com/20190418_1907.png)
+![](../assets/images/72a49da0a7444164.png)
 
 我一般是安装「Markdown Preview Github Styling」插件，以 GitHub 风格预览 Markdown 样式。样式十分简洁美观。
 
@@ -964,7 +963,7 @@ VS Code 默认支持 Emmet。更多 Emmet 语法规则，可以自行查阅。
 
 这款字体很漂亮，很适合用来写代码：
 
-![](https://img.smyhvae.com/20200516_1633-2.png)
+![](../assets/images/31acc350e7fc45a6.png)
 
 安装步骤如下：
 
@@ -991,7 +990,7 @@ VS Code 默认对 JavaScript、TypeScript、JSON、HTML、CSS、SCSS、Less这7�
 
 在 VS Code插件职场中，下图是最受欢迎的8种[编程语言插件](https://marketplace.visualstudio.com/search?target=VSCode&category=Programming%20Languages&sortBy=Installs)：
 
-![20211013_1120](https://img.smyhvae.com/20211013_1120.png)
+![20211013_1120](../assets/images/1fee5844ba4bb422.png)
 
 智能提示的功能很强大， 包括函数介绍、代码自动补全等等。
 
@@ -1001,7 +1000,7 @@ VS Code **内置**了对 Node.js 运行时的调试支持，可以直接调试  
 
 在 VS Code插件市场中，下图是最受欢迎的几种调试插件：
 
-![](https://img.smyhvae.com/20211013_1650.png)
+![](../assets/images/2d3bd5b1d72f1cdd.png)
 
 ### 23、文件传输：sftp
 
@@ -1091,7 +1090,7 @@ VS Code **内置**了对 Node.js 运行时的调试支持，可以直接调试  
 VS Code 有一个很强大的功能就是支持插件扩展，让你的编辑器仿佛拥有了三头六臂。
 ### 安装插件
 
-![](http://img.smyhvae.com/20191108_1553_2.png)
+![](../assets/images/73d9643afa2fae00.png)
 
 上图中，点击红框部分，即可在顶部输入框里，查找你想要的插件名，然后进行安装。
 
@@ -1108,7 +1107,7 @@ VS Code 有一个很强大的功能就是支持插件扩展，让你的编辑器
 - macOS：`~/.vscode/extensions`
 ### 插件的类型
 
-![20211013_1757_2](http://img.smyhvae.com/20211013_1757_2.png)
+![20211013_1757_2](../assets/images/a27c0e86781c60a3.png)
 
 插件市场的首页有四个模块，可以作为重要的信息来源：
 
@@ -1117,9 +1116,9 @@ VS Code 有一个很强大的功能就是支持插件扩展，让你的编辑器
 - Most Popular：按总安装量排序的插件。
 - Recently Added：最新发布的插件。
 
-![20211013_1758](http://img.smyhvae.com/20211013_1758.png)
+![20211013_1758](../assets/images/6bd575b3cf5b78f8.png)
 
-![20211013_1955](http://img.smyhvae.com/20211013_1955.png)
+![20211013_1955](../assets/images/2b2e9dc2905b5d9f.png)
 
 插件市场至少有17种类型的插件：（按照数量排序）
 
@@ -1147,11 +1146,11 @@ VS Code 有一个很强大的功能就是支持插件扩展，让你的编辑器
 
 1）点击插件视图右上角的`...`按钮，可以展示不同状态的插件：
 
-![20211013_2011](http://img.smyhvae.com/20211013_2011.png)
+![20211013_2011](../assets/images/ea132977f5416554.png)
 
 2）在搜索框输入字符`@`，会展示出不同类型的过滤器：
 
-![20211013_2015](http://img.smyhvae.com/20211013_2015.png)
+![20211013_2015](../assets/images/b4c58d90522368e6.png)
 
 **常见的过滤器如下**：
 
@@ -1203,11 +1202,11 @@ GitLens 在 Git 管理上有很多强大的功能，比如：
 
 打开你的 Git仓库，未安装  GitLens 时是这样的：
 
-![](http://img.smyhvae.com/20211009_1400.png)
+![](../assets/images/61f600811ec7bd8c.png)
 
 安装了  GitLens 之后是这样的：
 
-![](http://img.smyhvae.com/20211009_1430.png)
+![](../assets/images/77465672b690463e.png)
 
 上图中，红框部分就是  GitLens 的功能，诸君可以自由发挥。
 
@@ -1221,7 +1220,7 @@ GitLens 在 Git 管理上有很多强大的功能，比如：
 
 维护文件的本地历史记录。代码意外丢失时，有时可以救命。
 
-![](http://img.smyhvae.com/20200618_2246.png)
+![](../assets/images/b4fbf9059882f760.png)
 
 ### 3、代码智能提示插件
 
@@ -1290,7 +1289,7 @@ vscode-icons 会根据文件的后缀名来显示不同的图标，让你更直�
 
 安装完成后，效果如下图所示：
 
-![](http://img.smyhvae.com/20190418_1958.png)
+![](../assets/images/f4feea5e69cf47e3.png)
 
 
 #### TODO Highlight
@@ -1375,7 +1374,7 @@ Prettier 是一个代码格式化工具，**只关注格式化，但不具备校
 
 生成的效果如下：
 
-![](http://img.smyhvae.com/20200619_1403.png)
+![](../assets/images/46905f9fb3029a2d.png)
 
 其他同类插件：`CodeSnap`。我们也可以通过 <https://carbon.now.sh/>这个网站生成代码图片
 
@@ -1409,7 +1408,7 @@ CSS Peek 对 Vue 没有支持，该插件提供了对 Vue 文件的支持。
 
 以 GitHub 风格预览 Markdown 样式，十分简洁优雅。就像下面这样，左侧书写 Markdown 文本，右侧预览 Markdown 的渲染效果：
 
-![](http://img.smyhvae.com/20200618_2025.png)
+![](../assets/images/c62e1d3012763504.png)
 
 #### Markdown Preview Enhanced
 
@@ -1448,7 +1447,7 @@ CSS Peek 对 Vue 没有支持，该插件提供了对 Vue 文件的支持。
 
 统计在 VS Code 里写代码的时间。统计效果如下：
 
-![](http://img.smyhvae.com/20200618_2300.png)
+![](../assets/images/f2fd81dda9e04796.png)
 
 #### Code Time
 
@@ -1476,7 +1475,7 @@ CSS Peek 对 Vue 没有支持，该插件提供了对 Vue 文件的支持。
 
 `node_modules`模块里面的文件夹和模块实在是太多了，根本不好找。好在安装 `Search node_modules` 这个插件后，输入快捷键「Cmd + Shift + P」，然后输入 `node_modules`，在弹出的选项中选择 `Search node_modules`，即可搜索 node_modules 里的模块。
 
-![](http://img.smyhvae.com/20200618_2100.png)
+![](../assets/images/57e292a477e422e6.png)
 
 
 
@@ -1488,7 +1487,7 @@ CSS Peek 对 Vue 没有支持，该插件提供了对 Vue 文件的支持。
 
 `RemoteHub`插件的作用是：可以在本地查看 GitHub 网站上的代码，而不需要将代码下载到本地。
 
-![](http://img.smyhvae.com/20190418_1937.png)
+![](../assets/images/89f296a3439a2c42.png)
 
 这个插件目前使用的人还不多，赶紧安装起来尝尝鲜吧。
 
@@ -1500,11 +1499,11 @@ CSS Peek 对 Vue 没有支持，该插件提供了对 Vue 文件的支持。
 
 打开插件管理，搜索“live share”，安装。安装后重启 VS Code，在左侧会多出一个按钮：
 
-![](http://img.smyhvae.com/20190418_2012.png)
+![](../assets/images/ed6d16f83b9ded34.png)
 
 上图中，点击红框部分，登录后就可以分享你的工作空间了。
 
-![](http://img.smyhvae.com/20190418_2005.png)
+![](../assets/images/38bbf1ecec0df71f.png)
 
 #### Import Cost
 
@@ -1552,33 +1551,33 @@ CSS Peek 对 Vue 没有支持，该插件提供了对 Vue 文件的支持。
 
 （1）在菜单栏选择「 Code --> 首选项 --> 打开设置同步」：
 
-![](https://img.smyhvae.com/20211008_1713.png)
+![](../assets/images/427d3a4d5d382030.png)
 
 
 
 （2）选择需要同步的配置：
 
-![](http://img.smyhvae.com/20211008_1716.png)
+![](../assets/images/959772b0ff37276f.png)
 
 
 
 （3）通过Microsoft或者GitHub账号登录。 上图中，点击“登录并打开”，然后弹出如下界面：
 
-![](http://img.smyhvae.com/20211008_1717.png)
+![](../assets/images/3fe3bd9b970da935.png)
 
 上图中，使用  微软账号或者 GitHub账号登录：
 
-![](https://img.smyhvae.com/20211008_1718.png)
+![](../assets/images/d49f3f853b1580a6.png)
 
 （4）同步完成后，菜单栏会显示“首先项同步已打开”，最左侧也会多出一个同步图标，如下图所示：
 
-![](https://img.smyhvae.com/20211008_1720.png)
+![](../assets/images/8546935c33194a10.png)
 
 2、**管理同步**：
 
 （1）点击菜单栏「Code --> 首选项 --> 设置同步已打开」，会弹出如下界面，进行相应的同步管理即可：
 
-![](https://img.smyhvae.com/20211008_1736.png)
+![](../assets/images/5905525bae8a1af2.png)
 
 （2）换另外一个电脑时，登录相同的账号，即可完成同步。
 
@@ -1608,11 +1607,11 @@ CSS Peek 对 Vue 没有支持，该插件提供了对 Vue 文件的支持。
 
 （3）登录之后，插件的界面上，会自动出现之前的同步记录：
 
-![](http://img.smyhvae.com/20200521_1530.png)
+![](../assets/images/da95ff365cf4adb7.png)
 
 上图中，我们点击最新的那条记录，就可将云端的最新配置同步到本地：
 
-![](http://img.smyhvae.com/20200521_1550.png)
+![](../assets/images/fd65881b0b1006af.png)
 
 如果你远程的配置没有成功同步到本地，那可能是网络的问题，此时，可以使用快捷键 「Command + Shift + P」，在弹出的命令框中输入 sync，并选择「下载配置」，多试几次。
 
@@ -1676,4 +1675,4 @@ CSS Peek 对 Vue 没有支持，该插件提供了对 Vue 文件的支持。
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)

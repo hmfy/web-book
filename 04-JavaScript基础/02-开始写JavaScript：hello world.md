@@ -132,7 +132,7 @@ JS 代码的书写位置在哪里呢？这个问题，也可以理解成：引�
 
 如果有些浏览器不支持 JS 脚本，或者用户禁用了浏览器的JS脚本（如下图），那么，该如何给用户提供一个友好的提示呢？我们可以通过 `<noscript>` 标签作为**降级**的处理方案。
 
-![](https://img.smyhvae.com/202310051617910.png)
+![](../assets/images/375a9648ef34dc23.png)
 
 `<noscript>` 标签的基础语法：
 
@@ -286,7 +286,7 @@ function sum(num1, num2) {
 }
 ```
 
-![](https://img.smyhvae.com/202310052143987.png)
+![](../assets/images/ecf8049eb73004d1.png)
 
 如上图所示，鼠标悬停在函数调用的地方就能看到关于这个函数的文档说明，而不需要定位函数的源码处，很神奇吧？
 
@@ -294,7 +294,7 @@ JSDoc经常应用于工具函数，我们甚至可以借助 JSDoc的相关工具
 
 另外需要说明的是，VS Code默认集成了文档注释的显示功能，可以在**单独的 JS 文件**中显示文档注释的效果，但是无法在 HTML 文件中显示效果：
 
-![](https://img.smyhvae.com/202310052153628.png)
+![](../assets/images/d3b8e3200b3ce036.png)
 
 ### 对注释的认知
 
@@ -343,11 +343,11 @@ JSDoc经常应用于工具函数，我们甚至可以借助 JSDoc的相关工具
 
 **alert**（中文翻译为“警报、警告”）的用途：**弹出“警告框”**。它会在弹窗中显示一条信息，并等待用户按下 “OK”。
 
-![](http://img.smyhvae.com/20180116_1735.gif)
+![](../assets/images/64445d1553856629.gif)
 
 这个弹窗，在 IE 浏览器中长这样：
 
-![](http://img.smyhvae.com/20180116_1906.png)
+![](../assets/images/22a8eb09ab0844ba.png)
 
 上面的代码中，如果写了两个 alert()语句，则网页的效果是：弹出第一个警告框，点击确定后，继续弹出第二个警告框。
 
@@ -369,7 +369,7 @@ console.log('传入多个参数：', arg2, arg3);
 
 在 Chrome 浏览器中，按 F12 即可打开控制台，选择「console」栏，即可看到打印的内容。
 
-![](http://img.smyhvae.com/20180116_2008.gif)
+![](../assets/images/3bc92e63d4d4c97b.gif)
 
 console 语句可以设置不同的打印等级：
 
@@ -381,13 +381,13 @@ console.error('千古壹号3'); // 错误打印
 
 效果如下：
 
-![](https://img.smyhvae.com/20211031_1552.png)
+![](../assets/images/710be918f1efa5aa.png)
 
 上图中，不同的打印等级，区别不大，只是颜色背景上的区别，方便肉眼区分、过滤信息。
 
 普通人是不会在意控制台的，但是有些网站另藏玄机。比如百度首页的控制台，悄悄地放了一段招聘信息的彩蛋，挺有意思：
 
-![](http://img.smyhvae.com/20180116_2010.png)
+![](../assets/images/13dfde8751db376d.png)
 
 做前端开发时需要经常使用控制台做调试，我们甚至可以直接在控制台输入 JS 语句，然后打印执行结果，你可以自行试一试。
 
@@ -404,7 +404,7 @@ console.log(result);
 
 代码运行后，页面上会显示一个弹窗。弹窗上有“确认”和“取消”两个按钮，点击“确定”返回 `true`，点击“取消”返回 `false`。
 
-![20211031-1537](http://img.smyhvae.com/20211031-1537.gif)
+![20211031-1537](../assets/images/ede0b5213aa3257d.gif)
 
 ### 弹出输入框：prompt()语句
 
@@ -419,7 +419,7 @@ console.log(a);
 
 上方代码中，用户输入的内容，将被传递到变量 a 里面，并在控制台打印出来。
 
-![](http://img.smyhvae.com/20180116_2230.gif)
+![](../assets/images/8a308262235b12dd.gif)
 
 **alert()和 prompt()的区别：**
 
@@ -438,10 +438,10 @@ document.write('千古前端图文教程');
 
 页面效果：
 
-![20211031_1543](http://img.smyhvae.com/20211031_1543.png)
+![20211031_1543](../assets/images/a7bde153143d3607.png)
 
 ## 赞赏作者
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)

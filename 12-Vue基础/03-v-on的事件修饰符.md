@@ -3,7 +3,6 @@ title: 03-v-on的事件修饰符
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 

@@ -3,7 +3,6 @@ title: 02-Node.js的特点
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 

@@ -3,7 +3,6 @@ title: 11-HTML5详解（三）
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 ## Web 存储
@@ -135,7 +134,7 @@ sessionStorage 的 API 举例：
 
 效果如下：
 
-![](http://img.smyhvae.com/20180224_2200.gif)
+![](../assets/images/7dc7b7d370a318a8.gif)
 
 如上图所示，我们可以在 Storage 选项卡中查看 Session Storage 和Local Storage。
 
@@ -314,7 +313,7 @@ HTML5中我们可以轻松的构建一个离线（无网络状态）应用，只
 
 格式举例1：
 
-![](http://img.smyhvae.com/20180224_2240.png)
+![](../assets/images/bd3c9b5dc64843b7.png)
 
 
 格式举例2：
@@ -368,7 +367,7 @@ CACHE:
     <title></title>
 </head>
 <body>
-<img src="http://img.smyhvae.com/2016040101.jpg" alt=""/>
+<img src="../assets/images/87707ea0e0befbb2.jpg" alt=""/>
 </body>
 </html>
 ```

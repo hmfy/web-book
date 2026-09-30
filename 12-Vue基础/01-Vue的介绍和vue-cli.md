@@ -3,7 +3,6 @@ title: 01-Vue的介绍和vue-cli
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -11,7 +10,7 @@ publish: true
 
 ## MVVM模式
 
-![](http://img.smyhvae.com/20180420_2150.png)
+![](../assets/images/e3d43f8dd115a95b.png)
 
 - Model：负责数据存储
 
@@ -78,11 +77,11 @@ Vue1.0没有虚拟DOM，Vue2.0改成了基于虚拟DOM。
 
 ### 前端框架回顾
 
-![](http://img.smyhvae.com/20180302_1645.png)
+![](../assets/images/2c4d53cd1b2d4a7b.png)
 
-![](http://img.smyhvae.com/20180302_1651.png)
+![](../assets/images/a7ece75119b43ae2.png)
 
-![](http://img.smyhvae.com/20180302_1652.png)
+![](../assets/images/e6586aaa337a1234.png)
 
 Vue框架中，没有控制器。
 
@@ -115,7 +114,7 @@ Vue框架中，没有控制器。
 
 - Vue2下载地址：<https://cdn.jsdelivr.net/npm/vue/>
 
-![](http://img.smyhvae.com/20180302_1658.png)
+![](../assets/images/1758f6b64fa3b3fc.png)
 
 上方截图的时间：2018-03-02。
 
@@ -127,7 +126,7 @@ Vue框架中，没有控制器。
 
 渐进式框架图：
 
-![](http://img.smyhvae.com/20180302_1701.png)
+![](../assets/images/47c2b59092682ec8.png)
 
 ### Vue框架的特点
 
@@ -238,7 +237,7 @@ $ npm install -g @vue/cli
 
 输入上方命令后，会弹出一个选项：
 
-![](http://img.smyhvae.com/20190624_163626.png)
+![](../assets/images/522a7b6c4f35cb20.png)
 
 如果是初学者，直接选`default`就行。之后会自动生成一个空的初始化项目，包含了项目目录、以及项目依赖的脚本。
 
@@ -248,7 +247,7 @@ $ npm install -g @vue/cli
 
 我们可以看到这个项目的结构：
 
-![](http://img.smyhvae.com/20190624_160726.png)
+![](../assets/images/48fcde8cd98d0452.png)
 
 - src：项目源码
 
@@ -268,7 +267,7 @@ $ npm install -g @vue/cli
 
 浏览器输入`http://localhost:8080/`，就可以让这个空的项目在本地跑起来：
 
-![](http://img.smyhvae.com/20190624_160229.png)
+![](../assets/images/66abc192eb3634a3.png)
 
 备注：我们在 GitHub上下载的任何Vue有关的项目，第一步都是要首先执行 npm install，安装依赖的 mode_modules，然后再运行。我们发给同事的工程文件，建议不要包含 `node_modules`。
 
@@ -280,11 +279,11 @@ $ npm install -g @vue/cli
 $ vue create vuedemo2
 ```
 
-![](http://img.smyhvae.com/20190624_163726.png)
+![](../assets/images/72dda16af6c47182.png)
 
 上图中，选择 `Manually select features`，然后根据提示依次输入：
 
-![](http://img.smyhvae.com/20190624_164305.png)
+![](../assets/images/1e701c20db370dfa.png)
 
 -  project name：**要求小写**。
 
@@ -300,13 +299,13 @@ $ vue create vuedemo2
 
 选择 eslint 的配置：
 
-![](http://img.smyhvae.com/20190624_165001.png)
+![](../assets/images/980363e36f290803.png)
 
 然后让这个空的项目就可以在浏览器上跑起来。
 
 ## vue 项目结构分析
 
-![](http://img.smyhvae.com/20180501_2100.png)
+![](../assets/images/91735f4c47b07b0b.png)
 
 - buid：打包配置的文件夹
 
@@ -349,6 +348,6 @@ $ vue create vuedemo2
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/20160401_01.jpg)
+![](../assets/images/df9255040eee97b1.jpg)
 
 

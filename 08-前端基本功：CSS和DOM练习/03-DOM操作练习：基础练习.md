@@ -3,7 +3,6 @@ title: 03-DOM操作练习：基础练习
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -311,7 +310,7 @@ publish: true
 
 <div class="code">
     <a href="#"></a>
-    <img src="http://img.smyhvae.com/2016040102.jpg" alt="" class="code-big hide"/>
+    <img src="../assets/images/6620de36b1f16782.jpg" alt="" class="code-big hide"/>
 </div>
 
 </body>

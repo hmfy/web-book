@@ -2,7 +2,6 @@
 title: 08-基本数据类型：Null 和 Undefined
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 有些其他的语言中，只有 null；但 JS 语言中，既有 undefined，又有 null。很多人会弄混，由此觉得 JS 语言很麻烦。其实不然，学习完本文后，你会发现 undefined 和 null 的区别很容易理解。
 
@@ -141,4 +140,4 @@ undefined 实际上是由 null 衍生出来的，所以`null == undefined`的结
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)

@@ -2,7 +2,6 @@
 title: 06-Promise入门详解
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 ## 前言
 
@@ -225,7 +224,7 @@ promise.then(onFulfilled, onRejected);
 
 ### Promise的状态图
 
-![image-20230624100254023](https://img.smyhvae.com/image-20230624100254023.png)
+![image-20230624100254023](../assets/images/7b65d12dc14db7a9.png)
 
 上面的Promise状态图很经典，需要反复研读，了然于胸。
 
@@ -602,7 +601,7 @@ promise1
 
 报错如下：
 
-![image-20230520224902096](https://img.smyhvae.com/image-20230520224902096.png)
+![image-20230520224902096](../assets/images/8d270be45255aafe.png)
 
 ### resolve()中传入 thenable 对象
 
@@ -695,5 +694,5 @@ qianguyihao then
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)
 

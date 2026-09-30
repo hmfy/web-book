@@ -3,7 +3,6 @@ title: 40-client（可视区）相关属性
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -186,7 +185,7 @@ function client() {
 显示效果：
 
 
-![](http://img.smyhvae.com/20180203_2155.png)
+![](../assets/images/bc3112a7c4a3be4d.png)
 
 
 上图中，不管我如何改变浏览器的窗口大小，title栏显示的值永远都是我的显示器分辨率：1920*1080。
@@ -200,6 +199,6 @@ function client() {
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/20190101.png)
+![](../assets/images/8f05eb9f725cfeeb.png)
 
 

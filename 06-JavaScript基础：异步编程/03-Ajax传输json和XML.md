@@ -3,7 +3,6 @@ title: 03-Ajax传输json和XML
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -199,7 +198,7 @@ var jsonStr = JSON.stringify(Obj);
 
 演示效果：
 
-![](http://img.smyhvae.com/20180228_1740.gif)
+![](../assets/images/718b9b42e9a6ad54.gif)
 
 
 ## Ajax 传输 XML

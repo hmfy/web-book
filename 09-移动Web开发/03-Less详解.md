@@ -3,7 +3,6 @@ title: 03-Less详解
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -326,15 +325,15 @@ body {
 
 （1）在 less 官网下载 less.js 文件：
 
-![](http://img.smyhvae.com/20180226_2131.png)
+![](../assets/images/7935b8bab48288d7.png)
 
 把下载好的文件放在工程文件的lib文件夹里：
 
-![](http://img.smyhvae.com/20180226_2143.png)
+![](../assets/images/aa99d480d6a11edf.png)
 
 （2）在 index.html 中引入 less.js 和我们自己写的  main.less。位置如下：
 
-![](http://img.smyhvae.com/20180226_2145.png)
+![](../assets/images/6d4a4078fcf75b89.png)
 
 copy 红框那部分的代码如下：
 
@@ -344,7 +343,7 @@ copy 红框那部分的代码如下：
 
 我们可以在打开的网页中，通过控制台看到效果：
 
-![](http://img.smyhvae.com/20180226_2150.png)
+![](../assets/images/a4855fca0dc2825c.png)
 
 注意，我们要在服务器中打开 html 文件，否则，看不到效果。
 
@@ -375,7 +374,7 @@ less 的编译，依赖于 NodeJS 环境。因此，我们需要先安装 NodeJS
 
 去 [Node.js](https://nodejs.org/zh-cn/)的官网下载安装包：
 
-![](http://img.smyhvae.com/20180226_2153.png)
+![](../assets/images/8bb94495eb86db27.png)
 
 一路 next 进行安装。
 
@@ -391,11 +390,11 @@ PS：我发现，我安装的 node.js v8.9.4 版本，已经自动添加了环�
 
 将 [npm.zip](http://download.csdn.net/download/smyhvae/10260414) 解压，将解压后的文件拷贝到路径`C:\Users\smyhvae\AppData\Roaming\npm`下：
 
-![](http://img.smyhvae.com/20180226_2212.png)
+![](../assets/images/6538cd9abb5d2c06.png)
 
 然后重启资源管理器（或者重启电脑）。在 cmd 中输入 `lessc`，如果能看到下面的效果，说明 less 编译环境安装成功：
 
-![](http://img.smyhvae.com/20180226_2217.png)
+![](../assets/images/b0476f97e0d915c9.png)
 
 如果你用的是 linux 系统，可以输入下面的命令安装：
 
@@ -414,4 +413,4 @@ PS：我发现，我安装的 node.js v8.9.4 版本，已经自动添加了环�
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/2016040102.jpg)
+![](../assets/images/6620de36b1f16782.jpg)

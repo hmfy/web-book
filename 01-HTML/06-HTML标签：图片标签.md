@@ -3,7 +3,6 @@ title: 06-HTML标签：图片标签
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 ## img标签介绍
@@ -64,11 +63,11 @@ aaa/../bbb/1.jpg
 上方代码的意思是说，当前html页面有一个并列的文件夹`images`，在文件夹`images`中存放了一张图片`1.jpg`
 效果：
 
-![Paste_Image.png](http://img.smyhvae.com/20151001_19.jpg)
+![Paste_Image.png](../assets/images/1f91623e88b16778.jpg)
 
 相对路径的面试题。现有如下文件层级图：
 
-![](http://img.smyhvae.com/20170630_1133.png)
+![](../assets/images/b4f17134ab223ed1.png)
 
 问题：如果想在index.html中插入1.png，那么对应的img语句是？
 
@@ -95,7 +94,7 @@ aaa/../bbb/1.jpg
 （2）网络路径。举例：
 
 ```html
-<img src="http://img.smyhvae.com/20200122_200901.png">
+<img src="../assets/images/f4847220dd16c47a.png">
 
 ```
 
@@ -131,7 +130,7 @@ width和height，在 HTML5 中的单位是 CSS 像素，在 HTML 4 中既可以�
 
 `Alt`属性效果演示：
 
-![Paste_Image.png](http://img.smyhvae.com/2015-10-01-cnblogs_html_21.png)
+![Paste_Image.png](../assets/images/9562203e10aca3a4.png)
 
 如上图所示：当图片 src 不可用的时候，显示文字。这样做，至少能让用户知道，这个图片大概是什么内容。
 
@@ -151,7 +150,7 @@ title 元素的值一般作为提示条(tooltip)呈现给用户，在光标于�
 
 效果：
 
-![Paste_Image.png](http://img.smyhvae.com/2015-10-01-cnblogs_html_20.png)
+![Paste_Image.png](../assets/images/824a10931965288b.png)
 
 ### align 属性
 
@@ -163,23 +162,23 @@ title 元素的值一般作为提示条(tooltip)呈现给用户，在光标于�
 
 1、`align=""`，图片和文字底端对齐。即默认情况下的显示效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_19.png)
+![](../assets/images/11dd05440a56bc01.png)
 
 2、`align="center"`：图片和文字水平方向上居中对齐。显示效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_21.png)
+![](../assets/images/8cfba41b8504beba.png)
 
 3、`align="top"`：图片与文字顶端对齐。显示效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_22.png)
+![](../assets/images/a5ae59969d5fbb61.png)
 
 4、`align="left"`：图片在文字的左边。显示效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_23.png)
+![](../assets/images/baf0f9a386868fe3.png)
 
 5、`align="right"`：图片在文字的右边。显示效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_24.png)
+![](../assets/images/0292f981c47075a0.png)
 
 
 ### 其他已废弃的属性
@@ -197,4 +196,4 @@ title 元素的值一般作为提示条(tooltip)呈现给用户，在光标于�
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](https://img.smyhvae.com/20200102.png)
+![](../assets/images/614b08dc22afe7be.png)

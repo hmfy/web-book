@@ -3,7 +3,6 @@ title: JavaScript模块化：AMD
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -90,7 +89,7 @@ index.html
 
 所有的代码写完之后，项目结构如下：
 
-![](http://img.smyhvae.com/20180411_1331.png)
+![](../assets/images/52e6354c29a76074.png)
 
 
 ### 2、下载require.js，并导入
@@ -101,7 +100,7 @@ index.html
 
 在官网下载`require.js`文件：
 
-![](http://img.smyhvae.com/20180411_1127.png)
+![](../assets/images/037cb68a6f1e6da3.png)
 
 然后将`require.js`文件拷贝到项目的`js/libs/`目录中。
 
@@ -203,7 +202,7 @@ requirejs(['myAlerter'], function (alerter) {
 
 运行 index.html，打印结果如下：
 
-![](http://img.smyhvae.com/20180411_1740.png)
+![](../assets/images/fc514db39a00b726.png)
 
 项目源码：[2018-04-11-RequireJSDemo](https://download.csdn.net/download/smyhvae/10341963)
 

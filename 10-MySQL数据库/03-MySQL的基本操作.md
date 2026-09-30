@@ -3,7 +3,6 @@ title: 03-MySQL的基本操作
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 

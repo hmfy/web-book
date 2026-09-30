@@ -2,7 +2,6 @@
 title: 48-jQuery动画详解
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -33,7 +32,7 @@ jQuery提供的一组网页中常见的动画效果，这些动画是标准的�
 
 效果如下：
 
-![](http://img.smyhvae.com/20180205_1358.gif)
+![](../assets/images/052126d7f2e988f7.gif)
 
 方式三：
 
@@ -179,7 +178,7 @@ $(selector).toggle();
 </html>
 ```
 
-![](http://img.smyhvae.com/20180205_1420.gif)
+![](../assets/images/3da7dd5fc476e082.gif)
 
 ## 淡入淡出动画
 
@@ -388,11 +387,11 @@ PS：参数如果都不写，默认两个都是false。实际工作中，直接�
 
 当第二个参数为true时，效果如下：
 
-![](http://img.smyhvae.com/20180205_1445.gif)
+![](../assets/images/1b3028dc49a75820.gif)
 
 当第二个参数为false时，效果如下：
 
-![](http://img.smyhvae.com/20180205_1450.gif)
+![](../assets/images/56d49eeeabdaa6a5.gif)
 
 
 这个**后续动画**我们要好好理解，来看个例子。
@@ -504,13 +503,13 @@ PS：参数如果都不写，默认两个都是false。实际工作中，直接�
 
 效果如下：
 
-![](http://img.smyhvae.com/20180205_1500.gif)
+![](../assets/images/90e20c07dae1ca24.gif)
 
 上方代码中，关键的地方在于，用了stop函数，再执行动画前，先停掉之前的动画。
 
 如果去掉stop()函数，效果如下：（不是我们期望的效果）
 
-![](http://img.smyhvae.com/20180205_1505.gif)
+![](../assets/images/4ba8278a84a8f592.gif)
 
 ### stop方法的总结
 
@@ -594,7 +593,7 @@ PS：参数如果都不写，默认两个都是false。实际工作中，直接�
 
 效果如下：
 
-![](http://img.smyhvae.com/20180205_2000.gif)
+![](../assets/images/9db9f2c25aa5927a.gif)
 
 
 ## 我的公众号
@@ -603,5 +602,5 @@ PS：参数如果都不写，默认两个都是false。实际工作中，直接�
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/2016040102.jpg)
+![](../assets/images/6620de36b1f16782.jpg)
 

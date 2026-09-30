@@ -3,7 +3,6 @@ title: 03-初识HTML
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -66,7 +65,7 @@ HTML 格式的文件是一个纯本文文件（就是用txt文件改名而成）
 
 ## HTML的历史
 
-![html中标签发展趋势](http://img.smyhvae.com/20151001_1001.png)
+![html中标签发展趋势](../assets/images/7eb33894dcb05665.png)
 
 其中，我们专门来对XHTML做一个介绍。
 
@@ -225,7 +224,7 @@ HTML4.01里面规定了**普通**和**XHTML**两大种规范。HTML觉得自己�
 
 总结一下，HTML4.01一共有6种DTD。说白了，HTML的第一行语句一共有6种情况：
 
-![](http://img.smyhvae.com/20170629_1600.png)
+![](../assets/images/55029b9c8e7c4ecf.png)
 
 下面对上图中的三种小规范进行解释：
 
@@ -353,7 +352,7 @@ meta除了可以设置字符集，还可以设置关键字和页面描述。
 
 效果如下：
 
-![](http://img.smyhvae.com/20170629_1743.png)
+![](../assets/images/2a891fd21ac8e2ff.png)
 
 上面的几种`<meta>`标签都不用记，但是另外还有一个`<meta>`标签是需要记住的：
 
@@ -394,11 +393,11 @@ base 标签用于指定基础的路径。指定之后，所有的 a 链接都是
 
 `<body>`标签另外还有一些属性，这里用个例子来解释：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_39.png)
+![](../assets/images/60dbcb3a1b11fba2.png)
 
 上方代码中，当我们对`点我点我`这几个字使用超链时，`link`属性表示默认显示的颜色、`alink`属性表示鼠标点击但是还没有松开时的颜色、`vlink`属性表示点击完成之后显示的颜色。效果如下：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_05.gif)
+![](../assets/images/16d0c019b6658776.gif)
 
 
 ## 计算机编码介绍
@@ -498,7 +497,7 @@ HTML只在乎标签的嵌套结构，嵌套的关系。谁嵌套了谁，谁被�
 
 百度为了追求极致的显示速度，所有HTML标签都没有换行、都没有缩进（tab），HTML和换不换行无关，标签的层次依然清晰，只不过程序员不可读了。如下图所示：
 
-![](http://img.smyhvae.com/20170629_2226.png)
+![](../assets/images/3987069a4cca6fc8.png)
 
 #### （2）空白折叠现象
 
@@ -506,7 +505,7 @@ HTML中所有的**文字之间**，如果有空格、换行、tab都将被折叠
 
 举例如下：
 
-![](http://img.smyhvae.com/20170629_2230.jpg)
+![](../assets/images/60f11ff363b2a0db.jpg)
 
 #### （3）标签要严格封闭
 
@@ -514,7 +513,7 @@ HTML中所有的**文字之间**，如果有空格、换行、tab都将被折叠
 
 标签不封闭的举例如下：
 
-![](http://img.smyhvae.com/20170629_2245.jpg)
+![](../assets/images/633c2b1579a22eff.jpg)
 
 
 ## 我的公众号
@@ -523,4 +522,4 @@ HTML中所有的**文字之间**，如果有空格、换行、tab都将被折叠
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](https://img.smyhvae.com/20200102.png)
+![](../assets/images/614b08dc22afe7be.png)

@@ -3,7 +3,6 @@ title: 01-CSS基础练习：JD首页的制作（顶部和底部）
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -19,7 +18,7 @@ publish: true
 
 我们首先新建一个空的工程：
 
-![](http://img.smyhvae.com/20180118_1733.png)
+![](../assets/images/56dbf99f8b1fe95b.png)
 
 
 ### CSS初始化（基本样式）
@@ -148,7 +147,7 @@ base.css初始化之后，我们需要在html文件中引入它。引入外部�
 
 效果如下：
 
-![](http://img.smyhvae.com/20180118_2002.png)
+![](../assets/images/064f58d08ab45e28.png)
 
 
 注意，**base.css和index.css的书写顺序不能颠倒**，因为是按照书写顺序，从上往下进行加载的。
@@ -158,7 +157,7 @@ base.css初始化之后，我们需要在html文件中引入它。引入外部�
 
 Favicon 图标指的是箭头处这个小图标：
 
-![](http://img.smyhvae.com/20180118_2013.png)
+![](../assets/images/37ba579278a24553.png)
 
 官网链接<https://www.jx.com/favicon.ico>可以下载这个小图标。
 
@@ -172,14 +171,14 @@ Favicon 图标指的是箭头处这个小图标：
 
 代码位置：
 
-![](http://img.smyhvae.com/20180118_2020.png)
+![](../assets/images/99a3ffd7d27c0ad2.png)
 
 
 ## 顶部导航的制作
 
 我们先制作下面这个部分，它位于网站的最顶部：
 
-![](http://img.smyhvae.com/20180118_2040.png)
+![](../assets/images/2c42851f0fbd338e.png)
 
 顶部导航栏的html结构如下：（直接放在body标签下）
 
@@ -327,7 +326,7 @@ css代码解释：
 
 (4)文字中间的间隔线：
 
-![](http://img.smyhvae.com/20180119_1503.png)
+![](../assets/images/24b56082aec5813c.png)
 
 上图所示，我们发现，每个li之间都有`1像素宽、12像素高的间隔线`，这个也是用li做的。
 
@@ -342,7 +341,7 @@ css代码解释：
 
 接下来我们只做顶部的banner图，效果如下：
 
-![](http://img.smyhvae.com/20180122_1020.png)
+![](../assets/images/26b0b18a3ae6492e.png)
 
 也就是上图中“1元抢宝”的那个位置。
 
@@ -398,7 +397,7 @@ css代码解释：
 搜索框的UI如下：
 
 
-![](http://img.smyhvae.com/20180122_1301.png)
+![](../assets/images/e58bc580f6696222.png)
 
 上图中，包含了四个部分：
 
@@ -602,7 +601,7 @@ css代码解释：
 
 要求实现的效果如下：
 
-![](http://img.smyhvae.com/20180122_1630.gif)
+![](../assets/images/99107f162c220e00.gif)
 
 上图可以看到，这里要实现的效果是：无论浏览器如何移动，要保证第二个slogen的左侧位于浏览器的正中间。这是可以用到绝对定位的知识。
 
@@ -674,7 +673,7 @@ css的代码如下；
 
 需要实现的效果如下：
 
-![](http://img.smyhvae.com/20180122_1726.png)
+![](../assets/images/b1d992e863b2cf07.png)
 
 
 上图中，需要实现的内容包括两个部分：左侧的购物指南和右侧的区域覆盖（我把这两个部分用红线隔开了）。
@@ -683,7 +682,7 @@ css的代码如下；
 
 需要使用的布局如下：
 
-![](http://img.smyhvae.com/20170704_1727.png)
+![](../assets/images/fb40805fac2680da.png)
 
 这里的重点是要量出dt和dd的行高。
 
@@ -813,7 +812,7 @@ css代码如下：
 
 最底部的效果如下：
 
-![](http://img.smyhvae.com/20180122_1909.png)
+![](../assets/images/4e352ff958382316.png)
 
 如上图所示，它包含了三个部分。
 
@@ -887,14 +886,14 @@ css代码如下：
 
 你去京东官网看看，发现最最底部的文字竟然是图片：
 
-![](http://img.smyhvae.com/20180122_1912.png)
+![](../assets/images/569c74a375513972.png)
 
 
 ## 总结
 
 以上全部内容，最终实现的效果如下：
 
-![](http://img.smyhvae.com/20180122_1920.png)
+![](../assets/images/1b04cb4d3baa04ed.png)
 
 对应的工程文件：[2018-01-22-前端基础练习-JD顶部导航.rar](https://github.com/qianguyihao/web-resource/blob/main/project/2018-01-22-%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%BB%83%E4%B9%A0-JD%E9%A1%B6%E9%83%A8%E5%AF%BC%E8%88%AA.rar)
 

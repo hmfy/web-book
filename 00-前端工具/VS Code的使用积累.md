@@ -112,7 +112,7 @@ Sass 文件格式化。
 
 安装好插件「Code Outline」后，可以在左侧的资源管理器中，显示当前文件的代码结构：
 
-![](http://img.smyhvae.com/20180420_0925.png)
+![](../assets/images/060a86e3d55cbc66.png)
 
 参考链接：
 
@@ -139,7 +139,7 @@ Sass 文件格式化。
 
 在本地开启Node服务器：
 
-![](http://img.smyhvae.com/20180611_2230.png)
+![](../assets/images/c4e3d268269af335.png)
 
 然后在浏览器的地址栏输入`http://localhost/` + 文件的相对路径，就可以通过服务器的形式打开这个文件。
 
@@ -149,7 +149,7 @@ Sass 文件格式化。
 
 复制文件的相对路径：（相对于根路径而言）
 
-![](http://img.smyhvae.com/20180611_2235.png)
+![](../assets/images/06006a1555998036.png)
 
 
 ### open in browser
@@ -270,7 +270,7 @@ VSCode自带的高亮显示，实在是不够显眼。用插件支持一下吧�
 
 ### 某网友的VS Code 插件截图
 
-![](http://img.smyhvae.com/20180611_2255.png)
+![](../assets/images/bbe0ba447d390a0c.png)
 
 
 

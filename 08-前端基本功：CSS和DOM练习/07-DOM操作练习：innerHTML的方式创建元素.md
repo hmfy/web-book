@@ -3,7 +3,6 @@ title: 07-DOM操作练习：innerHTML的方式创建元素
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -50,7 +49,7 @@ document.write();
 
 效果如下：
 
-![](http://img.smyhvae.com/20180129_1908.png)
+![](../assets/images/8977805bfc60878c.png)
 
 
 **方式二：**innerHTML
@@ -85,7 +84,7 @@ document.write();
 
 效果如下：
 
-![](http://img.smyhvae.com/20180129_2017.png)
+![](../assets/images/5abe0e2ead4d57e3.png)
 
 
 
@@ -118,7 +117,7 @@ document.write();
 现在要做下面这样一个页面：
 
 
-![](http://img.smyhvae.com/20180129_2151.png)
+![](../assets/images/60a4033faaa62322.png)
 
 
 上图的意思是，每次刷新页面，都从服务器获取最新的在线人数的名单（我们先用本地的数组来模拟服务器上的数据）。
@@ -352,7 +351,7 @@ document.write();
 
 要求实现的效果如下：
 
-![](http://img.smyhvae.com/20180201_2030.gif)
+![](../assets/images/d50c494ad2b89389.gif)
 
 在这之前，我们先实现这样一个例子：**判断字符串以某个字符串为开头**。
 

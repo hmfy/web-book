@@ -2,7 +2,6 @@
 title: 51-Zepto入门
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -60,11 +59,11 @@ zepto是轻量级的JavaScript库，专门为移动端定制的框架。
 
 我们去官网下载 Zepto的开发版本`zepto.js`：
 
-![](http://img.smyhvae.com/20180414_2210.png)
+![](../assets/images/73795e417e0fc676.png)
 
 官网里，还有这样一张图：
 
-![](http://img.smyhvae.com/20180414_2215.png)
+![](../assets/images/d745d1204cb77896.png)
 
 上图的意思是：
 
@@ -178,7 +177,7 @@ zepto是轻量级的JavaScript库，专门为移动端定制的框架。
 
 打印结果：
 
-![](http://img.smyhvae.com/20180416_1145.png)
+![](../assets/images/3510fa7d6cd7da7c.png)
 
 2、`append()`举例：
 

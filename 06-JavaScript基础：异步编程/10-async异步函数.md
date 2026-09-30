@@ -2,7 +2,6 @@
 title: 10-async异步函数
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 ## 异步函数（用 async 声明的函数）
 
@@ -93,7 +92,7 @@ async function foo() {
 };
 ```
 
-![image-20230608114346235](https://img.smyhvae.com/image-20230608114346235.png)
+![image-20230608114346235](../assets/images/3a0f4fa05629287b.png)
 
 可以看到，foo() 的返回值是Promise对象，不是字符串。上面的代码等价于下面这段代码：
 
@@ -414,5 +413,5 @@ err1: 任务1失败
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)
 

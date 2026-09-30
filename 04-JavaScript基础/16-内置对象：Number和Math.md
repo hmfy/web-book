@@ -2,7 +2,6 @@
 title: 16-内置对象：Number和Math
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -189,7 +188,7 @@ Math的中文是“数学”，pow是“幂”。
 
 **举例1：**
 
-![](http://img.smyhvae.com/20180117_1730.png)
+![](../assets/images/7bcbadb76f59b577.png)
 
 代码实现：
 
@@ -200,7 +199,7 @@ Math的中文是“数学”，pow是“幂”。
 
 **举例2：**
 
-![](http://img.smyhvae.com/20180117_1740.png)
+![](../assets/images/786ad37cd747fba7.png)
 
 代码实现：
 
@@ -245,14 +244,14 @@ URI (Uniform ResourceIdentifiers,通用资源标识符)进行编码，以便发�
 
 打印结果：
 
-![](http://img.smyhvae.com/20180202_1432.png)
+![](../assets/images/2b1bef7c37ea6c6e.png)
 
 
 ## 赞赏作者
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)
 
 
 

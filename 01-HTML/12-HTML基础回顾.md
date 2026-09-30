@@ -2,7 +2,6 @@
 title: 12-HTML基础回顾
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 ## 本文主要内容
 
@@ -132,7 +131,7 @@ div 是最常见的元素，大多数场景下，都可以用div（实在不行�
 
 按照内容分类：
 
-![](http://img.smyhvae.com/20191003_1946.png)
+![](../assets/images/1837592725fba37b.png)
 
 图片来源：<https://html.spec.whatwg.org/multipage/dom.html#kinds-of-content>
 

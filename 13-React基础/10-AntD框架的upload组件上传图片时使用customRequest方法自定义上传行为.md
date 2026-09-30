@@ -3,7 +3,6 @@ title: 10-AntD框架的upload组件上传图片时使用customRequest方法自�
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 本次做后台管理系统，采用的是 AntD 框架。涉及到图片的上传，用的是AntD的 [upload](https://ant.design/components/upload-cn/) 组件。
@@ -21,15 +20,15 @@ publish: true
 
 （1）上传中：
 
-![](http://img.smyhvae.com/20190302_1335.png)
+![](../assets/images/377b8e5838cee585.png)
 
 （2）上传成功：
 
-![](http://img.smyhvae.com/20190302_1336.png)
+![](../assets/images/45453240c5282178.png)
 
 （3）图片预览：
 
-![](http://img.smyhvae.com/20190302_1331.png)
+![](../assets/images/270f8c2542970200.png)
 
 ## 代码实现
 
@@ -38,11 +37,11 @@ publish: true
 
 好在 AntD 的 upload 组件给我们提供了 `customRequest`这个方法：
 
-![](http://img.smyhvae.com/20200611_1543.png)
+![](../assets/images/dd9be3fb2baaa759.png)
 
 关于customRequest 这个方法， AntD 官方并没有给出示例，他们只是在 GitHub 上给出了这样一个简短的介绍：
 
-![](http://img.smyhvae.com/20200611_1536.png)
+![](../assets/images/a2f0d7f48c5817dd.png)
 
 
 但这个方法怎么用呢？用的时候，会遇到什么问题呢？AntD 官方没有说。我在网上搜了半天，也没看到比较完整的、切实可行的 Demo。我天朝地大物博，网络资料浩如烟海，AntD 可是口口声声被人们号称是天朝最好用的管理后台的样式框架。可如今，却面临这样的局面。我看着你们，满怀羡慕。

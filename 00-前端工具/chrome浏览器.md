@@ -13,10 +13,10 @@
 
 ### show user agent shadow DOM
 
-![](http://img.smyhvae.com/20180206_1610.png)
+![](../assets/images/02dbe0195fd27635.png)
 
 
-![](http://img.smyhvae.com/20180206_1616.png)
+![](../assets/images/03aa2f45c4a38f82.png)
 
 把上图中的红框部分打钩。
 

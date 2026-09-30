@@ -3,7 +3,6 @@ title: 04-ES6：变量 let、const 和块级作用域
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 ## ES6 的变量声明
 
@@ -178,7 +177,7 @@ const name = 'smyhvae'; //定义常量
 
 上方代码中的运行效果如下：
 
-![](http://img.smyhvae.com/20190904_1030.gif)
+![](../assets/images/00236bb8656c46da.gif)
 
 你可能会感到诧异，为何点击任何一个按钮，弹出的内容都是 4 呢？这是因为，我们用 var 定义的变量 i，是在全局作用域声明的。整个代码中，自始至终只有一个变量。
 
@@ -241,7 +240,7 @@ i++; // 到这里，i 的值已经是4了。因此，当我们点击按钮时，
 
 上方代码中的运行效果如下：
 
-![](http://img.smyhvae.com/20190904_1040.gif)
+![](../assets/images/acce531dd595c167.gif)
 
 上面这个运行结果，才是我们预期的效果。我们用 let 定义变量 i，在循环的过程中，每执行一次循环体，就会诞生一个新的 i。循环体执行 4 次，就会有四个 i。
 
@@ -295,4 +294,4 @@ console.log(PI); //打印结果：3.14，说明修改失败
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](https://img.smyhvae.com/20200102.png)
+![](../assets/images/614b08dc22afe7be.png)

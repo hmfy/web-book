@@ -3,7 +3,6 @@ title: 02-CSS属性：背景属性
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 ## background 的常见背景属性
@@ -203,7 +202,7 @@ background-color: #ff0000;
 
 如果不知道 H 的值该设置多少，我们不妨来看一下**色盘**：
 
-![](http://img.smyhvae.com/20180207_1545.png)
+![](../assets/images/5cae47a0d719bb8e.png)
 
 推荐链接：[配色宝典](http://www.uisdc.com/how-to-create-color-palettes)
 
@@ -225,17 +224,17 @@ background-color: #ff0000;
 
 （1）不加这个属性时：（即默认时）（背景图片会被平铺满）
 
-![](http://img.smyhvae.com/2015-10-03-css-19.png)
+![](../assets/images/5d2291fb2e9fc98e.png)
 
 PS：padding的区域也是有背景图的。
 
 （2）属性值为`no-repeat`（不要平铺）时：
 
-![](http://img.smyhvae.com/2015-10-03-css-20.png)
+![](../assets/images/6e6be31f8b896272.png)
 
 （3）属性值为`repeat-x`（横向平铺）时：
 
-![](http://img.smyhvae.com/2015-10-03-css-21.png)
+![](../assets/images/f28e392c803e63a8.png)
 
 其实这种属性的作用还是很广的。举个例子，设计师设计一张宽度只有1px、颜色纵向渐变的图片，然后我们通过这个属性将其进行水平方向的平铺，就可以看到整个页面都是渐变的了。
 
@@ -243,7 +242,7 @@ PS：padding的区域也是有背景图的。
 
 （4）属性值为`repeat-y`（纵向平铺）时：
 
-![](http://img.smyhvae.com/2015-10-03-css-22.png)
+![](../assets/images/1457be4780a2a0d6.png)
 
 ## `background-position`属性
 
@@ -263,10 +262,10 @@ PS：padding的区域也是有背景图的。
 
 举例如下：
 
-![](http://img.smyhvae.com/20170812_1643.png)
+![](../assets/images/04adfa74cb1e51de.png)
 
 
-![](http://img.smyhvae.com/20170812_1645.png)
+![](../assets/images/044d9cc6b810657d.png)
 
 **2、用单词描述属性值：**
 
@@ -289,11 +288,11 @@ PS：padding的区域也是有背景图的。
 
 打开“暗黑3 台湾”的官网<https://tw.battle.net/d3/zh/>，可以看到官网的效果是比较炫的：
 
-![](http://img.smyhvae.com/20170812_1945.jpg)
+![](../assets/images/553259246e0807c1.jpg)
 
 检查网页后，找到网站背景图片的url：<https://tw.battle.net/d3/static/images/layout/bg-repeat.jpg>。背景图如下：
 
-![](http://img.smyhvae.com/20170812_1950.jpg)
+![](../assets/images/1f9ffa2d4431752d.jpg)
 
 实际上，我们是通过把这张图片作为网站的背景图来达到显示效果的。只需要给body标签加如下属性即可：
 
@@ -311,7 +310,7 @@ PS：padding的区域也是有背景图的。
 
 很多网站的首页都会有banner图（网站最上方的全屏大图叫做「**通栏banner**」），这种图要求横向的宽度特别大。比如说，设计师给你一张1920*465的超大banner图，如果我们把这个banner图作为img标签直接插入网页中，会有问题的：首先，图片不在网页的中间；其次，肯定会出现横向滚动条。如下图所示：
 
-![](http://img.smyhvae.com/20170813_1102.gif)
+![](../assets/images/109fce08c1922be2.gif)
 
 正确的做法是，将banner图作为div的背景图，这样的话，背景图超出div的部分，会自动移溢出。需要给div设置的属性如下：
 
@@ -326,7 +325,7 @@ PS：padding的区域也是有背景图的。
 
 上方代码中，我们给div设置height（高度为banner图的高度），不需要设置宽度（因为宽度会自动霸占整行）。效果如下：
 
-![](http://img.smyhvae.com/20170813_1119.gif)
+![](../assets/images/fa8aaa7671109225.gif)
 
 上图可以看出，将banner图作为div的背景后，banner图会永远处于网页的正中间（水平方向来看）。
 
@@ -338,7 +337,7 @@ PS：padding的区域也是有背景图的。
 
 `background-attachment:fixed;`的效果如下：
 
-![](http://img.smyhvae.com/20170813_1158.gif)
+![](../assets/images/5db8995b3c2f5ec0.gif)
 
 ### background 综合属性
 
@@ -372,7 +371,7 @@ background属性和border一样，是一个综合属性，可以将多个属性�
 
 效果如下：
 
-![](http://img.smyhvae.com/20170813_1515.png)
+![](../assets/images/f9b219f34061d4d4.png)
 
 ## `background-size`属性：背景尺寸
 
@@ -447,11 +446,11 @@ background属性和border一样，是一个综合属性，可以将多个属性�
 
 效果如下：
 
-![](http://img.smyhvae.com/20191006_1350.png)
+![](../assets/images/57d570038cd321cd.png)
 
 在上方代码的基础之上，再加一个 `background-position: center`属性之后，图片就会在容器里**居中显示**：
 
-![](http://img.smyhvae.com/20191006_1520.png)
+![](../assets/images/4b24c77a49a16792.png)
 
 ## 背景原点：`background-origin` 属性
 
@@ -476,7 +475,7 @@ background属性和border一样，是一个综合属性，可以将多个属性�
 
 如下图所示：
 
-![](http://img.smyhvae.com/20180207_2115.png)
+![](../assets/images/2347bffe4faec9b7.png)
 
 ## `background-clip`属性：设置元素的背景（背景图片或颜色）是否延伸到边框下面
 
@@ -534,7 +533,7 @@ background属性和border一样，是一个综合属性，可以将多个属性�
 
 实现效果如下：
 
-![](http://img.smyhvae.com/20180207_2140.gif)
+![](../assets/images/b3e3940441566c27.gif)
 
 上方代码中，我们其实给盒子设置了五张小图，拼成的一张大图。当改变浏览器窗口大小时，可以自适应布局。
 
@@ -552,7 +551,7 @@ background属性和border一样，是一个综合属性，可以将多个属性�
 
 见下图：
 
-![](http://img.smyhvae.com/20180208_1140.png)
+![](../assets/images/d3432cfd57383a26.png)
 
 ### 线性渐变
 
@@ -660,7 +659,7 @@ background属性和border一样，是一个综合属性，可以将多个属性�
 
 效果如下：
 
-![](http://img.smyhvae.com/20180207_2222.png)
+![](../assets/images/c44b8f1512fc0011.png)
 
 **举例**：按钮
 
@@ -724,7 +723,7 @@ background属性和border一样，是一个综合属性，可以将多个属性�
 
 效果：
 
-![](http://img.smyhvae.com/20180207_2301.png)
+![](../assets/images/b6e76f54a888451d.png)
 
 ### 径向渐变
 
@@ -806,7 +805,7 @@ background属性和border一样，是一个综合属性，可以将多个属性�
 
 效果如下：
 
-![](http://img.smyhvae.com/20180207_2256.png)
+![](../assets/images/dc606518f93a90e6.png)
 
 **举例：**利用径向渐变和边框圆角的属性，生成按钮。代码如下：
 
@@ -850,7 +849,7 @@ background属性和border一样，是一个综合属性，可以将多个属性�
 
 效果如下：
 
-![](http://img.smyhvae.com/20180208_1133.png)
+![](../assets/images/b24b3a43adc01996.png)
 
 上图中，给第二个div设置的透明度是从0到0.5。如果设置的透明度是从0到0，则样式无变化，和第一个div一样。如果设置的透明度是从1到1，则盒子是全黑的。
 
@@ -884,7 +883,7 @@ background属性和border一样，是一个综合属性，可以将多个属性�
 
 `clip-path: polygon()`举例：
 
-![](http://img.smyhvae.com/20191006_1430.png)
+![](../assets/images/9687eb53eacebe78.png)
 
 另外，通过 `clip-path: (svg)` 可以导入svg矢量图，实现 iOS图标的圆角。这里就不详细展开了。
 
@@ -896,4 +895,4 @@ background属性和border一样，是一个综合属性，可以将多个属性�
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/20190101.png)
+![](../assets/images/8f05eb9f725cfeeb.png)

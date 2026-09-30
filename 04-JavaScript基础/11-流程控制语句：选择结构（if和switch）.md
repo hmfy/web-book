@@ -2,7 +2,6 @@
 title: 11-流程控制语句：选择结构（if和switch）
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 ## 代码块
 
@@ -43,7 +42,7 @@ a = 2
 
 按照代码的先后顺序，依次执行。结构图如下：
 
-![](http://img.smyhvae.com/20181227_1200.png)
+![](../assets/images/413e94553cf6fb91.png)
 
 ## if 语句
 
@@ -164,7 +163,7 @@ if (BMI > 32) {
 编写JS程序，用户输入自己的汽油编号，然后输入自己加多少升，弹出价格。
 ```
 
-![](http://img.smyhvae.com/20180117_2232.png)
+![](../assets/images/625899a4a95c3afd.png)
 
 代码实现如下：
 
@@ -226,7 +225,7 @@ switch(表达式) {
 
 流程图如下：
 
-![](http://img.smyhvae.com/20190815_1501.png)
+![](../assets/images/be3fce6e6c446322.png)
 
 执行流程如下：
 
@@ -647,4 +646,4 @@ resolve(res);
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)

@@ -3,7 +3,6 @@ title: 05-React中绑定this并给函数传参的几种方式
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 

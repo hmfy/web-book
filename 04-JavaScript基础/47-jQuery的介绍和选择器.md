@@ -2,7 +2,6 @@
 title: 47-jQuery的介绍和选择器
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -31,7 +30,7 @@ title: 47-jQuery的介绍和选择器
 
 如下图所示：
 
-![](http://img.smyhvae.com/20180204_1710.png)
+![](../assets/images/44654e0660a89da1.png)
 
 jQuery的出现，可以解决以上问题。
 
@@ -156,7 +155,7 @@ js库是把我们常用的功能放到一个单独的文件中，我们用的时
 
 如下图所示：
 
-![](http://img.smyhvae.com/20180204_1940.png)
+![](../assets/images/edf6d0bd0daf803c.png)
 
 主要，导包的代码一定要放在js代码的最上面。
 
@@ -175,7 +174,7 @@ PS：开发版本一般用1.10以上。
 
 我们以 v1.11.1版本为例，下载下来后发现，里面有两个文件：
 
-![](http://img.smyhvae.com/20180204_1950.png)
+![](../assets/images/a32bf5ea3cd689a8.png)
 
 它们的区别是：
 
@@ -268,7 +267,7 @@ jQuery占用了我们两个变量：`$` 和 jQuery。当我们在代码中打印
 
 打印结果如下：
 
-![](http://img.smyhvae.com/20180204_2014.png)
+![](../assets/images/7066f88a8541b68c.png)
 
 从打印结果可以看出，$ 代表的就是 jQuery。
 
@@ -329,7 +328,7 @@ jQuery这个js库，除了` $` 之外，还提供了另外一个函数：jQuery�
 
 我们打印出来看看：
 
-![](http://img.smyhvae.com/20180204_2045.png)
+![](../assets/images/f1d5ff9a1fa76ada.png)
 
 上图显示，由于JQuery 自带了 css()方法，我们还可以直接在代码中给 div 设置 css 属性。
 
@@ -414,13 +413,13 @@ jQuery对象转换成了 DOM 对象之后，可以直接调用 DOM 提供的一�
 
 效果如下：
 
-![](http://img.smyhvae.com/20180204_2111.png)
+![](../assets/images/4546e8a1c6d3d22b.png)
 
 ## jQuery 选择器
 
 我们以前在CSS中学习的选择器有：
 
-![](http://img.smyhvae.com/20180204_2122.png)
+![](../assets/images/0f8833e1dac60964.png)
 
 今天来学习一下jQuery 选择器。
 
@@ -428,11 +427,11 @@ jQuery选择器是jQuery强大的体现，它提供了一组方法，让我们�
 
 ### 1、jQuery 的基本选择器
 
-![](http://img.smyhvae.com/20180204_2125.png)
+![](../assets/images/f85e3a3e57906593.png)
 
 解释如下：
 
-![](http://img.smyhvae.com/20180204_2126.png)
+![](../assets/images/213f20168dd0e794.png)
 
 举例：
 
@@ -481,15 +480,15 @@ jQuery选择器是jQuery强大的体现，它提供了一组方法，让我们�
 
 效果如下：
 
-![](http://img.smyhvae.com/20180204_2133.png)
+![](../assets/images/70b63907eeeced58.png)
 
 ### 2、层级选择器
 
-![](http://img.smyhvae.com/20180204_2138.png)
+![](../assets/images/ad3d021e729e9528.png)
 
 解释如下：
 
-![](http://img.smyhvae.com/20180204_2139.png)
+![](../assets/images/19ce1346ed3f98d1.png)
 
 举例：
 
@@ -531,15 +530,15 @@ jQuery选择器是jQuery强大的体现，它提供了一组方法，让我们�
 
 效果：
 
-![](http://img.smyhvae.com/20180204_2145.png)
+![](../assets/images/3abc7f86238c366d.png)
 
 ### 3、基本过滤选择器
 
-![](http://img.smyhvae.com/20180204_2150.png)
+![](../assets/images/eef57d0fbcdcd48d.png)
 
 解释：
 
-![](http://img.smyhvae.com/20180204_2151.png)
+![](../assets/images/29ec2f5772a8e68c.png)
 
 举例：
 
@@ -574,11 +573,11 @@ jQuery选择器是jQuery强大的体现，它提供了一组方法，让我们�
 
 ### 4、属性选择器
 
-![](http://img.smyhvae.com/20180204_2155.png)
+![](../assets/images/6db00d823ed0aa18.png)
 
 ### 5、筛选选择器
 
-![](http://img.smyhvae.com/20180204_2200.png)
+![](../assets/images/46d63d0620624b84.png)
 
 举例：
 
@@ -641,7 +640,7 @@ jQuery选择器是jQuery强大的体现，它提供了一组方法，让我们�
 
 效果：
 
-![](http://img.smyhvae.com/20180204_2203.png)
+![](../assets/images/b03efe1feedb66bc.png)
 
 
 ## 举例
@@ -765,7 +764,7 @@ jQuery选择器是jQuery强大的体现，它提供了一组方法，让我们�
 实现效果如下：
 
 
-![](http://img.smyhvae.com/20180205_1030.gif)
+![](../assets/images/c35b65d2aff5c2ed.gif)
 
 
 **this的用法：**
@@ -789,7 +788,7 @@ jQuery选择器是jQuery强大的体现，它提供了一组方法，让我们�
 产生的结果是：（不是我们期望的结果）
 
 
-![](http://img.smyhvae.com/20180205_1050.gif)
+![](../assets/images/45977e6cbb789e61.gif)
 
 
 两张图的对比，可以看出this的作用：谁正在调用函数，this就指的是谁。
@@ -844,7 +843,7 @@ jQuery选择器是jQuery强大的体现，它提供了一组方法，让我们�
 
 效果如下：
 
-![](http://img.smyhvae.com/20180205_1100.gif)
+![](../assets/images/237902b5d54a3ead.gif)
 
 ### 举例3：突出显示
 
@@ -930,7 +929,7 @@ jQuery选择器是jQuery强大的体现，它提供了一组方法，让我们�
 
 实现的效果：
 
-![](http://img.smyhvae.com/20180205_1118_2.gif)
+![](../assets/images/dacdb4cbead88c8b.gif)
 
 注意这里的css布局里，每一个图片都用一个li来存放。设置li的父亲的宽度之后，然后将li设置为浮动，即可自适应地排列成两排。
 
@@ -1023,7 +1022,7 @@ jQuery选择器是jQuery强大的体现，它提供了一组方法，让我们�
 
 效果：
 
-![](http://img.smyhvae.com/20180205_1120.gif)
+![](../assets/images/602bdb666be74a8a.gif)
 
 注意这里的 选择器的用法：parent、next
 
@@ -1159,7 +1158,7 @@ jQuery选择器是jQuery强大的体现，它提供了一组方法，让我们�
 
 效果：
 
-![](http://img.smyhvae.com/20180205_1135.gif)
+![](../assets/images/d0e41bee8bc84fab.gif)
 
 ~工程文件~：
 
@@ -1176,4 +1175,4 @@ jQuery选择器是jQuery强大的体现，它提供了一组方法，让我们�
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/2016040102.jpg)
+![](../assets/images/6620de36b1f16782.jpg)

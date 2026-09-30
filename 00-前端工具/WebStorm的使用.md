@@ -7,7 +7,7 @@
 
 可能大家会觉得软件的界面不太好看，我们可以换一下主题。选择菜单栏“File--settings--appearance--theme”，主题选择 Dracula：
 
-![](http://img.smyhvae.com/20180118_1600.png)
+![](../assets/images/066f135177ad09fc.png)
 
 #### 2、导入第三方主题：
 
@@ -17,9 +17,9 @@
 
 - [Material](https://github.com/ChrisRM/material-theme-jetbrains)
 
-![](http://img.smyhvae.com/20180118_1636.png)
+![](../assets/images/4cc9199eab2850d9.png)
 
-![](http://img.smyhvae.com/20180118_1637.png)
+![](../assets/images/b545f046f240b2c6.png)
 
 上图中，在网站<http://color-themes.com/>中将主题下载之后，是一个jar包。那怎么导入到WebStorm呢？
 
@@ -31,11 +31,11 @@
 
 选择菜单栏“File--settings--Editor--Font”：
 
-![](http://img.smyhvae.com/20180118_1627.png)
+![](../assets/images/2b62589a47f0b8be.png)
 
 上图中，点击红框部分，然后弹出如下界面：
 
-![](http://img.smyhvae.com/20180118_1628.png)
+![](../assets/images/d8f6f9af214d2c6e.png)
 
 我们在上图中修改代码的字体。
 
@@ -47,7 +47,7 @@
 
 如下图所示：
 
-![](http://img.smyhvae.com/20180118_1646.png)
+![](../assets/images/e93c78609f631428.png)
 
 #### 5、快捷键习惯的修改：
 
@@ -62,7 +62,7 @@
 
 WebStorm 2017.3.3版本的默认编码方式是 GBK，我们还是统一设置为UTF-8吧，不要坑队友哦：
 
-![](http://img.smyhvae.com/20180124_1856.png)
+![](../assets/images/6dfeab0484fd3587.png)
 
 
 ### 新建一个空的项目
@@ -82,23 +82,23 @@ WebStorm 2017.3.3版本的默认编码方式是 GBK，我们还是统一设置�
 **步骤如下：**
 
 （1）新建一个空的项目：
-![](http://img.smyhvae.com/20180118_1720.png)
+![](../assets/images/56d9f7aaaefeaf20.png)
 
 （2）然后新建一个html文件：
 
-![](http://img.smyhvae.com/20180118_1602.png)
+![](../assets/images/a0d8c0e9596ae07c.png)
 
 （3）新建一个空的文件夹，命名为`css`：
 
-![](http://img.smyhvae.com/20180118_1725.png)
+![](../assets/images/ac70bfd65c41bdf1.png)
 
 然后在这个css文件夹中，新建样式表：（比如index.css\base.css）
 
-![](http://img.smyhvae.com/20180118_1730.png)
+![](../assets/images/7fc1d1c8a86352a4.png)
 
 （4）最后新建一个images文件夹，用于存放土片。这样的话，一个基本的项目结构就搭建好了：
 
-![](http://img.smyhvae.com/20180118_1733.png)
+![](../assets/images/56dbf99f8b1fe95b.png)
 
 接下来，开始运用起你们的前端知识吧。
 
@@ -106,7 +106,7 @@ WebStorm 2017.3.3版本的默认编码方式是 GBK，我们还是统一设置�
 
 （5）如果要新建JS文件的话，操作如下：
 
-![](http://img.smyhvae.com/20180124_1859.png)
+![](../assets/images/63d2fef564f0340a.png)
 
 
 
@@ -130,11 +130,11 @@ WebStorm 2017.3.3版本的默认编码方式是 GBK，我们还是统一设置�
 
 写代码时如果想输入颜色，会自动提示颜色的预览。
 
-![](http://img.smyhvae.com/20180118_1702.png)
+![](../assets/images/bac1ae369fd17597.png)
 
 点击最左侧的颜色预览，还能弹出调色板：
 
-![](http://img.smyhvae.com/20180118_1710.gif)
+![](../assets/images/1eab03f90196f94a.gif)
 
 
 
@@ -205,7 +205,7 @@ function getFirstNode(ele){
 
 输入一段字符后，按住`Ctrl + Alt + T`，可以用标签将这段字符环绕：
 
-![](http://img.smyhvae.com/20180118_1719.gif)
+![](../assets/images/b1debe5fad2e9959.gif)
 
 
 

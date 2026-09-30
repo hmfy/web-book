@@ -3,7 +3,6 @@ title: 05-Node.js内置模块：fs文件模块
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 

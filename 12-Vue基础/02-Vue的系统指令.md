@@ -3,7 +3,6 @@ title: 02-Vue的系统指令
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -70,7 +69,7 @@ publish: true
 
 显示效果：
 
-![](http://img.smyhvae.com/20180313_0955.png)
+![](../assets/images/5eaa17abb9f5e520.png)
 
 如果我们在控制台输入`myVue.$data.name = 'haha'`，页面会**自动更新**name的值。意思是，当我们直接修改data数据，页面会自动更新，而不用去操作DOM。
 
@@ -148,7 +147,7 @@ Mustache 标签将会被替代为对应数据对象上 msg 属性（msg定义在
 运行结果：
 
 
-![](http://img.smyhvae.com/20180506_2240.png)
+![](../assets/images/19b8955b24b7913d.png)
 
 
 ## v-cloak
@@ -237,7 +236,7 @@ v-text可以将一个变量的值渲染到指定的元素中。例如：
 结果：
 
 
-![](http://img.smyhvae.com/20180313_1645.png)
+![](../assets/images/5598f7ba08ea1f98.png)
 
 ### 插值表达式和 v-text 的区别
 
@@ -265,7 +264,7 @@ v-text可以将一个变量的值渲染到指定的元素中。例如：
 
 上方代码的演示结果：
 
-![](http://img.smyhvae.com/20180506_2320.png)
+![](../assets/images/9d65835351234d0a.png)
 
 其实，第二行代码中，只要浏览器中还没有解析到`v-text="name"`的时候，会显示`------++++++`；当解析到`v-text="name"`的时候，name的值会直接替换`------++++++`。
 
@@ -314,7 +313,7 @@ v-text可以将一个变量的值渲染到指定的元素中。例如：
 
 运行结果：
 
-![](http://img.smyhvae.com/20180506_2330.png)
+![](../assets/images/59c9f3d7c307cc80.png)
 
 
 ## v-bind：属性绑定机制
@@ -386,7 +385,7 @@ v-text可以将一个变量的值渲染到指定的元素中。例如：
 
 效果：
 
-![](http://img.smyhvae.com/20180313_1745.png)
+![](../assets/images/eecff637f5d56480.png)
 
 
 
@@ -665,5 +664,5 @@ v-on 提供了click 事件，也提供了一些其他的事件。
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/2016040102.jpg)
+![](../assets/images/6620de36b1f16782.jpg)
 

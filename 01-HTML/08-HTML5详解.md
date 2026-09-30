@@ -3,7 +3,6 @@ title: 08-HTML5详解
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 ## HTML5的介绍
@@ -85,11 +84,11 @@ HTML5定义了一系列新元素，如新语义标签、智能表单、多媒体
 
 ### HTML5 新增的内容
 
-![](http://img.smyhvae.com/20180206_1540.png)
+![](../assets/images/812510fe93dbc5be.png)
 
-![](http://img.smyhvae.com/20180206_1545.png)
+![](../assets/images/737f09e919deed17.png)
 
-![](http://img.smyhvae.com/20180206_1541.png)
+![](../assets/images/ba9a691dbfd5dd8d.png)
 
 
 ## 语义化的标签
@@ -114,11 +113,11 @@ HTML5定义了一系列新元素，如新语义标签、智能表单、多媒体
 我们常见的 css+div 布局是：
 
 
-![](http://img.smyhvae.com/20180206_1546.png)
+![](../assets/images/764d107b31d22b16.png)
 
 在html5中，我们可以这样写：
 
-![](http://img.smyhvae.com/20180206_1550.png)
+![](../assets/images/a27382770876d7f7.png)
 
 传统的做法中，我们通过增加类名如`class="header"`、`class="footer"`，使HTML页面具有语义性，但是不具有通用性。
 
@@ -379,7 +378,7 @@ PS:我们在测试 IE 浏览器的兼容的时候，可以使用软件 ietest，
 
 效果：
 
-![](http://img.smyhvae.com/20180206_1845.gif)
+![](../assets/images/358d04547de0a08c.gif)
 
 上图可以看出，数据列表可以自动提示。
 
@@ -555,7 +554,7 @@ keygen 元素是密钥对生成器（key-pair generator）。当提交表单时�
 
 效果：
 
-![](http://img.smyhvae.com/20180206_1920.gif)
+![](../assets/images/2b71d7d2bdcf545a.gif)
 
 ## 多媒体
 
@@ -575,7 +574,7 @@ HTML5通过`<audio>`标签来解决音频播放的问题。
 
 效果如下：
 
-![](http://img.smyhvae.com/20180206_1958.png)
+![](../assets/images/151bdaf356a4e10d.png)
 
 我们可以通过附加属性，来更友好地控制音频的播放，如：
 
@@ -591,7 +590,7 @@ HTML5通过`<audio>`标签来解决音频播放的问题。
 
 由于版权等原因，不同的浏览器可支持播放的格式是不一样的：
 
-![](http://img.smyhvae.com/20180206_1945.png)
+![](../assets/images/a77f4497f21173cb.png)
 
 为了做到多浏览器支持，可以采取以下兼容性写法：
 
@@ -636,7 +635,7 @@ HTML5通过`<video>`标签来解决视频播放的问题。
 
 由于版权等原因，不同的浏览器可支持播放的格式是不一样的：
 
-![](http://img.smyhvae.com/20180206_2025.png)
+![](../assets/images/f9b1c1b6979f295a.png)
 
 兼容性写法：
 
@@ -873,4 +872,4 @@ H5可以直接在标签里添加自定义属性，**但必须以 `data-` 开头*
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/2016040102.jpg)
+![](../assets/images/6620de36b1f16782.jpg)

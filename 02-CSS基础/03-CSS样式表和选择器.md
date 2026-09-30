@@ -3,7 +3,6 @@ title: 03-CSS样式表和选择器
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 ## 本文主要内容
 
@@ -79,7 +78,7 @@ css 的最新版本是 css3，**我们目前学习的是 css2.1**。 因为 css3
 
 解释如下：
 
-![](http://img.smyhvae.com/20170710_1605.png)
+![](../assets/images/59723a105d58a57c.png)
 
 我们写 css 的地方是 style 标签，就是“样式”的意思，写在 head 里面。后面的课程中我们将知道，css 也可以写在单独的文件里面，现在我们先写在 style 标签里面。
 
@@ -159,7 +158,7 @@ p {
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-03-css-01.png)
+![](../assets/images/6e50f929324fb21d.png)
 
 ### css 代码的注释
 
@@ -290,7 +289,7 @@ CSS 的书写方式有三种：
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-03-css-02.png)
+![](../assets/images/dc4be28cfa3e5853.png)
 
 ### 2、CSS 和 HTML 结合方式二：内嵌样式表
 
@@ -315,7 +314,7 @@ CSS 的书写方式有三种：
 </body>
 ```
 
-![](http://img.smyhvae.com/2015-10-03-css-03.png)
+![](../assets/images/e43bd35ecdb33a83.png)
 
 ### 3、CSS 和 HTML 结合方式三：引入外部样式表 css 文件
 
@@ -342,7 +341,7 @@ p {
 上方的 css 代码中，注意像素要带上 px 这个单位，不然不生效。
 然后我们在 html 文件中通过`<link>`标签引入这个 css 文件就行了。效果如下：
 
-![](http://img.smyhvae.com/2015-10-03-css-04.png)
+![](../assets/images/946cd81fef798cab.png)
 
 这里再讲一个补充的知识：**`<link>`标签的 rel 属性：**。其属性值有以下两种：
 
@@ -395,7 +394,7 @@ div {
 
 上面引入的三个样式表中，后面两个样式表作为备选。注意备选的样式表中，title 属性不要忘记写，不然显示不出来效果的。现在来看一下效果：（在 IE 中打开网页）
 
-![](http://img.smyhvae.com/2015-10-03-css-05.gif)
+![](../assets/images/c230e0bffbfd6967.gif)
 
 ## CSS 的四种基本选择器
 
@@ -426,7 +425,7 @@ p{ font-size:14px; }
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-03-css-06.png)
+![](../assets/images/fb8b2a04bbadfa15.png)
 
 再比如说，我想让“千古壹号学完了安卓，继续学前端哟”这句话中的“前端”两个变为红色字体，那么我可以用`<span>`标签把“前端”这两个字围起来，然后给`<span>`标签加一个标签选择器。
 
@@ -470,7 +469,7 @@ p{ font-size:14px; }
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-03-css-08.png)
+![](../assets/images/87f370ea0fa926df.png)
 
 id 选择器的选择符是“#”。
 
@@ -486,11 +485,11 @@ id 选择器的选择符是“#”。
 
 比如，我们可以同时让标签选择器和 id 选择器作用于同一个标签。如下：
 
-![](http://img.smyhvae.com/20170710_1737.png)
+![](../assets/images/4dc2116149b352db.png)
 
 然后我们通过网页的审查元素看一下效果：
 
-![](http://img.smyhvae.com/20170711_1540.png)
+![](../assets/images/c2284a52b098a400.png)
 
 现在，假设选择器冲突了，比如 id 选择器说这个文字是红色的，标签选择器说这个文字是绿色的。那么听谁的？
 实际上，css 有着非常严格的计算公式，能够处理冲突.
@@ -509,7 +508,7 @@ css 中用`.`来表示类。举例如下：
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-03-css-07.png)
+![](../assets/images/acf1fd8fb55bf9aa.png)
 
 和 id 非常相似，任何的标签都可以携带 id 属性和 class 属性。class 属性的特点：
 
@@ -533,7 +532,7 @@ css 中用`.`来表示类。举例如下：
 
 比如，我们现在要做下面这样一个页面：
 
-![](http://img.smyhvae.com/20170711_1639.png)
+![](../assets/images/ff9d962dfabcde63.png)
 
 正确的思路，就是用所谓“公共类”的思路，就是我们类就是提供“公共服务”，比如有绿、大、线，一旦携带这个类名，就有相应的样式变化。对应 css 里的代码如下：
 
@@ -573,7 +572,7 @@ css 中用`.`来表示类。举例如下：
 
 举例如下：
 
-![](http://img.smyhvae.com/20170711_1706.png)
+![](../assets/images/cadadfa9e3692bd5.png)
 
 上图所示，css 和 js 都在用同一个 id，会出现不好沟通的情况。
 
@@ -602,7 +601,7 @@ css 中用`.`来表示类。举例如下：
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-03-css-09.png)
+![](../assets/images/8b2209f57f095a0e.png)
 
 ## CSS 的几种高级选择器
 
@@ -654,17 +653,17 @@ css 中用`.`来表示类。举例如下：
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-03-css-11.png)
+![](../assets/images/83f806199360dd1f.png)
 
 或者还有下面这种写法：
 
-![](http://img.smyhvae.com/2015-10-03-css-12.png)
+![](../assets/images/4840c8f3ac0d389a.png)
 
 上面的这种写法，`<h3>`标签和`<i>`标签并不是紧挨着的，但他们保持着一种后代关系。
 
 还有下面这种写法：（含类选择器、id 选择器都是可以的）
 
-![](http://img.smyhvae.com/2015-10-03-css-13.png)
+![](../assets/images/90fee3a253fd3801.png)
 
 我们在开头说了：**后代选择器，描述的是一种祖先结构**。我们举个例子来说明这句话：
 
@@ -696,7 +695,7 @@ css 中用`.`来表示类。举例如下：
 
 上面 css 中的`div div p`，也能使文字的颜色变红。通过浏览器的审查元素，我们可以看到 p 元素的祖先列表：
 
-![](http://img.smyhvae.com/20170711_1836.png)
+![](../assets/images/9f7ad9b6c258f10c.png)
 
 讲到这里，我们再提一个 VS Code 的快捷键：
 
@@ -712,7 +711,7 @@ css 中用`.`来表示类。举例如下：
 
 来看下面这张图就明白了：
 
-![](http://img.smyhvae.com/20170711_1851.png)
+![](../assets/images/8ed83f48dae12dad.png)
 
 ```css
 h3.special {
@@ -746,7 +745,7 @@ h3.special {
 
 效果如下：
 
-![](http://img.smyhvae.com/20170711_1852.png)
+![](../assets/images/3b13b6877d4b2666.png)
 
 注意，交集选择器没有空格。所以，没有空格的`div.red`（交集选择器）和有空格的`div .red`（后代选择器）不是一个意思。
 
@@ -774,7 +773,7 @@ p,h1,.title1,#one {
 
 效果：
 
-![](https://img.smyhvae.com/20211116_1055.png)
+![](../assets/images/f075f05beb2f1497.png)
 
 ## 一些 CSS3 选择器
 
@@ -800,7 +799,7 @@ IE： 微软的浏览器，随着操作系统安装的。所以每个 windows �
 
 测试结果如下：
 
-![](http://img.smyhvae.com/20170711_1939.png)
+![](../assets/images/3eac47236772d814.png)
 
 我们可以在[百度统计](http://tongji.baidu.com/data/)里查看浏览器的市场占有率：
 
@@ -811,7 +810,7 @@ IE： 微软的浏览器，随着操作系统安装的。所以每个 windows �
 
 我们可以在<http://html5test.com/results/desktop.html>中查看
 
-![](http://img.smyhvae.com/20170711_1948.png)
+![](../assets/images/cce72375c8ea1104.png)
 
 我们要知道典型的 IE6 兼容问题（面试要问），但是做项目我们兼容到 IE8 即可。不解决 IE8 以下的兼容问题，目的在于：培养更高的兴趣和眼光，别天天的跟 IE6 较劲。
 
@@ -930,7 +929,7 @@ ul li.first{ color:red; } ul li.last{ color:blue; }
 
 效果如下：
 
-![](http://img.smyhvae.com/20170711_1950.png)
+![](../assets/images/87b722e792e67867.png)
 
 这种选择器作用不大。
 
@@ -940,4 +939,4 @@ ul li.first{ color:red; } ul li.last{ color:blue; }
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/20190101.png)
+![](../assets/images/8f05eb9f725cfeeb.png)

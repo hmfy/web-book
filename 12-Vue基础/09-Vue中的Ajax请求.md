@@ -3,7 +3,6 @@ title: 09-Vue中的Ajax请求
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -51,7 +50,7 @@ vue-resource 依赖于 Vue。所以，我们要按照先后顺序，导入vue.js
 
 现规定，获取品牌数据的 api 接口说明如下：
 
-![](http://img.smyhvae.com/20180422_2140.png)
+![](../assets/images/b7265f9d909aca69.png)
 
 
 ```html
@@ -156,11 +155,11 @@ vue-resource 依赖于 Vue。所以，我们要按照先后顺序，导入vue.js
 
 运行的结果如下：
 
-![](http://img.smyhvae.com/20180422_2152.png)
+![](../assets/images/9de9bc8222d20154.png)
 
 如果我直接在浏览器中输入请求的url，获取的json数据如下：（可以看到，这种方式获取的是相同的数据）
 
-![](http://img.smyhvae.com/20180422_2150.png)
+![](../assets/images/bd9f0a99bc59bdb3.png)
 
 
 ### post请求
@@ -186,7 +185,7 @@ vue-resource 依赖于 Vue。所以，我们要按照先后顺序，导入vue.js
 
 现规定，添加品牌数据的 api 接口说明如下：
 
-![](http://img.smyhvae.com/20180422_1720.png)
+![](../assets/images/0c0651124e2aa902.png)
 
 
 代码如下：（在上一段代码的基础之上，添加代码）
@@ -447,7 +446,7 @@ vue-resource 依赖于 Vue。所以，我们要按照先后顺序，导入vue.js
 
 ### jsonp
 
-![](http://img.smyhvae.com/20180420_2250.png)
+![](../assets/images/299e7170446f7833.png)
 
 
 **格式举例**：
@@ -465,7 +464,7 @@ vue-resource 依赖于 Vue。所以，我们要按照先后顺序，导入vue.js
 
 请求结果：
 
-![](http://img.smyhvae.com/20180420_2256.png)
+![](../assets/images/1e26401d71304b17.png)
 
 
 ## JSONP的实现原理

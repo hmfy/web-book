@@ -2,7 +2,6 @@
 title: 02-Git的使用
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -80,7 +79,7 @@ git branch -d feature_item_recommend
 ### 合并分支时，如果存在分叉
 
 
-![](http://img.smyhvae.com/20180610_1650.png)
+![](../assets/images/5863c9545b45f7ee.png)
 
 
 比如说上面这张图中，最早的时候，master分支是位于`C2`节点。我基于`C2`节点，new出一个新的分支`iss53`，我在`iss53`上提交了好几个commit。
@@ -105,11 +104,11 @@ Git 没有简单地把分支指针右移，而是对三方合并的结果作一�
 
 值得一提的是Git 可以自己裁决哪个共同祖先才是最佳合并基础；这和CVS 或Subversion（1.5 以后的版本）不同，它们需要开发者手工指定合并基础。所以此特性让Git 的合并操作比其他系统都要简单不少。
 
-![](http://img.smyhvae.com/20180610_1710.png)
+![](../assets/images/f3000a988c9848db.png)
 
 ### 解决合并时发生的冲突
 
-![](http://img.smyhvae.com/20180610_1740.png)
+![](../assets/images/f0b7f5d7134207fe.png)
 
 如果 feature1和feature2修改的是同一个文件中**代码的同一个位置**，那么，把feature1合并到feature2时，就会产生冲突。这个冲突需要人工解决。步骤如下：
 
@@ -251,13 +250,13 @@ git remote set-url origin https://xxx.git
 
 20180623时，网上看了下Git客户端的推荐排名：
 
-![](http://img.smyhvae.com/20180623_1210.png)
+![](../assets/images/70d28df7ec55f8f3.png)
 
 **SmartGit**：
 
 商业用途收费， 个人用户免费：
 
-![](http://img.smyhvae.com/20180623_1305.png)
+![](../assets/images/d3f44ce18570d011.png)
 
 
 ## 推荐书籍
@@ -279,4 +278,4 @@ git remote set-url origin https://xxx.git
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)

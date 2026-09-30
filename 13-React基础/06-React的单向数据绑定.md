@@ -3,7 +3,6 @@ title: 06-React的单向数据绑定
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 

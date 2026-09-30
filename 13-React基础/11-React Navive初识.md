@@ -3,7 +3,6 @@ title: 11-React Navive初识
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 

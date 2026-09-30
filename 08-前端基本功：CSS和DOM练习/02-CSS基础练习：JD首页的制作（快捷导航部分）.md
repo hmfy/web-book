@@ -3,7 +3,6 @@ title: 02-CSS基础练习：JD首页的制作（快捷导航部分）
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -16,7 +15,7 @@ publish: true
 
 我们先制作快捷导航的骨架。如下图所示：
 
-![](http://img.smyhvae.com/20180123_1057.png)
+![](../assets/images/ea508454df4a80e3.png)
 
 上图中，`shortcut-nav-menu-all`和`shortcut-nav-menu-one`都是属于`shortcut-nav-menu`部分，只不过，后者是将父亲撑破了。
 
@@ -126,7 +125,7 @@ css代码如下：
 
 商品的具体分类即`shortcut-nav-menu-one`部分，我们来实现这部分的代码。要求实现的效果如下：
 
-![](http://img.smyhvae.com/20180123_1510.gif)
+![](../assets/images/1a8444f3e7321d26.gif)
 
 我们在上面的代码中已经给`shortcut-nav-menu-one`设置了一些属性（例如给左边和下边增加一个像素的红色边框），在此基础之上，需要新增的代码如下：
 
@@ -211,7 +210,7 @@ css部分如下：
 
 接下来，我们要实现下面这个部分：
 
-![](http://img.smyhvae.com/20180123_1527.png)
+![](../assets/images/2293fd490281df05.png)
 
 组成部分包括：左侧的轮播图、右侧的京东快报 & 充话费 & 右下角的小海报。
 
@@ -360,7 +359,7 @@ CSS代码如下：
 
 最终实现的效果如下：
 
-![](http://img.smyhvae.com/20180123_1951.png)
+![](../assets/images/0804ecd321ce4b2a.png)
 
 ### 京东快报
 
@@ -458,7 +457,7 @@ css代码如下；
 
 会发现，效果不尽人意：
 
-![](http://img.smyhvae.com/20180123_2202.png)
+![](../assets/images/3402ece900e47300.png)
 
 上图所示，我们发现，红框部分的12个li，并没有按照我们预期的那样进行排列。因为每个li有border。真实的li当中，它们的border是有重叠的。
 
@@ -470,7 +469,7 @@ css代码如下；
 
 ul的宽度设置为260px之后发现，最右边和最下面的部分会多出来：
 
-![](http://img.smyhvae.com/20180123_2207.png)
+![](../assets/images/a4903557df3b63ee.png)
 
 我们可以给`main-news-top-money`设置`overflow: hidden`，将多余的部分切掉（这是没有办法的事情）。
 
@@ -518,7 +517,7 @@ css部分：
 
 这样的话，表格就画好了：
 
-![](http://img.smyhvae.com/20180123_2240.png)
+![](../assets/images/a7af40f70022c95b.png)
 
 **（2）步骤二：**往表格里填充内容
 
@@ -661,14 +660,14 @@ index.css部分：
 
 画出的表格如下：
 
-![](http://img.smyhvae.com/20180124_1121.png)
+![](../assets/images/6467effc66cb9b72.png)
 
 
 ## 今日推荐
 
 接下来，我们开始做下面这部分：
 
-![](http://img.smyhvae.com/20180124_1434.png)
+![](../assets/images/741902b7b5e6999a.png)
 
 上图中的“今日推荐”，标签可以这样布局：ul > li > a > img
 
@@ -742,7 +741,7 @@ index.css中的代码如下；
 
 要实现的内容是下图中的箭头处：
 
-![](http://img.smyhvae.com/20180124_1615.png)
+![](../assets/images/a0647437c9fd9b76.png)
 
 
 注意这部分的div的位置，是放在`class="shortcut-nav"`和`class="main"`之间的。
@@ -791,7 +790,7 @@ index.css:
 
 上一篇文章和这一篇文章，加起来，最终实现的效果如下：
 
-![](http://img.smyhvae.com/20180124_1607.png)
+![](../assets/images/8df45b5e59ec8a8d.png)
 
 工程文件：[2018-01-23-前端基础练习-JD顶部导航.rar](https://github.com/qianguyihao/web-resource/blob/main/project/2018-01-23-%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%BB%83%E4%B9%A0-JD%E9%A1%B6%E9%83%A8%E5%AF%BC%E8%88%AA.rar)
 
