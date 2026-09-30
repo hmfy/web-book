@@ -155,12 +155,3 @@ JS基础、ES6语法、Vue源码、React源码、前端性能优化等等，这�
 
 - Daily JS：<https://medium.com/dailyjs>  - medium 上的博客。
 - JavaScript Weekly：<https://javascriptweekly.com/>  - 聚合类的技术周刊。
-
-
-## 我的公众号
-
-想学习**更多技能**？不妨关注我的微信公众号：**千古壹号**（id：`qianguyihao`）。
-
-扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
-
-![](../assets/images/6620de36b1f16782.jpg)
