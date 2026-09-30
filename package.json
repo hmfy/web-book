@@ -1,0 +1,14 @@
+{
+  "name": "web-book-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "千古前端图文教程文档站点",
+  "scripts": {
+    "dev": "vitepress dev .",
+    "build": "vitepress build .",
+    "preview": "vitepress preview ."
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
