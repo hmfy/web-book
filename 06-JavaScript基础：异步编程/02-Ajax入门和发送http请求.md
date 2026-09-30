@@ -3,7 +3,6 @@ title: 02-Ajax入门和发送http请求
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 ## 同步和异步回顾
@@ -287,7 +286,7 @@ myAjax('a.json', (res) => {
 
 效果如下：
 
-![](http://img.smyhvae.com/20180228_1605.gif)
+![](../assets/images/1845b419fabee516.gif)
 
 ### Ajax 多个接口的嵌套请求
 
@@ -395,7 +394,7 @@ echo $text;
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](https://img.smyhvae.com/20200102.png)
+![](../assets/images/614b08dc22afe7be.png)
 
 ```
 

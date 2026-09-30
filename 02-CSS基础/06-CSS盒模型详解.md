@@ -3,7 +3,6 @@ title: 06-CSS盒模型详解
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 ## 盒子模型
@@ -25,11 +24,11 @@ publish: true
 
 盒子模型的示意图：
 
-![](http://img.smyhvae.com/20170727_2128.png)
+![](../assets/images/1293cad2e9842334.png)
 
 代码演示：
 
-![](http://img.smyhvae.com/20170727_2326.png)
+![](../assets/images/c7043f051f26c13f.png)
 
 上面这个盒子，width:200px; height:200px; 但是真实占有的宽高是302*302。 这是因为还要加上padding、border。
 
@@ -41,11 +40,11 @@ publish: true
 
 标准盒子模型：
 
-![](http://img.smyhvae.com/2015-10-03-css-27.jpg)
+![](../assets/images/17a0d0e9f703d9b6.jpg)
 
 IE盒子模型：
 
-![](http://img.smyhvae.com/2015-10-03-css-30.jpg)
+![](../assets/images/3bdaa1403f1ed692.jpg)
 
 上图显示：
 
@@ -107,7 +106,7 @@ CSS盒模型和IE盒模型的区别：
 
 上面的代码中，我们对div标签设置了边距等信息。打开google浏览器，按住F12，显示效果如下：
 
-![](http://img.smyhvae.com/20151003_27.png)
+![](../assets/images/08a519dbc175e160.png)
 
 ## 认识width、height
 
@@ -115,7 +114,7 @@ CSS盒模型和IE盒模型的区别：
 
 比如说，丈量稿纸，前端开发工程师只会丈量内容宽度：
 
-![](http://img.smyhvae.com/20170727_2329.png)
+![](../assets/images/d39e26f918c7052f.png)
 
 下面这两个盒子，真实占有宽高，都是302*302：
 
@@ -146,7 +145,7 @@ CSS盒模型和IE盒模型的区别：
 
 上面这两个盒子的盒模型图如下：
 
-![](https://img.smyhvae.com/20170728_0925.png)
+![](../assets/images/13e37327569f07d8.png)
 
 **如果想保持一个盒子的真实占有宽度不变，那么加width的时候就要减padding。加padding的时候就要减width**。因为盒子变胖了是灾难性的，这会把别的盒子挤下去。
 
@@ -159,7 +158,7 @@ padding就是内边距。padding的区域有背景颜色，css2.1前提下，并
 
 效果如下：
 
-![](http://img.smyhvae.com/20170728_1005.png)
+![](../assets/images/50e3a19dc59ab254.png)
 
 ### padding有四个方向
 
@@ -205,7 +204,7 @@ padding-left: 30px;
 
 上面的padding对应盒子模型为：
 
-![](http://img.smyhvae.com/20170728_1039.png)
+![](../assets/images/2a90fdbff67c0708.png)
 
 下面的写法：
 
@@ -234,7 +233,7 @@ padding: 20px;
 
 答案：
 
-![](http://img.smyhvae.com/20170728_1048.png)
+![](../assets/images/12bb221800b812ce.png)
 
 **题目2**：说出下面盒子真实占有宽高，并画出盒模型图。
 
@@ -256,11 +255,11 @@ padding: 20px;
 
 盒子模型如下：
 
-![](http://img.smyhvae.com/20170728_1100.png)
+![](../assets/images/3f13181783b35191.png)
 
 **题目3**：现在给你一个盒子模型图，请写出代码，试着用最最简单的方法写。
 
-![](http://img.smyhvae.com/20170728_1401.png)
+![](../assets/images/428974a4e7941042.png)
 
 答案：
 
@@ -273,7 +272,7 @@ padding: 20px;
 
 **题目4**：现在给你一个盒子模型图，请写出代码，试着用最最简单的方法写。
 
-![](http://img.smyhvae.com/20170728_1402.png)
+![](../assets/images/23a2caadbe132879.png)
 
 答案：
 
@@ -290,7 +289,7 @@ padding: 20px;
 
 一些元素，默认带有`padding`，比如ul标签。如下：
 
-![](http://img.smyhvae.com/20170728_1413.png)
+![](../assets/images/9cf94145375bc63c.png)
 
 上图显示，不加任何样式的ul，也是有40px的padding-left。
 
@@ -336,11 +335,11 @@ border就是边框。边框有三个要素：像素（粗细）、线型、颜�
 
 border的所有的线型如下：（我们可以通过查看`CSS参考手册`得到）
 
-![](http://img.smyhvae.com/20170728_1435.png)
+![](../assets/images/e8b24d6f51e3ad6c.png)
 
 比如`border:10px ridge red;`这个属性，在chrome和firefox、IE中有细微差别：（因为可以显示出效果，因此并不是兼容性问题，只是有细微差别而已）
 
-![](http://img.smyhvae.com/20170728_1619.png)
+![](../assets/images/f7a39b44c57fcd25.png)
 
 
 如果公司里面的设计师是处女座的，追求极高的**页面还原度**，那么不能使用css来制作边框。就要用到图片，就要切图了。
@@ -375,7 +374,7 @@ border-color:red green blue yellow;
 
 效果如下：
 
-![](http://img.smyhvae.com/20170728_1516.png)
+![](../assets/images/fb432a3756e67338.png)
 
 （1）按三要素拆：
 
@@ -431,7 +430,7 @@ border:10px solid red;
 
 工作中到底用什么？很简答：什么简单用什么。但要懂得，用小属性层叠大属性。举例如下：
 
-![](http://img.smyhvae.com/20170728_1606.png)
+![](../assets/images/06358a6daf29d937.png)
 
 为了实现上方效果，写法如下：
 
@@ -440,7 +439,7 @@ border:10px solid red;
 border-right-color:blue;
 ```
 
-![](http://img.smyhvae.com/20170728_1608.png)
+![](../assets/images/4a10662576710b8b.png)
 
 为了实现上方效果，写法如下：
 
@@ -496,15 +495,15 @@ div{
 
 （1）当我们设置盒子的width和height为0时，此时效果如下：
 
-![](http://img.smyhvae.com/20170728_1639.png)
+![](../assets/images/83221f99d5749120.png)
 
 （2）然后将border的底部取消：
 
-![](http://img.smyhvae.com/20170728_1645.png)
+![](../assets/images/fc6dbdcdb6a1e492.png)
 
 （3）最后设置border的左边和右边为白色或者**透明**：
 
-![](http://img.smyhvae.com/20170728_1649.png)
+![](../assets/images/dfa06a86a5cc6a63.png)
 
 这样，一个三角形就画好了。
 
@@ -528,7 +527,7 @@ div{
 
 效果如下：
 
-![](http://img.smyhvae.com/20191004_1830.png)
+![](../assets/images/e791e2d4201736bd.png)
 
 另外，我们在上方代码的基础之上，再加一个 `border-radus: 20px;` 就能画出一个扇形。
 
@@ -538,5 +537,5 @@ div{
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/20190101.png)
+![](../assets/images/8f05eb9f725cfeeb.png)
 

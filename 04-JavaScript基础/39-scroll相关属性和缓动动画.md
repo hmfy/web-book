@@ -3,7 +3,6 @@ title: 39-scroll相关属性和缓动动画
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -13,7 +12,7 @@ publish: true
 
 当我们用鼠标滚轮，滚动网页的时候，会触发 window.onscroll() 方法。效果如下：（注意看控制台的打印结果）
 
-![](http://img.smyhvae.com/20180202_2258.gif)
+![](../assets/images/4cf8d8da2ef35b79.gif)
 
 如果你需要做滚动监听，可以使用这个方法。
 
@@ -71,7 +70,7 @@ publish: true
 
 打印结果：
 
-![](http://img.smyhvae.com/20180203_1235.png)
+![](../assets/images/fb3d8fc65db176a3.png)
 
 ### 2、scrollTop 和 scrollLeft
 
@@ -338,7 +337,7 @@ function scroll() {  // 开始封装自己的scrollTop
 
 实现效果：
 
-![](http://img.smyhvae.com/20180203_1619.gif)
+![](../assets/images/4dea1e6fb4f6e708.gif)
 
 
 ~工程文件~：
@@ -410,19 +409,19 @@ function scroll() {  // 开始封装自己的scrollTop
 
 效果：
 
-![](http://img.smyhvae.com/20180202_2046.gif)
+![](../assets/images/778df9c35d0eb076.gif)
 
 ### 缓慢动画的封装（解决四舍五入的问题）
 
 我们发现一个问题，上图中的盒子最终并没有到达400px的位置，而是只到了396.04px就停住了：
 
-![](http://img.smyhvae.com/20180202_2140.png)
+![](../assets/images/a374ed9de10f5c04.png)
 
 原因是：JS在取整的运算时，进行了四舍五入。
 
 我们把打印396.04px这个left值打印出来看看：
 
-![](http://img.smyhvae.com/20180202_2150.png)
+![](../assets/images/5728adfdf81bdb82.png)
 
 我么发现，通过`div.style.left`获取的值是精确的，通过`div.offsetLeft`获取的left值会进行四舍五入。
 
@@ -498,7 +497,7 @@ function scroll() {  // 开始封装自己的scrollTop
 
 实现效果：
 
-![](http://img.smyhvae.com/20180202_2239.gif)
+![](../assets/images/d8028e2853986511.gif)
 
 
 ##  window.scrollTo()方法举例：返回到顶部小火箭
@@ -689,11 +688,11 @@ function scroll() {  // 开始封装自己的scrollTop
 
 实现效果：
 
-![](http://img.smyhvae.com/20180203_1710.gif)
+![](../assets/images/17b0d5673ec10c44.gif)
 
 小火箭的图片资源：
 
-![](http://img.smyhvae.com/20180203-Top.jpg)
+![](../assets/images/fe638f66e31b50f4.jpg)
 
 
 ## 我的公众号
@@ -702,6 +701,6 @@ function scroll() {  // 开始封装自己的scrollTop
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/20190101.png)
+![](../assets/images/8f05eb9f725cfeeb.png)
 
 

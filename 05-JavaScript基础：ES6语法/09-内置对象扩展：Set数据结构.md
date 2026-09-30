@@ -3,7 +3,6 @@ title: 09-内置对象扩展：Set数据结构
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 ## Set 数据结构
 
@@ -48,4 +47,4 @@ console.log([...set2]); // ["张三", "李四", "王五"]
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](https://img.smyhvae.com/20200102.png)
+![](../assets/images/614b08dc22afe7be.png)

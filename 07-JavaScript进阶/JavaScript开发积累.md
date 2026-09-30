@@ -2,7 +2,6 @@
 title: 09-JavaScript开发积累
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -33,25 +32,25 @@ function getFirstNode(ele){
 
 （3）打断点：
 
-![](http://img.smyhvae.com/20180124_2035.png)
+![](../assets/images/3da2cfcd1fff8dcb.png)
 
 然后刷新页面。
 
 （4）一步步调试，每点击一次，执行一步：
 
-![](http://img.smyhvae.com/20180124_2036.png)
+![](../assets/images/f90ff1a5209ce9d5.png)
 
 （5）监视变量：
 
 当然，也可以添加变量或者表达式到监视窗口。操作如下：
 
-![](http://img.smyhvae.com/20180124_2037.png)
+![](../assets/images/8af844a4277caa57.png)
 
 上图中，选择变量或表达式，然后右键add to watch.
 
 然后监视窗口：
 
-![](http://img.smyhvae.com/20180124_2038.png)
+![](../assets/images/e66e837ecf7857a8.png)
 
 
 ### 2019-05-20-给数组、对象赋值

@@ -3,7 +3,6 @@ title: 07-React路由的使用
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 

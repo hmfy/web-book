@@ -2,7 +2,6 @@
 title: 50-jQuery的事件机制和其他知识
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -299,7 +298,7 @@ event.keyCode               键盘按键代码
 
 单击网页后，打印结果为：
 
-![](http://img.smyhvae.com/20180205_2338.png)
+![](../assets/images/b8b61a2f136ad3bc.png)
 
 **举例**：键盘上对的按键按下时，变色
 
@@ -544,7 +543,7 @@ event.keyCode               键盘按键代码
 
 实现效果：
 
-![](http://img.smyhvae.com/20180206_1100.gif)
+![](../assets/images/b52305c4a2ed7cf0.gif)
 
 ## each的用法
 
@@ -620,7 +619,7 @@ event.keyCode               键盘按键代码
 
 效果如下：
 
-![](http://img.smyhvae.com/20180206_1110.png)
+![](../assets/images/762154ad01a17f89.png)
 
 ## 多库共存
 
@@ -640,7 +639,7 @@ event.keyCode               键盘按键代码
 
 效果如下：
 
-![](http://img.smyhvae.com/20180206_1126.png)
+![](../assets/images/cbd796c1a7e7ec60.png)
 
 
 上图中，代码中同时包含了两个版本的库。1.11.1版本放弃了对 `$` 的使用权，交给了1.8.2版本；但是1.11.1版本并没有放弃对 `jQuery`关键字的使用权。
@@ -654,7 +653,7 @@ event.keyCode               键盘按键代码
 
 效果如下：
 
-![](http://img.smyhvae.com/20180206_1133.png)
+![](../assets/images/78a4646500490587.png)
 
 
 ## jQuery 的插件机制
@@ -708,7 +707,7 @@ jQuery的自定义动画方法animate()，在执行动画时，是不支持设�
 
 效果：
 
-![](http://img.smyhvae.com/20180206_1400.gif)
+![](../assets/images/fcc01e6986427e06.gif)
 
 上方代码中，因为加入了一行插件：（注意顺序是放在jQuery插件之后）
 

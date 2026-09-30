@@ -3,7 +3,6 @@ title: 13-Vue-router路由
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 

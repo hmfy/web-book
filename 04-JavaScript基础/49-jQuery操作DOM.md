@@ -2,7 +2,6 @@
 title: 49-jQuery操作DOM
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -48,7 +47,7 @@ title: 49-jQuery操作DOM
 
 举例如下：
 
-![](http://img.smyhvae.com/20180205_1315.png)
+![](../assets/images/e03dc604f911aef1.png)
 
 ### 类操作（className）
 
@@ -189,7 +188,7 @@ $(selector).toggleClass(“liItem”);    //为指定元素切换类 className�
 
 实现的效果：
 
-![](http://img.smyhvae.com/20180205_1330.gif)
+![](../assets/images/2b51aaa950909b78.gif)
 
 ### 样式操作和类操作的比较
 
@@ -324,7 +323,7 @@ $(selector).toggleClass(“liItem”);    //为指定元素切换类 className�
 
 效果：
 
-![](http://img.smyhvae.com/20180205_1345.gif)
+![](../assets/images/ebbb26873c5564ea.gif)
 
 
 
@@ -424,7 +423,7 @@ $(selector).append('<div></div>');  //参数是 htmlString
 
 效果：
 
-![](http://img.smyhvae.com/20180205_2020.gif)
+![](../assets/images/238e9b8cda4ca951.gif)
 
 
 **其他的添加元素的方法：**
@@ -576,7 +575,7 @@ $(selector).append('<div></div>');  //参数是 htmlString
 
 效果：
 
-![](http://img.smyhvae.com/20180205_2040.gif)
+![](../assets/images/dbab2be6a820c451.gif)
 
 
 ### 案例：动态添加表格项
@@ -694,7 +693,7 @@ $(selector).append('<div></div>');  //参数是 htmlString
 
 实现的效果：
 
-![](http://img.smyhvae.com/20180205_2045.gif)
+![](../assets/images/ca0ecf15fd03e9ac.gif)
 
 代码解释：每次生成字符串str之前，记得先把之前的str清空，不然每次点击按钮，都会继续添加表格项。
 
@@ -806,7 +805,7 @@ prop方法通常用来影响DOM元素的动态状态，而不是改变的HTML属
 
 效果：
 
-![](http://img.smyhvae.com/20180205_2115.gif)
+![](../assets/images/020f12d46e1d748d.gif)
 
 **案例：表格案例全选反选**
 
@@ -1023,6 +1022,6 @@ prop方法通常用来影响DOM元素的动态状态，而不是改变的HTML属
 
 打印结果：
 
-![](http://img.smyhvae.com/20180205_2139.png)
+![](../assets/images/6f036fbb6a31ed49.png)
 
 

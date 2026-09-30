@@ -3,7 +3,6 @@ title: 04-HTML标签：排版标签
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 ## 本文主要内容
@@ -57,7 +56,7 @@ publish: true
 
 效果演示：
 
-![](http://img.smyhvae.com/20200402_1050.png)
+![](../assets/images/8580c290d33c2008.png)
 
 ## HTML 注释
 
@@ -86,7 +85,7 @@ HTML 注释的格式如下：
 
 属性举例：
 
-![Paste_Image.png](http://img.smyhvae.com/2015-10-01-cnblogs_html166440-1dcd2ad6e6353559.png)
+![Paste_Image.png](../assets/images/4386e3ba902b3c35.png)
 
 
 HTML标签是分等级的，HTML将所有的标签分为两种：
@@ -108,7 +107,7 @@ HTML标签是分等级的，HTML将所有的标签分为两种：
 
 网页效果如下：
 
-![](http://img.smyhvae.com/20170630_1102.png)
+![](../assets/images/acf13bda876b7630.png)
 
 上图显示，浏览器不允许你这么做，我们使用Chrome的F12审查元素发现，浏览器自己把p封闭掉了，不让你去包裹h1。
 
@@ -141,7 +140,7 @@ PS：Chrome浏览器是HTML5支持度最好的浏览器。提供了非常好的�
 
 运行效果：
 
-![](http://img.smyhvae.com/20200401_1930.png)
+![](../assets/images/a328de7d542e5655.png)
 
 
 属性介绍：
@@ -153,7 +152,7 @@ PS：Chrome浏览器是HTML5支持度最好的浏览器。提供了非常好的�
 
 属性效果演示：
 
-![Paste_Image.png](http://img.smyhvae.com/2015-10-01-cnblogs_html_05.png)
+![Paste_Image.png](../assets/images/1e31ef158dab9b39.png)
 
 ## 换行标签`<br />`
 
@@ -164,7 +163,7 @@ This <br/> is a para<br/>graph with line breaks
 ```
 效果如下：
 
-![](http://img.smyhvae.com/2015-10-01-cnblogs_html03.png)
+![](../assets/images/99cca8907f1d9c9c.png)
 
 ## `<div>`和`<span>`标签
 
@@ -178,7 +177,7 @@ div和span是非常重要的标签，div的语义是division“分割”； span
 
 代码举例：
 
-![Paste_Image.png](http://img.smyhvae.com/2015-10-01-cnblogs_html_08.png)
+![Paste_Image.png](../assets/images/43dfdad8db9d83b5.png)
 
 div标签的属性：
 
@@ -230,7 +229,7 @@ div举例：
 此时center代表是一个标签，而不是一个属性值了。只要是在这个标签里面的内容，都会居于浏览器的中间。
 效果演示：
 
-![Paste_Image.png](http://img.smyhvae.com/2015-10-01-cnblogs_html_06.png)
+![Paste_Image.png](../assets/images/7f070c66312d6ed5.png)
 
 到了HTML5里面，center标签不建议使用，建议使用css布局来实现。
 
@@ -241,7 +240,7 @@ div举例：
 说明：真正排网页过程中，`<pre>`标签几乎用不着。
 效果演示：
 
-![Paste_Image.png](http://img.smyhvae.com/2015-10-01-cnblogs_html_07.png)
+![Paste_Image.png](../assets/images/1e8bff74f3f18aaa.png)
 
 
 ## 我的公众号
@@ -250,4 +249,4 @@ div举例：
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](https://img.smyhvae.com/20200102.png)
+![](../assets/images/614b08dc22afe7be.png)

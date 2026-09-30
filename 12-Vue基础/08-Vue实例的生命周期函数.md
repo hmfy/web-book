@@ -3,7 +3,6 @@ title: 08-Vue实例的生命周期函数
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -25,7 +24,7 @@ publish: true
 
 ## 生命周期函数的主要分类
 
-![](http://img.smyhvae.com/20180422_1650.png)
+![](../assets/images/7325606cf345980d.png)
 
 根据上面这张图，我们把生命周期函数主要分为三类。
 
@@ -99,7 +98,7 @@ publish: true
 
 打印结果：
 
-![](http://img.smyhvae.com/20180610_1500.png)
+![](../assets/images/aa178b790e38a254.png)
 
 ### 运行期间的生命周期函数
 
@@ -171,7 +170,7 @@ PS：数据发生变化时，会触发这两个方法。不过，我们一般用
 
 当我们点击按钮后，运行效果是：
 
-![](http://img.smyhvae.com/20180610_1528.png)
+![](../assets/images/830a2fe9ca61ddd3.png)
 
 可以看出：
 
@@ -192,7 +191,7 @@ PS：可以在beforeDestroy里**清除定时器、或清除事件绑定**。
 
 ## 生命周期函数图解
 
-![](http://img.smyhvae.com/20180611_2130.png)
+![](../assets/images/eeeef543dd4d2a83.png)
 
 PS：图片来自网络。
 

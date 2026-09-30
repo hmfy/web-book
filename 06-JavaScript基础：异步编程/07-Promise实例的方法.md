@@ -2,7 +2,6 @@
 title: 07-Promise实例的方法
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 ## Promise 实例的方法简介
 
@@ -606,7 +605,7 @@ res3: undefined
       });
 ```
 
-![image-20230521135912267](https://img.smyhvae.com/image-20230521135912267.png)
+![image-20230521135912267](../assets/images/17a16d8ec27f14be.png)
 
 这个报错的意思是：未捕获 rejected 失败状态的 Promise 异常。必须要加一个 catch() 进行捕获。
 
@@ -922,5 +921,5 @@ Promise 是⼀个拥有 then ⽅法的对象或函数。任何符合 promise 规
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)
 

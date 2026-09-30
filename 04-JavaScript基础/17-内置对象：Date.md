@@ -2,7 +2,6 @@
 title: 17-内置对象：Date
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -330,7 +329,7 @@ console.log(Date.now()); // 打印结果举例：1589448165370
 
 实现效果：
 
-![](http://img.smyhvae.com/20180202_1110.png)
+![](../assets/images/7cf28925dfbb0504.png)
 
 
 ### 举例2：发布会倒计时
@@ -409,7 +408,7 @@ console.log(Date.now()); // 打印结果举例：1589448165370
 
 实现效果：
 
-![](http://img.smyhvae.com/20180202_1130.gif)
+![](../assets/images/796eec9b19854746.gif)
 
 ## Moment.js
 
@@ -450,7 +449,7 @@ Moment.js 是一个轻量级的JavaScript时间库，我们可以利用它很方
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)
 
 
 

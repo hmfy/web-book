@@ -3,7 +3,6 @@ title: 09-CSS案例讲解：博雅互动
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 ## 前言
@@ -14,7 +13,7 @@ publish: true
 
 首页的**版心**如下：
 
-![](http://img.smyhvae.com/20170813_1535.png)
+![](../assets/images/dae8e0da8a656408.png)
 
 这里我们要普及一个概念，叫“[版心](https://baike.baidu.com/item/%E7%89%88%E5%BF%83)”。**版心是页面中主要内容所在的区域。**
 
@@ -164,7 +163,7 @@ publish: true
 
 导航栏的效果如下：
 
-![](http://img.smyhvae.com/20180114_1332.gif)
+![](../assets/images/b3da24fc3f959dec.gif)
 
 ## banenr图
 
@@ -453,7 +452,7 @@ publish: true
 
 我们在“点击播放”的右侧放了一个三角形。这个很有技巧。
 
-![](http://img.smyhvae.com/20180115_1356.png)
+![](../assets/images/eafab217ee7f2720.png)
 
 代码截取如下：
 
@@ -471,7 +470,7 @@ publish: true
 
 （2）导航栏+banner+内容区域的效果如下：
 
-![](http://img.smyhvae.com/20180114_1405.png)
+![](../assets/images/777aa2f36ff0133f.png)
 
 工程文件：[2018-03-20-boya.rar](https://github.com/qianguyihao/web-resource/blob/main/project/2018-03-20-boya.rar)
 
@@ -481,4 +480,4 @@ publish: true
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/20190101.png)
+![](../assets/images/8f05eb9f725cfeeb.png)

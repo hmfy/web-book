@@ -3,7 +3,6 @@ title: 15-Sass入门
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 ## Sass简介
@@ -64,18 +63,18 @@ sass引擎是用Ruby语言开发的（但是两者的语法没有关系），因
 
 安装时，记得勾选“环境变量”：
 
-![](http://img.smyhvae.com/20180407_2022.png)
+![](../assets/images/365583b475fb1c74.png)
 
 安装完ruby之后，在命令行中输入`ruby -v`，查看ruby的的版本：
 
-![](http://img.smyhvae.com/20180407_2039.png)
+![](../assets/images/11730b312fb3dcc5.png)
 
 
 ### 关于Mac下的Ruby
 
 刚刚说了，Mac下自带Ruby，但是版本肯定很老：
 
-![](http://img.smyhvae.com/20180407_2145.png)
+![](../assets/images/e1fe146807ea8010.png)
 
 有的时候，我们可能需要使用特定版本的ruby，或者在不同的ruby版本之间进行切换，所以，大家可以尝试安装`rvm`，它是ruby的版本管理工具。官网是：<https://rvm.io>
 
@@ -103,7 +102,7 @@ PS：我测试了一下，Win 7 不支持https，Mac支持https。
 	gem sources -l
 ```
 
-![](http://img.smyhvae.com/20180407_2050.png)
+![](../assets/images/e690b4482d186a75.png)
 
 （3）安装sass：
 
@@ -133,7 +132,7 @@ PS：我测试了一下，Win 7 不支持https，Mac支持https。
 	sass -h
 ```
 
-![](http://img.smyhvae.com/20180407_2100.png)
+![](../assets/images/b2d086ac592f2324.png)
 
 参考链接：<https://www.w3cplus.com/sassguide/install.html>
 
@@ -167,7 +166,7 @@ Compass 是开源的CSS书写框架。
 	compass -v
 ```
 
-![](http://img.smyhvae.com/20180407_2208.png)
+![](../assets/images/b8ed8ac794b0f9dc.png)
 
 compass可以直接用来搭建前端项目的样式部分，但并不是常用的方法。
 

@@ -3,7 +3,6 @@ title: 04-MySQL字段的数据类型
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -115,11 +114,11 @@ alter table table_qiangu1 add num3 int;
 
 上述命令中，如果把 `zerofill` 这个关键字去掉，是达不到显示宽度的效果的。执行完上述命令后，我们执行 `desc table_qiangu1` 命令，对比一下 num1、num2、num3 的字段结构就知道了：
 
-![](https://img.smyhvae.com/20200423_1050.png)
+![](../assets/images/f5c05f9fddeeefc6.png)
 
 上方截图可以看到，只有 num1 才有显示宽度，它可以进行零填充，num2、num3不行。我们往表中插入整数 `6`，然后看看显示结果，就一目了然：
 
-![](https://img.smyhvae.com/20200423_1055.png)
+![](../assets/images/d5b4afd164a3d0df.png)
 
 
 参考链接：[MySql数据库 数值类型的显示宽度](https://juejin.im/post/5b24a2c251882574d73c6f82)

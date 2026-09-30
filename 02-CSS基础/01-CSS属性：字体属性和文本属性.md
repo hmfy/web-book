@@ -3,7 +3,6 @@ title: 01-CSS属性：字体属性和文本属性
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 ## 本文重要内容
@@ -40,7 +39,7 @@ html中的单位只有一种，那就是像素px，所以单位是可以省略�
 
 百分比`%`这个相对单位要怎么用呢？这里也举个例子：
 
-![](http://img.smyhvae.com/2015-10-03-css-17.png)
+![](../assets/images/afb14393f9d10da6.png)
 
 ## font 字体属性
 
@@ -67,13 +66,13 @@ CSS中，所有的行，都有行高。盒子模型的padding，绝对不是直�
 
 如下图所示：
 
-![](http://img.smyhvae.com/20170808_2216.png)
+![](../assets/images/520ea0be0951fa0c.png)
 
 上图中，我们设置行高为30px，30px * 5 = 150px，通过查看审查元素，这个p标签的高度果然为150px。而且我们发现，我们并没有给这个p标签设置高度，显然是内容将其撑高的。
 
 垂直方向来看，文字在自己的行里是居中的。比如，文字是14px，行高是24px，那么padding就是5px：
 
-![](http://img.smyhvae.com/20170808_2220.png)
+![](../assets/images/1d8908d6a13466d9.png)
 
 为了严格保证字在行里面居中，我们的工程师有一个约定： **行高、字号，一般都是偶数**。这样可以保证，它们的差一定偶数，就能够被2整除。
 
@@ -83,7 +82,7 @@ CSS中，所有的行，都有行高。盒子模型的padding，绝对不是直�
 
 上面这个小技巧，只适用于单行文本垂直居中，不适用于多行。如果想让多行文本垂直居中，还需要计算盒子的padding。计算方式如下：
 
-![](http://img.smyhvae.com/20170808_2240.png)
+![](../assets/images/6d541bd775ee1588.png)
 
 ### `vertical-align: middle;` 属性
 
@@ -230,7 +229,7 @@ CSS样式中，常见的文本属性有以下几种：
 
 这里来一张表格的图片吧，一览无遗：
 
-![](http://img.smyhvae.com/2015-10-03-css-18.png)
+![](../assets/images/14585a307f696695.png)
 
 ## 列表属性
 
@@ -245,15 +244,15 @@ ul li{
 
 我们来看一下`list-style-image`属性的效果：
 
-![](http://img.smyhvae.com/2015-10-03-css-23.png)
+![](../assets/images/e3215e8035547959.png)
 
 给列表前面的图片加个边距吧，不然显示不完整：
 
-![](http://img.smyhvae.com/2015-10-03-css-24_2.png)
+![](../assets/images/3fb10220c8cf43da.png)
 
 这里来一张表格的图片吧，一览无遗：
 
-![](http://img.smyhvae.com/2015-10-03-css-26.png)
+![](../assets/images/8eee854f82c1cfde.png)
 
 ## overflow属性：超出范围的内容要怎么处理
 
@@ -315,7 +314,7 @@ ul li{
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-03-css-31.png)
+![](../assets/images/8e5f8b87aaafd0a0.png)
 
 ## 鼠标的属性 cursor
 
@@ -380,12 +379,12 @@ p:hover{
 
 效果如下：（IE有效果，google浏览器无效果）
 
-![](http://img.smyhvae.com/2015-10-03-css-36.png)
+![](../assets/images/b69a7d87b31321c9.png)
 
 **延伸：**
 滤镜本身是平面设计中的知识。如果你懂一点PS的话···打开PS看看吧：
 
-![](http://img.smyhvae.com/2015-10-03-css-38.png)
+![](../assets/images/acde3060ade2db5c.png)
 
 爆料一下，表示博主有两年多的平面设计经验，我做设计的时间其实比写代码的时间要长，嘿嘿···
 
@@ -393,7 +392,7 @@ p:hover{
 
 现在，我们利用float浮动属性来把无序列表做成一个简单的导航栏吧，效果如下：
 
-![](http://img.smyhvae.com/2015-10-03-css-34.png)
+![](../assets/images/3cacec9298a21298.png)
 
 代码：
 
@@ -447,7 +446,7 @@ p:hover{
 
 实现效果如下：
 
-![](http://img.smyhvae.com/2015-10-03-css-35.png)
+![](../assets/images/007eda1052a90628.png)
 
 国庆这四天，连续写了四天的博客，白天和黑夜，从未停歇，只交替没交换，为的就是这每日一发。以后会不断更新的。
 
@@ -457,4 +456,4 @@ p:hover{
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/20190101.png)
+![](../assets/images/8f05eb9f725cfeeb.png)

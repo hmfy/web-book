@@ -3,7 +3,6 @@ title: 05-Vue的举例：列表功能
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -89,7 +88,7 @@ publish: true
 
 上方代码运行的效果：
 
-![](http://img.smyhvae.com/20180401_1517.png)
+![](../assets/images/bd00bab61babbe96.png)
 
 ### 步骤 2：无数据时，增加提示
 
@@ -105,7 +104,7 @@ publish: true
 
 代码解释：`colspan="4"`指的是让当前这个`<td>`横跨4个单元格的位置。如下：
 
-![](http://img.smyhvae.com/20180401_1535.png)
+![](../assets/images/19f210bcf66dc2d5.png)
 
 ### 步骤 3：item的添加
 

@@ -2,7 +2,6 @@
 title: 45-BOM简介和navigator.userAgent&History&Location
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -87,7 +86,7 @@ userAgent 的值是一个字符串，简称 **UA**，这个字符串中包含了
 
 比如说，我们在电脑浏览器上，按F12，然后在控制台输入`navigator.userAgent`，如下：
 
-![](http://img.smyhvae.com/20180425_1656.png)
+![](../assets/images/75ba7e7bf4eea7e2.png)
 
 上图显示，MacOS上的Chrome浏览器的 userAgent 是：
 
@@ -99,11 +98,11 @@ userAgent 的值是一个字符串，简称 **UA**，这个字符串中包含了
 
 （1）需要点击 edit，手动添加：
 
-![](http://img.smyhvae.com/20191127_1903.png)
+![](../assets/images/8c41fb93c46ca829.png)
 
 （2）添加时，根据 User agent 来识别不同的浏览器：
 
-![](http://img.smyhvae.com/20191127_1918.png)
+![](../assets/images/4946221aba88cee7.png)
 
 
 ### 不同浏览器的 userAgent
@@ -194,7 +193,7 @@ history.go( -2 ); // 向后跳转两个页面
 
 备注：浏览器的前进按钮、后退按钮，在这个位置：
 
-![](http://img.smyhvae.com/20180201_2146.png)
+![](../assets/images/016d663fe2a522cb.png)
 
 
 ## Location 对象
@@ -279,6 +278,6 @@ console.log(location.href); // 获取当前页面的url 路径
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/20190101.png)
+![](../assets/images/8f05eb9f725cfeeb.png)
 
 

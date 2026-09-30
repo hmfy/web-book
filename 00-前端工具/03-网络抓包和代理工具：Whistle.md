@@ -2,7 +2,6 @@
 title: 03-网络抓包和代理工具：Whistle
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 ## Whistle 官网
@@ -37,13 +36,13 @@ w2 start
 
 **Firefox浏览器配置代理**：
 
-![](https://img.smyhvae.com/20200420_1357.png)
+![](../assets/images/3f8eb8c1c7429fc3.png)
 
 
 
 ### 4、安装证书并添加信任：
 
-![](https://img.smyhvae.com/20200420_0922.png)
+![](../assets/images/49c903639841ae9b.png)
 
 
 证书下载后，双击安装，安装目录选择“登录”这个tab。安装完成后，记得执行 `w2 restart`重启 whistle。
@@ -66,7 +65,7 @@ whistle安装证书后，可以拦截 https 请求。但是，我现在又不想
 
 我发现，证书无法卸载，正确的操作是：
 
-![](http://img.smyhvae.com/20180426_1621.png)
+![](../assets/images/746a634af2e4b90a.png)
 
 上图中，把红框部分，去掉勾选，就不捕获https了。谢谢azh童鞋。
 
@@ -107,4 +106,4 @@ http://xxx.com htmlAppend://{eruda.html}
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)

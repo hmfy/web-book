@@ -3,7 +3,6 @@ title: 05-CSS样式表的继承性和层叠性
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 ## 本文重点
@@ -21,7 +20,7 @@ publish: true
 
 我们来看下面这样的代码，来引入继承性：
 
-![](http://img.smyhvae.com/20170724_2359.png)
+![](../assets/images/8dc66c6111c1b9b2.png)
 
 上方代码中，我们给div标签增加红色属性，却发现，div里的每一个子标签`<p>`也增加了红色属性。于是我们得到这样的结论：
 
@@ -31,7 +30,7 @@ publish: true
 
 但是呢，如果再给上方的代码加一条属性：
 
-![](http://img.smyhvae.com/20170725_2122.jpg)
+![](../assets/images/8bcfa46f107997b4.jpg)
 
 上图中，我们给div加了一个border，但是发现只有div具备了border属性，而p标签却没有border属性。于是我们可以得出结论：
 
@@ -53,7 +52,7 @@ CSS像艺术家一样优雅，像工程师一样严谨。
 
 我们来看一个例子，就知道什么叫层叠性了。
 
-![](http://img.smyhvae.com/20170725_2132.png)
+![](../assets/images/744d9b0369dcc661.png)
 
 
 上图中，三种选择器同时给P标签增加颜色的属性，但是，文字最终显示的是蓝色，这个时候，就出现了层叠性的情况。
@@ -72,7 +71,7 @@ CSS像艺术家一样优雅，像工程师一样严谨。
 
 #### 举例1：计算权重
 
-![](http://img.smyhvae.com/20170725_2138.png)
+![](../assets/images/ead4dfd642fda4c3.png)
 
 如上图所示，统计各个选择器的数量，优先级高的胜出。文字的颜色为红色。
 
@@ -80,25 +79,25 @@ PS：不进位，实际上能进位（奇淫知识点：255个标签，等于1�
 
 #### 举例2：权重相同时
 
-![](http://img.smyhvae.com/20170725_2250.png)
+![](../assets/images/5a07bbf9aa64d8f0.png)
 
 上图可以看到，第一个样式和第二个样式的权重相同。但第二个样式的书写顺序靠后，因此以第二个样式为准（就近原则）。
 
 #### 举例3：具有实战性的例子
 
-![](http://img.smyhvae.com/20170726_2221.png)
+![](../assets/images/34ee0a8960ae4468.png)
 
 现在我要让一个列表实现上面的这种样式：第一个li为红色，剩下的li全部为蓝色。
 
 如果写成下面这种代码是无法实现的：
 
-![](http://img.smyhvae.com/20170726_2225.png)
+![](../assets/images/76589af462bc66df.png)
 
 无法实现的原因很简单，计算一下三个选择器的权重就清楚了，显然第二个样式被第一个样式表覆盖了。
 
 正确的做法是：（**非常重要**）
 
-![](http://img.smyhvae.com/20170726_2229.png)
+![](../assets/images/a8adfd4209c24adb.png)
 
 上图中，第二个样式比第一个样式的权重要大。因此在实战中可以实现这种效果：**所有人当中，让某一个人为红，让其他所有人为蓝。**
 
@@ -116,11 +115,11 @@ PS：不进位，实际上能进位（奇淫知识点：255个标签，等于1�
 
 为了验证上面这句话，我们来看看下面这样的例子：
 
-![](http://img.smyhvae.com/20170727_0843.png)
+![](../assets/images/3ad832610e96905a.png)
 
 另外：**如果大家的权重相同，那么就采用就近原则：谁描述的近，听谁的**。举例如下：(box3 描述得最近，所以采用 box3 的属性)
 
-![](http://img.smyhvae.com/20190122_1530.png)
+![](../assets/images/af9a591fd3003530.png)
 
 上方代码的文字版如下：
 
@@ -163,7 +162,7 @@ PS：不进位，实际上能进位（奇淫知识点：255个标签，等于1�
 
 通过列举上面几个例子，我们对权重问题做一个总结。
 
-![](http://img.smyhvae.com/20170727_2050.png)
+![](../assets/images/bdcc3c4acdbe0ad4.png)
 
 上面这个图非常重要，我们针对这个图做一个文字描述：
 
@@ -180,7 +179,7 @@ PS：不进位，实际上能进位（奇淫知识点：255个标签，等于1�
 
 举例：如果都是内嵌样式表，优先级的顺序如下：（ID 选择器 > 类选择器 > 标签选择器）
 
-![](http://img.smyhvae.com/2015-10-03-css-14.png)
+![](../assets/images/dd95b2286711e321.png)
 
 另外还有两个冲突的情况：
 
@@ -189,7 +188,7 @@ PS：不进位，实际上能进位（奇淫知识点：255个标签，等于1�
 
 例如：
 
-![](http://img.smyhvae.com/2015-10-03-css-16.png)
+![](../assets/images/e5eff48376c19497.png)
 
 ### 题目演示
 
@@ -197,19 +196,19 @@ CSS的层叠性讲完了，我们来做几个题目吧。
 
 #### 题目1
 
-![](http://img.smyhvae.com/20170727_0851.png)
+![](../assets/images/c5ef64c49206321e.png)
 
 #### 题目2
 
-![](http://img.smyhvae.com/20170727_0853.png)
+![](../assets/images/1ffe60efb063e9d8.png)
 
 #### 题目3
 
-![](http://img.smyhvae.com/20170727_0855.png)
+![](../assets/images/bcdc300debca923b.png)
 
 #### 题目4
 
-![](http://img.smyhvae.com/20170727_0857.png)
+![](../assets/images/ac7a0fcbf474b6e1.png)
 
 ## 权重问题深入
 
@@ -222,7 +221,7 @@ CSS的层叠性讲完了，我们来做几个题目吧。
 
 例如：（就近原则）
 
-![](http://img.smyhvae.com/20170727_2021.png)
+![](../assets/images/6f3f268adc412260.png)
 
 上图中，**文字显示的颜色均为红色**。因为这和在标签中的挂类名的书序无关，只和css的顺序有关。
 
@@ -230,13 +229,13 @@ CSS的层叠性讲完了，我们来做几个题目吧。
 
 来看个很简单的例子：
 
-![](http://img.smyhvae.com/20170727_2029.png)
+![](../assets/images/5e27b4ec861e9e90.png)
 
 上图中，显然id选择器的权重最大，所以文字的颜色是红色。
 
 如果我们想让文字的颜色显示为绿色，只需要给标签选择器的加一个`!important`标记，此时其权重为无穷大。如下：
 
-![](http://img.smyhvae.com/20170727_2035_2.png)
+![](../assets/images/a70fca43e4a5d7be.png)
 
 important是英语里面的“重要的”的意思。我们可以通过如下语法：
 
@@ -314,7 +313,7 @@ font-size:60px important;      不能忘记感叹号
 
 为了验证这个问题，我们可以搞两层具有继承性的标签，然后给外层标签加一个!important，最终看看就近原则有没有被打破。举例如下：
 
-![](http://img.smyhvae.com/20170727_2046.png)
+![](../assets/images/42f4a6827ab07fdd.png)
 
 PS：做网站的时候，!important 尽量不要用。否则会让css写的很乱。
 
@@ -382,13 +381,13 @@ ul li:last-child
 
 再看几个题目：
 
-![](http://img.smyhvae.com/20170727_0900.png)
+![](../assets/images/e11083c59a660c7b.png)
 
-![](http://img.smyhvae.com/20170727_0901.png)
+![](../assets/images/5dea41b93514d2dd.png)
 
-![](http://img.smyhvae.com/20170727_0902.png)
+![](../assets/images/f7fa9e92a088cc9d.png)
 
-![](http://img.smyhvae.com/20170727_0903.png)
+![](../assets/images/6d1f5a465a31b82c.png)
 
 ## 我的公众号
 
@@ -396,4 +395,4 @@ ul li:last-child
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/20190101.png)
+![](../assets/images/8f05eb9f725cfeeb.png)

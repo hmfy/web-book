@@ -41,11 +41,11 @@
 
 - 进群要求：少提问、少闲聊、多分享（不适合长期潜水）。
 
-![](https://img.smyhvae.com/20210329_1930.png)
+![](assets/images/2926634c0cf751a3.png)
 
 
 ## LICENSE
 
-![](http://img.smyhvae.com/20210331_CC-BY-NC-SA.png)
+![](assets/images/c66f1ea419682962.png)
 
 本作品采用[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)进行许可。

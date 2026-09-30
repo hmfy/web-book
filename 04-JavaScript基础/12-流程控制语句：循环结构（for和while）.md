@@ -2,7 +2,6 @@
 title: 12-流程控制语句：循环结构（for和while）
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 ## 前言
 
@@ -407,7 +406,7 @@ i的值:9
 
 打印结果：
 
-![](http://img.smyhvae.com/20181229_1415.png)
+![](../assets/images/cca8a5999fbfcd81.png)
 
 ### 练习三：99 乘法表
 
@@ -460,10 +459,10 @@ i的值:9
 
 页面效果：
 
-![](http://img.smyhvae.com/20181229_1410.png)
+![](../assets/images/0124abd3acdc64fa.png)
 
 ## 赞赏作者
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)

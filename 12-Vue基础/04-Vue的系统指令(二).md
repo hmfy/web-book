@@ -3,7 +3,6 @@ title: 03-v-on的事件修饰符
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -287,7 +286,7 @@ publish: true
 
 演示效果如下：
 
-![](http://img.smyhvae.com/20180509_1058.png)
+![](../assets/images/c6b32b4d8a25cd95.png)
 
 ### 写法二：在数组中使用三元表达式
 
@@ -472,7 +471,7 @@ publish: true
 
 效果：
 
-![](http://img.smyhvae.com/20180329_1713.png)
+![](../assets/images/a219aa2bf7597235.png)
 
 为了实现上面的效果，如果我用`v-for`进行赋值，代码就简洁很多了：
 
@@ -530,7 +529,7 @@ publish: true
 
 效果如下：
 
-![](http://img.smyhvae.com/20180329_1856.png)
+![](../assets/images/2dffdcf879067527.png)
 
 ### 方式二：对象数组的遍历
 
@@ -578,7 +577,7 @@ publish: true
 
 效果如下：
 
-![](http://img.smyhvae.com/20180509_1500.png)
+![](../assets/images/ba86c309d24ec5d5.png)
 
 ### 方式三：对象的遍历
 
@@ -620,7 +619,7 @@ publish: true
 
 效果如下：
 
-![](http://img.smyhvae.com/20180329_1850.png)
+![](../assets/images/3caa3e5fbe87745f.png)
 
 ### 方式四：遍历数字
 
@@ -636,7 +635,7 @@ publish: true
 
 效果如下：
 
-![](http://img.smyhvae.com/20180509_1505.png)
+![](../assets/images/2ea5d50fcdc325ab.png)
 
 ### v-for中key的使用注意事项
 
@@ -758,7 +757,7 @@ key的类型只能是：string/number，而且要通过 v-bind 来指定。
 
 效果如下：
 
-![](http://img.smyhvae.com/20180329_1920.gif)
+![](../assets/images/b93444d829d32bc6.gif)
 
 ## v-show：设置元素的显示和隐藏（在元素上添加/移除`style="display:none"`属性）
 
@@ -805,7 +804,7 @@ key的类型只能是：string/number，而且要通过 v-bind 来指定。
 
 效果如下：
 
-![](http://img.smyhvae.com/20180329_2040.gif)
+![](../assets/images/726c389c00b5175a.gif)
 
 ### v-if和v-show的区别
 

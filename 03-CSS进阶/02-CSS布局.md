@@ -3,7 +3,6 @@ title: 02-CSS布局
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 ## 前言
 
@@ -41,7 +40,7 @@ publish: true
 
 唯一的缺点是兼容性问题：
 
-![](http://img.smyhvae.com/20191005_1200.png)
+![](../assets/images/a9d202fb5731f8f1.png)
 
 上图中可以看到， flex 布局不支持 IE9 及以下的版本。如果你的页面不需要处理 IE浏览器的兼容性问题，则可以放心大胆地使用 flex 布局。
 
@@ -63,11 +62,11 @@ flex 是一种现代的布局方式，是 W3C 第一次提供真正用于布局�
 
 下面这两个并列的`div1`和`div2`，默认是在标准流中的：
 
-![](http://img.smyhvae.com/20191005_2029.png)
+![](../assets/images/b6f8af21f5e82a77.png)
 
 在此基础之上，如果给`div1`增加`float: left`属性后，效果如下：
 
-![](http://img.smyhvae.com/20191005_2037.png)
+![](../assets/images/b58d1e9cf0064996.png)
 
 上图中，可以看到，`div1`设置为浮动后，会脱离文档流，不会对`div2`的布局造成影响；但是`div1`不会脱离文本流，它会影响`div2`中文字的排列。
 
@@ -85,11 +84,11 @@ flex 是一种现代的布局方式，是 W3C 第一次提供真正用于布局�
 
 下面这两个并列的`div1`和`div2`，设置为浮动之后的效果：（都是尽量靠左显示的）
 
-![](http://img.smyhvae.com/20191005_2130.png)
+![](../assets/images/bd68f5d1b811bf05.png)
 
 在上方代码的基础之上，增加 `div2`的宽度之后，会发现，`div2`掉下来了：
 
-![](http://img.smyhvae.com/20191005_2135.png)
+![](../assets/images/3192a10944239dea.png)
 
 **2、对兄弟元素的影响**：
 
@@ -159,7 +158,7 @@ flex 是一种现代的布局方式，是 W3C 第一次提供真正用于布局�
 </html>
 ```
 
-![](http://img.smyhvae.com/20191005_2200.png)
+![](../assets/images/cddeed48bfa87e98.png)
 
 上面的代码，存在两个问题。
 

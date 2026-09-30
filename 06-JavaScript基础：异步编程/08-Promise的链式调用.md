@@ -2,7 +2,6 @@
 title: 08-Promise的链式调用
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 ## 前言
 
@@ -377,4 +376,4 @@ res3 qianguyihao fulfilled 3
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)

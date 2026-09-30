@@ -2,7 +2,6 @@
 title: 07-HTML标签图文详解（二）
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 ## 本文主要内容
@@ -38,7 +37,7 @@ title: 07-HTML标签图文详解（二）
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_01.png)
+![](../assets/images/3c45cc7fee34e22a.png)
 
 注意：
 
@@ -51,11 +50,11 @@ title: 07-HTML标签图文详解（二）
  - `type="属性值"`。属性值可以选： `disc`(实心原点，默认)，`square`(实心方点)，`circle`(空心圆)。
 效果如下：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_02_1.png)
+![](../assets/images/0cba32b7ea727991.png)
 
 不光是`<ul>`标签有`type`属性，`<ul>`里面的`<li>`标签也有`type`属性（虽然说这种写法很少见）。效果如下：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_03.png)
+![](../assets/images/385e4f83db731f36.png)
 
 注意：项目符号可以是图片，需要通过CSS设置`<li>`标记的背景图片来实现(CSS中讲)。
 
@@ -82,7 +81,7 @@ title: 07-HTML标签图文详解（二）
 ```
 效果：
 
-![](http://img.smyhvae.com/2015-10-01-cnblogs_html_40.png)
+![](../assets/images/1daa020ab2985cfd.png)
 
 
 **css 属性**：
@@ -95,11 +94,11 @@ list-style-position: inside   /* 给 ul 设置这个属性后，将小圆点包�
 
 场景1、导航条：
 
-![20211031_1617](https://img.smyhvae.com/20211031_1617.png)
+![20211031_1617](../assets/images/0d831839431a61ca.png)
 
 场景2、li 里面放置的内容可能很多：
 
-![](http://img.smyhvae.com/20170704_1719.png)
+![](../assets/images/8c4a6675eb0fcaa9.png)
 
 声明：ul的儿子，只能是li。但是li是一个容器级标签，**li里面什么都能放，甚至可以再放一个ul**。
 
@@ -119,7 +118,7 @@ list-style-position: inside   /* 给 ul 设置这个属性后，将小圆点包�
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_04.png)
+![](../assets/images/b6ccb0e8b96aae6b.png)
 
 **属性：**
  - `type="属性值"`。属性值可以是：1(阿拉伯数字，默认)、a、A、i、I。结合`start`属性表示`从几开始`。
@@ -153,7 +152,7 @@ list-style-position: inside   /* 给 ul 设置这个属性后，将小圆点包�
 ```
 
 效果如下：
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_07.png)
+![](../assets/images/b796857758282135.png)
 
 和无序列表一样，有序列表也是可以嵌套的哦，这里就不举类似的例子了。
 
@@ -203,7 +202,7 @@ ol这个东西用的不多，如果想表达顺序，大家一般也用ul。举�
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_09.png)
+![](../assets/images/1a28256fb0461630.png)
 
 
 上图可以看出，定义列表表达的语义是两层：
@@ -250,7 +249,7 @@ ol这个东西用的不多，如果想表达顺序，大家一般也用ul。举�
 
 真实案例：（京东最下方）
 
-![](http://img.smyhvae.com/20170704_1727.png)
+![](../assets/images/fb40805fac2680da.png)
 
 
 上图中的结构如下：
@@ -282,7 +281,7 @@ ol这个东西用的不多，如果想表达顺序，大家一般也用ul。举�
 
 京东商品分类如下：
 
-![](http://img.smyhvae.com/20170704_1729.png)
+![](../assets/images/eeb2e5934b929591.png)
 
 dt、dd都是容器级标签，想放什么都可以。所以，现在就应该更加清晰的知道：用什么标签，不是根据样子来决定，而是语义（语义本质上是结构）。
 
@@ -333,7 +332,7 @@ dt、dd都是容器级标签，想放什么都可以。所以，现在就应该�
 ```
 效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_10.png)
+![](../assets/images/be98dacfa1414416.png)
 
 上图中的表格好像没看到边框呀，不急，接下来看看`<table>`标签的属性。
 
@@ -359,7 +358,7 @@ dt、dd都是容器级标签，想放什么都可以。所以，现在就应该�
 
 单元格带边框的效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_11.png)
+![](../assets/images/2da429e4220920d5.png)
 
 备注：表格中很细表格边线的制作，CSS的写法：
 
@@ -403,11 +402,11 @@ style="border-collapse:collapse;"
 
 效果举例：（横向合并）
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_13.png)
+![](../assets/images/48a7b37e9e4fe701.png)
 
 效果举例：（纵向合并）
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_15.png)
+![](../assets/images/5112c81cb841c712.png)
 
 ### `<th>`：加粗的单元格。相当于`<td>` + `<b>`
 
@@ -420,7 +419,7 @@ style="border-collapse:collapse;"
  - 属性：`align`，表示标题相对于表格的位置。属性取值可以是：left、center、right、top、bottom
 效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_16.png)
+![](../assets/images/d163d4a982d797eb.png)
 
 ### 表格的`<thead>`标签、`<tbody>`标签、`<tfoot>`标签
 
@@ -470,7 +469,7 @@ style="border-collapse:collapse;"
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_17.png)
+![](../assets/images/f17172625e3268b6.png)
 
 ## 框架标签
 
@@ -502,11 +501,11 @@ style="border-collapse:collapse;"
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_26.png)
+![](../assets/images/598be5ffd3414dd3.png)
 
 上图中，如果删掉页面right.html，显示效果如下：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_27.png)
+![](../assets/images/b3cbcb0f823f5293.png)
 
 ### `<frame>`：框架
 
@@ -534,11 +533,11 @@ style="border-collapse:collapse;"
 
 举例：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_28.png)
+![](../assets/images/0aac90303a5689a3.png)
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_gif3.gif)
+![](../assets/images/9486127e8b01bf67.gif)
 
 
 ## 内嵌框架
@@ -558,7 +557,7 @@ style="border-collapse:collapse;"
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_29.png)
+![](../assets/images/7a89bbe41e3b579a.png)
 
 内嵌框架举例：（在内嵌页面中切换显示不同的压面）
 
@@ -578,7 +577,7 @@ style="border-collapse:collapse;"
 ```
 
 效果演示：
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_GIF.gif)
+![](../assets/images/83c460582fbe8847.gif)
 
 
 ## 表单标签
@@ -667,7 +666,7 @@ POST方式：
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_33.png)
+![](../assets/images/7fe88cd4e8395345.png)
 
 注意，多个单选框的input标签中，name 的属性值可以相同，但是 **id 的属性值必须是唯一的**。我们知道，html的标签中，id的属性值是唯一的。
 
@@ -688,7 +687,7 @@ POST方式：
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_35.png)
+![](../assets/images/7433d8cdec4a6f0f.png)
 
 ### `<select>`：下拉列表标签
 
@@ -741,7 +740,7 @@ select标签和ul、ol、dl一样，都是组标签。
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_32.png)
+![](../assets/images/272deb08398d4bc6.png)
 
 ### `<textarea>`标签：多行文本输入框
 
@@ -764,7 +763,7 @@ text 就是“文本”，area 就是“区域”。
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_34.png)
+![](../assets/images/3332a781826bf459.png)
 
 上图的红框部分表示，我在文本区域进行了换行，所以显示的效果也出现了空白。
 
@@ -799,7 +798,7 @@ text 就是“文本”，area 就是“区域”。
 效果：
 
 
-![](http://img.smyhvae.com/20151002_36.png)
+![](../assets/images/94a04c1e6787d8ba.png)
 
 ### `<label>`标签
 
@@ -882,11 +881,11 @@ Flash格式的视频兼容性非常好，Flash格式的文件很小。
 ```
 IE 8中的运行效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_37.png)
+![](../assets/images/50404a2e716c47df.png)
 
 google浏览器中的运行效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_38.png)
+![](../assets/images/bc478fba42512569.png)
 
 注：在HTML5中新增了`<video>`标签播放视频。
 
@@ -931,7 +930,7 @@ google浏览器中的运行效果：
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-02-cnblogs_html_04.gif)
+![](../assets/images/00f8edf6fd00d747.gif)
 
 ## html废弃标签介绍
 
@@ -985,4 +984,4 @@ div  p  h1  span   a   img   ul   ol    dl    input
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/cnblogs/%E7%94%9F%E5%91%BD%E5%9B%A2%E9%98%9F%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)
+![](../assets/images/6d4e8b0535991b0c.jpg)

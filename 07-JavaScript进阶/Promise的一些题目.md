@@ -3,7 +3,6 @@ title: 07-Promise的一些题目
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 ## Promise 的执行顺序

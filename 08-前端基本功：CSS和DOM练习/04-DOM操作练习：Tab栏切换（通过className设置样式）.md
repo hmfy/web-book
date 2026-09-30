@@ -3,7 +3,6 @@ title: 04-DOM操作练习：Tab栏切换（通过className设置样式）
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -11,7 +10,7 @@ publish: true
 
 京东网页上，可以看到下面这种tab栏的切换：
 
-![](http://img.smyhvae.com/20180128_1750.gif)
+![](../assets/images/515e9fa530f00c2a.gif)
 
 我们把模型抽象出来，实现一下。
 
@@ -93,7 +92,7 @@ publish: true
 实现的效果如下：
 
 
-![](http://img.smyhvae.com/20180128_1740.gif)
+![](../assets/images/42c82bfccb2aaf23.gif)
 
 ## tab切换：初步的代码
 
@@ -197,7 +196,7 @@ publish: true
 
 实现效果如下：
 
-![](http://img.smyhvae.com/20180128_1610.gif)
+![](../assets/images/64bca42ed2745d4f.gif)
 
 上方代码的核心部分是：
 
@@ -243,7 +242,7 @@ publish: true
 
 显示的效果是一样的，不同的地方在于，我们审查元素发现，li标签中确实新增了自定义的index属性：
 
-![](http://img.smyhvae.com/20180128_1625.gif)
+![](../assets/images/751b8dee98fee773.gif)
 
 本段中，我们的目的已经达到了，不足的地方在于，**本段中的代码是通过document获取的的标签**，如果网页中有很多个这种tab选项卡，必然互相影响。
 
@@ -447,7 +446,7 @@ publish: true
 
 **总结**：通过函数封装的形式，可以保证各个tab栏之间的切换互不打扰。最终实现效果如下：
 
-![](http://img.smyhvae.com/20180128_1651.gif)
+![](../assets/images/848929a9fc71052a.gif)
 
 ## 我的公众号
 
@@ -455,5 +454,5 @@ publish: true
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/2016040102.jpg)
+![](../assets/images/6620de36b1f16782.jpg)
 

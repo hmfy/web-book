@@ -3,7 +3,6 @@ title: 03-Node.js开发环境安装
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 ## Node.js 版本常识
@@ -20,11 +19,11 @@ publish: true
 
 去 Node.js 的[官网](https://nodejs.org/en/)下载安装包：
 
-![](http://img.smyhvae.com/20180301_1505.png)
+![](../assets/images/8035d2e3e593aadc.png)
 
 我们也可以在<https://nodejs.org/en/download/releases/> 里下载历史版本。
 
-![](http://img.smyhvae.com/20180301_1507.png)
+![](../assets/images/dbe8099d0da4e317.png)
 
 注意，我们以一定要用偶数版（V4、V6 等)，不要用奇数版（比如 V5），因为奇数版不稳定。
 
@@ -58,11 +57,11 @@ Windows 和 Mac 下安装的 Node.js 的步骤如下。
 
 （1）我们去 <https://github.com/coreybutler/nvm-windows/releases> 下载 NVM 的安装包：
 
-![](http://img.smyhvae.com/20180301_1603.png)
+![](../assets/images/86e0628111a23da6.png)
 
 下载下来后，直接解压到 `D:\web`目录下：
 
-![](http://img.smyhvae.com/20180301_1610.png)
+![](../assets/images/142222e4e75a9145.png)
 
 （2）在上面的目录中，新建一个`settings.txt`文件，里面的内容填充如下：
 
@@ -97,7 +96,7 @@ proxy
 
 （1）输入`nvm`命令查看环境变量是否配置成功：
 
-![](http://img.smyhvae.com/20180301_1645.png)
+![](../assets/images/5a67c766e8066cbb.png)
 
 （2）输入 `nvm ls`，查看已安装的所有 node 版本。
 
@@ -148,7 +147,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
 安装成功的界面：
 
-![](http://img.smyhvae.com/20180302_2126.png)
+![](../assets/images/97826d9f5478ef4d.png)
 
 完成后，nvm 就被安装在了`~/.nvm`下。我们可以点开 home目录，然后按快捷键「Cmd + Shift + .」，看看 `.nvm`这个文件夹在不在。
 
@@ -156,7 +155,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
 问题2、如果发现安装失败：
 
-![](http://img.smyhvae.com/20180302_2111.png)
+![](../assets/images/4dac4fec9ff5375e.png)
 
 原因：Xcode 软件进行过更新。解决办法：打开 Xcode 软件，同意相关内容即可。
 
@@ -210,7 +209,7 @@ nvm install 12.18.0
 
 网速有点慢，要稍等。
 
-![](http://img.smyhvae.com/20180302_2148.png)
+![](../assets/images/2171196abc0fa56c.png)
 
 输入 `node -v`，查看当前使用的 node 版本。
 
@@ -332,7 +331,7 @@ $ node
 
 REPL 的全称：Read、Eval、 Print、Loop。类似于浏览器的控制台。
 
-![](http://img.smyhvae.com/20180301_1900.png)
+![](../assets/images/53d82fdd96f65a13.png)
 
 如果要退出 REPL 环境，可以输入`.exit` 或 `process.exit()`。
 
@@ -381,19 +380,19 @@ Node.js 发展到现在，已经形成了一个非常庞大的生态圈。包的
 
 NPM 不需要单独安装。默认在安装 Node 的时候，会连带一起安装 NPM：
 
-![](http://img.smyhvae.com/20180302_1105.png)
+![](../assets/images/7951aed4ff655587.png)
 
 NVM、Node、NPM 安装之后，目录分布如下：
 
-![](http://img.smyhvae.com/20180302_1134.png)
+![](../assets/images/d74c72e97cd9ed71.png)
 
-![](http://img.smyhvae.com/20180302_1137.png)
+![](../assets/images/fcb31c98685344aa.png)
 
-![](http://img.smyhvae.com/20180302_1138.png)
+![](../assets/images/6b72d236577a704e.png)
 
 输入 `npm -v`，查看 npm 的版本：
 
-![](http://img.smyhvae.com/20180302_1139.png)
+![](../assets/images/b33b529190faad43.png)
 
 如果上方命令无效，可能是之前的 node 并没有完全安装成功。解决办法：<https://segmentfault.com/a/1190000011114680>
 
@@ -409,7 +408,7 @@ NPM 默认安装到当前正在使用 Node 版本所在目录下。我们建议�
 
 输入`npm config ls`，查看：
 
-![](http://img.smyhvae.com/20180302_1210.png)
+![](../assets/images/9c3cc119262fa7b3.png)
 
 ### NPM包的版本管理
 
@@ -604,7 +603,7 @@ npm config set registry https://registry.npm.taobao.org
 	npm install -g nrm
 ```
 
-![](http://img.smyhvae.com/20180302_1208.png)
+![](../assets/images/bf97d3d76e672f8d.png)
 
 **NRM 的常用命令：**
 
@@ -618,7 +617,7 @@ nrm use taobao
 
 效果如下：
 
-![](http://img.smyhvae.com/20180302_1215.png)
+![](../assets/images/7700be8ac405169c.png)
 
 推荐的国内加速镜像淘宝：<https://npm.taobao.org/>
 
@@ -632,7 +631,7 @@ nrm use taobao
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 ```
 
-![](http://img.smyhvae.com/20180302_2204.png)
+![](../assets/images/700321266a150f8c.png)
 
 以后我们就可以通过 cnpm 命令去安装一个包。举例如下：
 
@@ -659,4 +658,4 @@ cnpm install vue
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)

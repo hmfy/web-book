@@ -2,7 +2,6 @@
 title: 01-编程语言和JavaScript简介
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 ## 计算机语言
 
@@ -16,7 +15,7 @@ title: 01-编程语言和JavaScript简介
 
 计算机语言的种类非常多，总的来说可以分成三大类：**机器语言、汇编语言和高级语言**。他们之间的转换过程如下：
 
-![](https://img.smyhvae.com/image-20230820183113674.png)
+![](../assets/images/1958a895f1d3265e.png)
 
 计算机最终所执行的都是机器语言，它是由“0”和“1”组成的二进制数，二进制是计算机语言的基础。
 
@@ -27,7 +26,7 @@ title: 01-编程语言和JavaScript简介
 
 计算机语言的分类如下：
 
-![image-20231001002948987](https://img.smyhvae.com/202310010029086.png)
+![image-20231001002948987](../assets/images/bb7cb975a79761bc.png)
 
 从机器语言到汇编语言，再到高级语言，这些语言的发展越来越高级，编写方式越来越接近人的思维。我们来具体看看这三种计算机语言的发展历史。
 
@@ -157,11 +156,11 @@ int main(int argc, char const *argv[])
 3. 汇编语言通过汇编器再汇编成目标程序`hello.o`。
 4. 链接：程序中往往包含一些共享目标文件，如示例代码中的`printf()`函数位于静态库，需要经过链接器进行链接。
 
-![20211030-0031-2](https://img.smyhvae.com/20211030-0031-2.png)
+![20211030-0031-2](../assets/images/34a812f15cc4ad01.png)
 
 （上方图片来源：[JavaScript 基础-基本概念](https://www.jianshu.com/p/230093183f47) ）
 
-![20211030-0026-2](http://img.smyhvae.com/20211030-0026-2.png)
+![20211030-0026-2](../assets/images/91db76a786830e41.png)
 
 （上方图片来源：[编译型语言](https://p.0x06.cn/zh/program/) ）
 
@@ -345,11 +344,11 @@ JavaScript 基础分为三个部分：
 
 - [编程语言的一些概念](https://jameszhan.github.io/2014/09/25/programming-languages-concepts.html)
 
-![pl_history](https://img.smyhvae.com/0964c49a88040dc69666487c6cbb6159d0dfd7e0.png)
+![pl_history](../assets/images/2278a2af539e8d8c.png)
 
 - [编程语言70年：谁是世界上最好的编程语言？](https://zhuanlan.zhihu.com/p/611924622)
 
-![img](https://img.smyhvae.com/v2-fcdbef5c589522df3960e4cea9825a71_1440w.png)
+![img](../assets/images/295219541aae1089.png)
 
 - [汇编语言(转) | Xian Rong](https://xianrong.github.io/2017/11/14/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%28%E8%BD%AC%29/)
 
@@ -357,4 +356,4 @@ JavaScript 基础分为三个部分：
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)

@@ -3,7 +3,6 @@ title: 06-Node.js内置模块：path路径模块
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -144,7 +143,7 @@ console.log(result3); // 返回：/foo1/foo2/foo3
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](https://img.smyhvae.com/20200102.png)
+![](../assets/images/614b08dc22afe7be.png)
 
 
 

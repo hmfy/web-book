@@ -3,7 +3,6 @@ title: 01-Bootstrap入门
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -25,11 +24,11 @@ PS：[Amaze UI](http://amazeui.org/) 这个框架其实跟 Bootstrap 很像。
 
 V3版本：
 
-![](http://img.smyhvae.com/20180225_1033.png)
+![](../assets/images/52991999894b4d9c.png)
 
 V4版本：
 
-![](http://img.smyhvae.com/20180225_1043.png)
+![](../assets/images/f67573c7427875ea.png)
 
 列举几个用 Bootstrap 做的网站：
 
@@ -78,11 +77,11 @@ V4版本：
 
 进入[中文官网](https://v3.bootcss.com/)，下载 `用于生产环境的 Bootstrap`，如下图所示：
 
-![](http://img.smyhvae.com/20180225_1052.png)
+![](../assets/images/9a8a2283112d08ae.png)
 
 下载之后，解压 `bootstrap-3.3.7-dist` ，有三个文件夹：
 
-![](http://img.smyhvae.com/20180225_1053.png)
+![](../assets/images/1b1218efdfc0d631.png)
 
 将其拷贝到工程文件的lib文件夹下即可。
 
@@ -95,7 +94,7 @@ PS：`dist`表示编译之后的文件，这在库文件中是很常见的。
 
 [Bootstrap](https://v3.bootcss.com/getting-started/)官网提供了基本模板，如下图所示：
 
-![](http://img.smyhvae.com/20180225_1119.png)
+![](../assets/images/77e7e9600d1e0197.png)
 
 其完整版代码 copy 如下：
 
@@ -338,7 +337,7 @@ body{
 
 全局 CSS 样式在[官网](https://v3.bootcss.com/css/)有介绍：
 
-![](http://img.smyhvae.com/20180225_1710.png)
+![](../assets/images/3b3d2853d663dcca.png)
 
 **如果需要哪个样式，直接根据文档的指引，在相应的元素里加指定的类名即可。**
 
@@ -348,7 +347,7 @@ body{
 
 截图如下：
 
-![](http://img.smyhvae.com/20180225_1720.png)
+![](../assets/images/0efdfb82da077260.png)
 
 **作用**：用于定义一个固定宽度且居中的版心。只不过，这个版心的宽度具有**响应式**的效果。
 
@@ -375,7 +374,7 @@ body{
 
 栅格参数如下：
 
-![](http://img.smyhvae.com/20180225_1732.png)
+![](../assets/images/4be86c9b4a35bcac.png)
 
 我们尤其要记住各个屏幕的尺寸和**类前缀**。
 
@@ -385,7 +384,7 @@ body{
 
 组件在[官网](https://v3.bootcss.com/components/)有介绍：
 
-![](http://img.smyhvae.com/20180225_1738.png)
+![](../assets/images/0dc59570fe1c7aa5.png)
 
 我们现在需要关注的不是组件怎么用，而是里面有哪些组件，避免**重复造轮子**：别人已经做得很好了，不需要我们再重复。
 
@@ -393,11 +392,11 @@ body{
 
 JS 组件在[官网](https://v3.bootcss.com/javascript/)有介绍：
 
-![](http://img.smyhvae.com/20180225_1750.png)
+![](../assets/images/b9b027a47ac7c2ec.png)
 
 这里面包含了很多带交互的组件。比如轮播图：
 
-![](http://img.smyhvae.com/20180225_1841.png)
+![](../assets/images/8abec20d45e37239.png)
 
 ## 博主提供的下载链接
 
@@ -413,4 +412,4 @@ JS 组件在[官网](https://v3.bootcss.com/javascript/)有介绍：
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/2016040102.jpg)
+![](../assets/images/6620de36b1f16782.jpg)

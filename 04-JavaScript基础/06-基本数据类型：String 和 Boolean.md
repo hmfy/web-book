@@ -2,7 +2,6 @@
 title: 06-基本数据类型：String 和 Boolean
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 ## String 字符串
 
@@ -272,7 +271,7 @@ console.log(html); // 打印结果也会换行
 
 打印结果：
 
-![](http://img.smyhvae.com/20200825_2016.png)
+![](../assets/images/5bf07e3c1a044f6b.png)
 
 ### 模板字符串中可以调用函数
 
@@ -304,7 +303,7 @@ document.body.innerHTML = myTemplate();
 
 效果如下：
 
-![](http://img.smyhvae.com/20200607_2118.png)
+![](../assets/images/cf74ff3e7448910d.png)
 
 ## 布尔值：Boolean
 
@@ -331,4 +330,4 @@ boolean
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)

@@ -3,7 +3,6 @@ title: 07-Node.js操作MySQL数据库
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -63,7 +62,7 @@ flush privileges;
 
 针对下面这张表：
 
-![](https://img.smyhvae.com/20200418_1728.png)
+![](../assets/images/c978185e34cd3f09.png)
 
 
 通过 Node.js可以对其进行一些增删改查操作。代码举例如下。

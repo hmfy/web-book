@@ -3,7 +3,6 @@ title: 10-HTML5详解（二）
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 ## 本文主要内容
@@ -19,7 +18,7 @@ publish: true
 ## 拖拽
 
 
-![](http://img.smyhvae.com/20180223_2130.gif)
+![](../assets/images/a0d8ba3df69ea43c.gif)
 
 如上图所示，我们可以拖拽博客园网站里的图片和超链接。
 
@@ -56,7 +55,7 @@ publish: true
 
 效果如下：
 
-![](http://img.smyhvae.com/20180223_2140.gif)
+![](../assets/images/4b0bed28f64ee98a.gif)
 
 上图中，我们给 box1 增加了`draggable="true"` 属性之后，发现 box1 是可以拖拽的。但是拖拽之后要做什么事情呢？这就涉及到**事件监听**。
 
@@ -124,11 +123,11 @@ publish: true
 
 效果如下：
 
-![](http://img.smyhvae.com/20180223_2201.gif)
+![](../assets/images/1f0cfacc4488582c.gif)
 
 打印结果：
 
-![](http://img.smyhvae.com/20180223_2213.png)
+![](../assets/images/92f9a27ff89188e6.png)
 
 
 ### 2、目标元素
@@ -215,11 +214,11 @@ publish: true
 
 效果演示：
 
-![](http://img.smyhvae.com/20180223_2240.gif)
+![](../assets/images/930a9fe4e17c29d7.gif)
 
 注意，上方代码中，我们加了`event.preventDefault()`这个方法。如果没有这个方法，后面ondrop()方法无法触发。如下图所示：
 
-![](http://img.smyhvae.com/20180223_2245.gif)
+![](../assets/images/debfffe5175df84d.gif)
 
 如上图所示，连光标的形状都提示我们，无法在目标元素里继续操作了。
 
@@ -316,7 +315,7 @@ publish: true
 
 效果如下：
 
-![](http://img.smyhvae.com/20180224_2050.gif)
+![](../assets/images/f813bb5aac9fae68.gif)
 
 ## 历史
 
@@ -381,7 +380,7 @@ publish: true
 
 对不同获取方式的优缺点进行了比较，浏览器会**自动以最优方式**去获取用户地理信息：
 
-![](http://img.smyhvae.com/20180224_2110.png)
+![](../assets/images/7d3bcabcc4f5ffbf.png)
 
 
 ### 隐私
@@ -628,7 +627,7 @@ HTML5 Geolocation(地理位置定位) 规范提供了一套保护用户隐私的
 
 效果如下：
 
-![](http://img.smyhvae.com/20180224_2130.gif)
+![](../assets/images/f1fd477aee72ae57.gif)
 
 
 

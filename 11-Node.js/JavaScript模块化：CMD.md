@@ -3,7 +3,6 @@ title: JavaScript模块化：CMD
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -260,7 +259,7 @@ define(function (require) {
 
 打印结果：
 
-![](http://img.smyhvae.com/20180412_1955.png)
+![](../assets/images/b7df5642841d5dca.png)
 
 
 
@@ -288,13 +287,13 @@ GitHub：<https://github.com/seajs/seajs>
 
 - 自然直观的代码组织方式。
 
-![](http://img.smyhvae.com/20180303_2107.png)
+![](../assets/images/e4c806785d75c098.png)
 
 ### RequireJS（AMD）、SeaJS（CDM）、CommonJS、ES6 的对比
 
 1、RequireJS 和 AMD：
 
-![](http://img.smyhvae.com/20180303_1653.png)
+![](../assets/images/3afd8375fdeaa7bb.png)
 
 异步模块定义，特点是依赖前置。
 
@@ -317,7 +316,7 @@ GitHub：<https://github.com/seajs/seajs>
 
 3、CommonJS：
 
-![](http://img.smyhvae.com/20180303_1701.png)
+![](../assets/images/5a03d2fa38766a92.png)
 
 以上三个都是 ES5里面的规范。
 
@@ -325,6 +324,6 @@ GitHub：<https://github.com/seajs/seajs>
 
 ES6的特性：export/import
 
-![](http://img.smyhvae.com/20180303_1704.png)
+![](../assets/images/9ad8d0c4a34b3fca.png)
 
 

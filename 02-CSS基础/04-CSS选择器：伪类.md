@@ -3,7 +3,6 @@ title: 04-CSS选择器：伪类
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -84,7 +83,7 @@ a标签有4种伪类（即对应四种状态），要求背诵。如下：
 
 看一下这四种状态的动图效果：
 
-![](http://img.smyhvae.com/20180113_2239.gif)
+![](../assets/images/fa54a6ee3863eb45.gif)
 
 ### 超链接的美化
 
@@ -103,7 +102,7 @@ a标签有4种伪类（即对应四种状态），要求背诵。如下：
 
 针对超链接，我们来举个例子：
 
-![](http://img.smyhvae.com/20170810_2235.gif)
+![](../assets/images/19ae6b87ffbe777b.gif)
 
 
 为了实现上面这个效果，完整版代码如下：
@@ -261,7 +260,7 @@ a标签有4种伪类（即对应四种状态），要求背诵。如下：
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-03-css-02.gif)
+![](../assets/images/64f0b5cf3b9c9d82.gif)
 
 利用这个`hover`属性，我们同样对表格做一个样式的设置：
 表格举例：
@@ -328,7 +327,7 @@ a标签有4种伪类（即对应四种状态），要求背诵。如下：
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-03-css-04.gif)
+![](../assets/images/87ab9ecd9c3b2a0c.gif)
 
 
 ## 我的公众号
@@ -337,4 +336,4 @@ a标签有4种伪类（即对应四种状态），要求背诵。如下：
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/20190101.png)
+![](../assets/images/8f05eb9f725cfeeb.png)

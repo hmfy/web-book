@@ -3,7 +3,6 @@ title: 00-服务器分类及PHP入门
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -130,7 +129,7 @@ publish: true
 
 去 WampServer 的[官网](http://www.wampserver.com/en/)下载软件。
 
-![](http://img.smyhvae.com/20180227_1936.png)
+![](../assets/images/0f4ab1c360eff40e.png)
 
 
 安装完成后进行安装。
@@ -140,14 +139,14 @@ publish: true
 打开浏览器输入 `127.0.0.1` 查看显示的内容，如果是第一次安装，默认显示的应该是如下图片：
 
 
-![](http://img.smyhvae.com/20180227_2203.png)
+![](../assets/images/91010733b1d6a8f5.png)
 
 127.0.0.1 是回送地址，指本地机，一般用来测试使用，如果想要让其他电脑也能够访问，需要进行如下配置：
 
 （1）关闭防火墙：
 
 
-![](http://img.smyhvae.com/20180227_2207.gif)
+![](../assets/images/cf1fb8da6b891afd.gif)
 
 （2）修改httpd.conf文件：
 
@@ -219,7 +218,7 @@ php 之所以被称为最好的语言，是因为：基本上，我们能够想�
 
 在浏览器中输入`http://127.0.0.1/2018-02-28/1.php`，效果如下：
 
-![](http://img.smyhvae.com/20180228_0910.png)
+![](../assets/images/ae2e640f836c59a2.png)
 
 
 **代码的编写位置**：
@@ -591,7 +590,7 @@ foreach 循环：
 
 效果：
 
-![](http://img.smyhvae.com/20180228_1140.gif)
+![](../assets/images/4e45700afded6221.gif)
 
 ### post 请求
 
@@ -640,7 +639,7 @@ foreach 循环：
 
 效果演示：
 
-![](http://img.smyhvae.com/20180228_1145.gif)
+![](../assets/images/c799436ffe3842ae.gif)
 
 实际开发中，可能不会单独写一个php文件，常见的做法是：在 html 文件中嵌入 php 的代码。
 
@@ -693,7 +692,7 @@ foreach 循环：
 
 演示效果：
 
-![](http://img.smyhvae.com/20180228_php_post_file.gif)
+![](../assets/images/79d47a5a5dd5d155.gif)
 
 上方现象可以看出：
 
@@ -742,7 +741,7 @@ foreach 循环：
 
 （1）打开 WampServer的文件`php.ini`：
 
-![](http://img.smyhvae.com/20180228_1454.png)
+![](../assets/images/ddea8549bda65ce9.png)
 
 
 （2）修改`php.ini`中的如下内容：
@@ -771,7 +770,7 @@ foreach 循环：
 
 客户端发出的请求，主要由三个组成部分：请求行、请求头、请求主体。如下图所示：
 
-![](https://img.smyhvae.com/20180228_1505.jpg)
+![](../assets/images/a791ca6f1ae96abd.jpg)
 
 **1、请求行：**
 
@@ -827,7 +826,7 @@ Referer：包含一个URL，用户从该URL代表的页面出发访问当前请�
 
 响应报文是服务器返回给客户端的。组成部分有响应行、响应头、响应主体。
 
-![](http://img.smyhvae.com/20180228_1510.jpg)
+![](../assets/images/f891383ecd61074d.jpg)
 
 
 **1、状态行：**

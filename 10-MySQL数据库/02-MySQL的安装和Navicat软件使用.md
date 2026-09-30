@@ -3,7 +3,6 @@ title: 02-MySQL的安装和Navicat软件使用
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -15,10 +14,10 @@ publish: true
 
 MySQL 下载地址：https://dev.mysql.com/downloads/mysql/
 
-![](http://img.smyhvae.com/20200415_1707.png)
+![](../assets/images/89f806dd5274c5c4.png)
 
 
-![](http://img.smyhvae.com/20200415_1708.png)
+![](../assets/images/0d0a1ccf117bac3e.png)
 
 
 #### 步骤2、配置环境变量
@@ -71,30 +70,30 @@ Navicat Premium 软件是一种数据库管理的GUI软件，采用可视化的�
 
 打开 Navicat Premium 软件，选择菜单栏「文件-新建连接-mysql」，然后选择如下配置，即可在本地新建一个数据库连接：
 
-![](http://img.smyhvae.com/20200416_1157.png)
+![](../assets/images/96c94a7504d878d2.png)
 
 
 2、选中连接后，右键新建数据库：
 
-![](http://img.smyhvae.com/20200416_1159.png)
+![](../assets/images/7c3f27fdc6b6b7da.png)
 
-![](http://img.smyhvae.com/20200416_1127.png)
+![](../assets/images/12baa0c20426cbac.png)
 
 
 3、选中数据库之后，新建表 `qiangu_student_table`：
 
-![](http://img.smyhvae.com/20200416_1138.png)
+![](../assets/images/bbca5f1dd7e02dcf.png)
 
 
 4、在表中添加字段：
 
-![](http://img.smyhvae.com/20200416_1202.png)
+![](../assets/images/0e81dfd2b0ba0706.png)
 
 
 
 5、字段建好后，开始在表中插入数据：
 
-![](http://img.smyhvae.com/20200416_1259.png)
+![](../assets/images/084c5b1beec69b24.png)
 
 
 ### 导入外部 sql 文件

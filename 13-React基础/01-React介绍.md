@@ -3,7 +3,6 @@ title: 01-React介绍
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -299,7 +298,7 @@ ReactDOM.render(myDiv, document.getElementById('app'));
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/20160401_01.jpg)
+![](../assets/images/df9255040eee97b1.jpg)
 
 
 

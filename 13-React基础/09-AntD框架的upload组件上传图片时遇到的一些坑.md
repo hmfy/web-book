@@ -3,7 +3,6 @@ title: 09-AntD框架的upload组件上传图片时遇到的一些坑
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -21,15 +20,15 @@ publish: true
 
 （1）上传中：
 
-![](http://img.smyhvae.com/20190302_1335.png)
+![](../assets/images/377b8e5838cee585.png)
 
 （2）上传成功：
 
-![](http://img.smyhvae.com/20190302_1336.png)
+![](../assets/images/45453240c5282178.png)
 
 （3）图片预览：
 
-![](http://img.smyhvae.com/20190302_1331.png)
+![](../assets/images/270f8c2542970200.png)
 
 按照官方提供的实例，特此整理出项目开发中的完整写法，亲测有效。代码如下：
 
@@ -625,5 +624,5 @@ export default {
 
 有人说，前端开发，连卖菜的都会。可如果真的遇到技术难题，还是得找个靠谱的前端同学才行。这不，来看看前端码农日常：
 
-![](http://img.smyhvae.com/20190302_1339_2.png)
+![](../assets/images/fa77962aa23652db.png)
 

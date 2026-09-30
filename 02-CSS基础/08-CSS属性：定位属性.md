@@ -3,7 +3,6 @@ title: 08-CSS属性：定位属性
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -88,7 +87,7 @@ CSS的定位属性有三种，分别是绝对定位、相对定位、固定定�
 
 效果：
 
-![](http://img.smyhvae.com/2015-10-03-css-28.png)
+![](../assets/images/62d98be213c1b7c6.png)
 
 ### 相对定位不脱标
 
@@ -148,7 +147,7 @@ PS：负数表示相反的方向。
 
 ```
 
-![](http://img.smyhvae.com/20180115_1716.png)
+![](../assets/images/6e2b43665da5a72a.png)
 
 如果要描述上面这张图的方向，我们可以首先可以这样描述：
 
@@ -185,25 +184,25 @@ PS：负数表示相反的方向。
 
 （1）如果用**top描述**，那么参考点就是**页面的左上角**，而不是浏览器的左上角：
 
-![](http://img.smyhvae.com/20180115_2120.png)
+![](../assets/images/a3e4b47d4d9919f8.png)
 
 （2）如果用**bottom描述**，那么参考点就是**浏览器首屏窗口尺寸**（好好理解“首屏”二字），对应的页面的左下角：
 
-![](http://img.smyhvae.com/20180115_2121.png)
+![](../assets/images/48a21534fbe8c991.png)
 
 为了理解“**首屏**”二字的含义，我们来看一下动态图：
 
-![](https://img.smyhvae.com/20180115_2200.gif)
+![](../assets/images/53f2ce1d8a9e0a2e.gif)
 
 问题：
 
-![](http://img.smyhvae.com/20180115_2131.png)
+![](../assets/images/c727df8b2b502074.png)
 
 答案：
 
 用bottom的定位的时候，参考的是浏览器首屏大小对应的页面左下角。
 
-![](http://img.smyhvae.com/20180115_2132.png)
+![](../assets/images/2aa7c27b1c7fb2f2.png)
 
 ### 以盒子为参考点
 
@@ -211,7 +210,7 @@ PS：负数表示相反的方向。
 
 如下：（子绝父相）
 
-![](http://img.smyhvae.com/20180115_2210.png)
+![](../assets/images/f42a5dd44384e9e3.png)
 
 以下几点需要注意。
 
@@ -251,7 +250,7 @@ PS：负数表示相反的方向。
 下图中，绿色部分是父亲div的padding，蓝色部分p是div的内容区域。此时，如果div相对定位，p绝对定位，那么，
 p将无视父亲的padding，在border内侧为参考点，进行定位：
 
-![](http://img.smyhvae.com/20180116_0812.png)
+![](../assets/images/f42f57f166f426dd.png)
 
 **工程应用：**
 
@@ -259,13 +258,13 @@ p将无视父亲的padding，在border内侧为参考点，进行定位：
 
 现在有如下两张图片素材：
 
-![](http://img.smyhvae.com/20180116_1115.png)
+![](../assets/images/4462e7d44e30dc00.png)
 
-![](http://img.smyhvae.com/20180116_1116.jpg)
+![](../assets/images/d425b6b6ce16205c.jpg)
 
 要求作出如下效果：
 
-![](http://img.smyhvae.com/20180116_1117.png)
+![](../assets/images/f5e1e8d4e7da4620.png)
 
 代码实现如下：
 
@@ -313,7 +312,7 @@ p将无视父亲的padding，在border内侧为参考点，进行定位：
 	<div class="box">
 		<span class="dtc"></span>
 		<div class="image">
-			<img src="http://img.smyhvae.com/20180116_1116.jpg" alt="">
+			<img src="../assets/images/d425b6b6ce16205c.jpg" alt="">
 		</div>
 		<h4>广东深圳宝安区建安一路海雅缤纷城4楼</h4>
 	</div>
@@ -329,7 +328,7 @@ p将无视父亲的padding，在border内侧为参考点，进行定位：
 
 代码的效果如下：
 
-![](http://img.smyhvae.com/20180116_1335.png)
+![](../assets/images/6df4621ea99d1b16.png)
 
 ### 让绝对定位中的盒子在父亲里居中
 
@@ -350,7 +349,7 @@ p将无视父亲的padding，在border内侧为参考点，进行定位：
 
 如上方代码所示，我们先让这个宽度为600px的盒子，左边线居中，然后向左移动宽度（600px）的一半，就达到效果了。
 
-![](http://img.smyhvae.com/20180116_1356.png)
+![](../assets/images/988a532ae7a6de1e.png)
 
 我们可以总结成一个公式：
 
@@ -500,15 +499,15 @@ body{
 
 这是默认情况下的例子：（div2在上层，div1在下层）
 
-![](http://img.smyhvae.com/2015-10-03-css-32.png)
+![](../assets/images/915fc62b363b43e0.png)
 
 现在加一个`z-index`属性，要求效果如下：
 
-![](http://img.smyhvae.com/2015-10-03-css-33.png)
+![](../assets/images/69238c4afc336dc9.png)
 
 第五条分析：
 
-![](http://img.smyhvae.com/20180116_1445.png)
+![](../assets/images/e469e5a7eae9d3dd.png)
 
 
 z-index属性的应用还是很广泛的。当好几个已定位的标签出现覆盖的现象时，我们可以用这个z-index属性决定，谁处于最上方。也就是**层级**的应用。
@@ -526,4 +525,4 @@ z-index属性的应用还是很广泛的。当好几个已定位的标签出现�
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/20190101.png)
+![](../assets/images/8f05eb9f725cfeeb.png)

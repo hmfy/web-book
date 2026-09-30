@@ -3,7 +3,6 @@ title: 05-HTML标签：字体标签和超链接
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 ## 本文主要内容
@@ -33,11 +32,11 @@ publish: true
 ```
 正确的效果如下：
 
-![Paste_Image.png](http://img.smyhvae.com/2015-10-01-cnblogs_html_11.png)
+![Paste_Image.png](../assets/images/09192b1d7d46cfd2.png)
 
 错误的效果如下：
 
-![Paste_Image.png](http://img.smyhvae.com/2015-10-01-cnblogs_html_12.png)
+![Paste_Image.png](../assets/images/fc94c83698d1a8f9.png)
 
 其实我们只要记住前三个符号就行了，其他的在需要的时候查一下就行了。而且，EditPlus软件中是可以直接点击这些符号进行选择的：
 
@@ -72,11 +71,11 @@ http://img.smyhvae.com/2015-10-01-cnblogs_html_13.png)
 
 效果：
 
-![Paste_Image.png](http://img.smyhvae.com/2015-10-01-cnblogs_html_15.png)
+![Paste_Image.png](../assets/images/d77cf48eb5938dae.png)
 
 上面的这几个标签，常用于做一些小装饰、小图标。比如：
 
-![](http://img.smyhvae.com/20180118_2340.png)
+![](../assets/images/e085cff791c777be.png)
 
 这张图中，我们通过查看京东网站的代码发现，箭头处的小图标都是用的标签`<i>`。
 
@@ -86,7 +85,7 @@ http://img.smyhvae.com/2015-10-01-cnblogs_html_13.png)
 
 效果：
 
-![Paste_Image.png](http://img.smyhvae.com/2015-10-01-cnblogs_html_14.png)
+![Paste_Image.png](../assets/images/d0f7556efa4058d9.png)
 
 
 
@@ -111,7 +110,7 @@ http://img.smyhvae.com/2015-10-01-cnblogs_html_13.png)
 
 效果：
 
-![Paste_Image.png](http://img.smyhvae.com/2015-10-01-cnblogs_html_10.png)
+![Paste_Image.png](../assets/images/dcedfd0ca5a0495e.png)
 
 
 
@@ -127,7 +126,7 @@ O<sup>2</sup>    5<sub>3</sub>
 ```
 效果：
 
-![Paste_Image.png](http://img.smyhvae.com/2015-10-01-cnblogs_html_16.png)
+![Paste_Image.png](../assets/images/7c4a03133c37c005.png)
 
 ## 三、超链接
 
@@ -146,7 +145,7 @@ href（hypertext reference）：超文本地址。读作“喝瑞夫”，不要
 
 效果：
 
-![Paste_Image.png](http://img.smyhvae.com/2015-10-01-cnblogs_html_17.png)
+![Paste_Image.png](../assets/images/e6cdb94ab9b971f7.png)
 
 当然，我们也可以直接点进链接，访问一个网址。代码举例如下：
 
@@ -160,7 +159,7 @@ href（hypertext reference）：超文本地址。读作“喝瑞夫”，不要
 
 首先我们要创建一个**锚点**，也就是说，使用`name`属性或者`id`属性给那个特定的位置起个名字。效果如下：
 
-![Paste_Image.png](http://img.smyhvae.com/2015-10-01-cnblogs_html_18.png)
+![Paste_Image.png](../assets/images/7c11e8151a615827.png)
 
 上图中解释：
 
@@ -207,7 +206,7 @@ href（hypertext reference）：超文本地址。读作“喝瑞夫”，不要
 
 效果如下：
 
-![](http://img.smyhvae.com/20170630_1415.png)
+![](../assets/images/1a7bf6318aa6d4c6.png)
 
 `target`属性举例：
 
@@ -256,4 +255,4 @@ a的语义要小于p，a就是可以当做文本来处理，所以p里面相当�
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](https://img.smyhvae.com/20200102.png)
+![](../assets/images/614b08dc22afe7be.png)

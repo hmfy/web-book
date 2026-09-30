@@ -2,7 +2,6 @@
 title: 07-基本数据类型：Number
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 ## 数值型：Number
 
@@ -355,4 +354,4 @@ console.log(a - b);
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)

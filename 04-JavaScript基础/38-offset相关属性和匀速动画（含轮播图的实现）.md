@@ -3,7 +3,6 @@ title: 38-offset相关属性和匀速动画（含轮播图的实现）
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -121,7 +120,7 @@ js中有一套方便的**获取元素尺寸**的办法就是offset家族。offse
 
 打印结果：
 
-![](http://img.smyhvae.com/20180202_1725.png)
+![](../assets/images/bb345feee1100f3a.png)
 
 ### 3、offsetLeft 和 offsetTop
 
@@ -269,7 +268,7 @@ div.style.left = "100px";
 
 效果如下：
 
-![](http://img.smyhvae.com/20180202_1840.gif)
+![](../assets/images/6bb80af74e92c345.gif)
 
 ## 匀速动画的封装：每间隔30ms，移动盒子10px【重要】
 
@@ -367,7 +366,7 @@ div.style.left = "100px";
 
 实现的效果：
 
-![](http://img.smyhvae.com/20180202_1910.gif)
+![](../assets/images/cb2f65375046e92c.gif)
 
 上方代码中的方法封装，可以作为一个模板步骤，要记住。其实，这个封装的方法，写成下面这样，会更严谨，更容易理解：（将if语句进行了改进）
 
@@ -662,7 +661,7 @@ div.style.left = "100px";
 
 实现效果：
 
-![](http://img.smyhvae.com/20180202_2020.gif)
+![](../assets/images/8c61880fabe56a70.gif)
 
 温馨提示：动图太大，可以把<http://img.smyhvae.com/20180202_2020.gif>单独在浏览器中打开。
 
@@ -675,5 +674,5 @@ div.style.left = "100px";
 
 扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
 
-![](http://img.smyhvae.com/2016040102.jpg)
+![](../assets/images/6620de36b1f16782.jpg)
 

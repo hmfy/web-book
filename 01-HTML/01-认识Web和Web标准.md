@@ -3,7 +3,6 @@ title: 01-认识Web和Web标准
 publish: true
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 
 
@@ -66,19 +65,19 @@ Web标准不是某一个标准，而是由W3C组织和其他标准化组织制�
 
 HTML 相当于人的身体组织结构：
 
-![](http://img.smyhvae.com/20200322_1250.png)
+![](../assets/images/38790571420f2d98.png)
 
 CSS 相当于人的衣服和打扮：
 
-![](http://img.smyhvae.com/20200322_1251.png)
+![](../assets/images/0ca5bcaa41044bfc.png)
 
 JS 相当于人的行为：
 
-![](http://img.smyhvae.com/20200322_2220.gif)
+![](../assets/images/f3fbe53309981281.gif)
 
 
 ---
 
 本作品采用[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)进行许可。
 
-![](https://img.smyhvae.com/20210329_1930.png)
+![](../assets/images/2926634c0cf751a3.png)

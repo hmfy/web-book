@@ -2,7 +2,6 @@
 title: 09-Promise类的方法
 ---
 
-<ArticleTopAd></ArticleTopAd>
 
 ## Promise 类的方法简介
 
@@ -406,7 +405,7 @@ allSettled:
 
 打印结果截图：
 
-<img src="https://img.smyhvae.com/image-20230523193237044.png" alt="image-20230523193237044" style="zoom:50%;" />
+<img src="../assets/images/72cd4bbf73ee35de.png" alt="image-20230523193237044" style="zoom:50%;" />
 
 从上面的打印结果可以看出，Promise.allSettled() 的状态为 fulfilled后，then()的回调函数里，res 是一个数组，数组里存放了每个 Promise 元素的执行结果（包括状态和返回值）。
 
@@ -777,4 +776,4 @@ Promise 本身不是异步的，但是它可以封装异步任务，并对异步
 
 创作不易，你的赞赏和认可，是我更新的最大动力：
 
-![](https://img.smyhvae.com/20220401_1800.jpg)
+![](../assets/images/a497ac24d1a431d4.jpg)

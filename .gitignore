@@ -1,6 +1,9 @@
 .vscode
 .DS_Store
 images
+!assets/
+!assets/images/
+!assets/images/**
 node_modules/
 .vitepress/cache/
 .vitepress/dist/
