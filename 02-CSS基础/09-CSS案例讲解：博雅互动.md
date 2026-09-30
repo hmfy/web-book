@@ -473,11 +473,3 @@ publish: true
 ![](../assets/images/777aa2f36ff0133f.png)
 
 工程文件：[2018-03-20-boya.rar](https://github.com/qianguyihao/web-resource/blob/main/project/2018-03-20-boya.rar)
-
-## 我的公众号
-
-想学习**更多技能**？不妨关注我的微信公众号：**千古壹号**（id：`qianguyihao`）。
-
-扫一扫，你将发现另一个全新的世界，而这将是一场美丽的意外：
-
-![](../assets/images/8f05eb9f725cfeeb.png)
